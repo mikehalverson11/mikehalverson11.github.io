@@ -1,0 +1,90 @@
+/* Place your CSS styles in this file */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+h1 {
+    font-family: Courier;
+}
+p { 
+    font-family: Courier;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-areas: "sidebar main";
+  grid-template-columns: 150px auto;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: DarkTurquoise;
+  padding: 20px;
+}
+
+.main {
+  grid-area: main;
+  background-color: powderblue;
+  padding: 20px;
+}
+
+
+.review-link {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Modal styling - the popup overlay */
+.modal {
+  display: none !important; /* Hidden by default */
+  position: fixed; /* Stays in place when scrolling */
+  top: 0; /* Positioned at top of viewport */
+  left: 0; /* Positioned at left of viewport */
+  width: 100%; /* Full width of screen */
+  height: 100%; /* Full height of screen */
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black overlay */
+  z-index: 1000; /* Appears above other content */
+}
+
+/* When the modal's ID matches the URL hash (e.g., #review1), display it */
+.modal:target {
+  display: flex !important; /* Shows the modal */
+  align-items: center; /* Centers content vertically */
+  justify-content: center; /* Centers content horizontally */
+}
+
+/* The white box containing the actual review content */
+.modal-content {
+  background-color: white;
+  padding: 30px; /* Space inside the review box */
+  border-radius: 10px; /* Rounded corners */
+  max-width: 600px; /* Won't get wider than 600px */
+  max-height: 80vh; /* Won't be taller than 80% of viewport height */
+  overflow-y: auto; /* Adds scrollbar if content is too long */
+  position: relative; /* Allows absolute positioning of close button */
+  font-family: Courier; /* Matches your site font */
+}
+
+/* The × close button */
+.close {
+  position: absolute; /* Positioned relative to .modal-content */
+  top: 10px; /* 10px from top of modal */
+  right: 20px; /* 20px from right edge of modal */
+  font-size: 30px; /* Large × symbol */
+  color: #333; /* Dark gray color */
+  text-decoration: none; /* No underline */
+  cursor: pointer; /* Shows hand cursor on hover */
+}
+
+/* Changes close button color when hovering over it */
+.close:hover {
+  color: red;
+}
