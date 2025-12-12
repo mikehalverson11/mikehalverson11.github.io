@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Sort movie by date (most recent first)
         const sortedMovies = Object.entries(data).sort((a, b) => {
-            const dateA = new Date(a[1].day_read);
-            const dateB = new Date(b[1].day_read);
+            const dateA = new Date(a[1].day_watched);
+            const dateB = new Date(b[1].day_watched);
             return dateB - dateA;
         });
 
