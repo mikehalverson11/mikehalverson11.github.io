@@ -60,9 +60,9 @@ li {
   z-index: 1000; /* Appears above other content */
 }
 
-/* When the modal's ID matches the URL hash (e.g., #review1), display it */
-.modal:target {
-  display: flex !important; /* Shows the modal */
+/* Show modal when it has the 'show' class */
+.modal.show {
+  display: flex !important; /* Shows the modal - needs !important to override above */
   align-items: center; /* Centers content vertically */
   justify-content: center; /* Centers content horizontally */
 }
