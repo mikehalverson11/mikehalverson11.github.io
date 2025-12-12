@@ -78,6 +78,10 @@ li {
   position: relative; /* Allows absolute positioning of close button */
   font-family: Courier; /* Matches your site font */
 }
+/* Add spacing between paragraphs in modal */
+.modal-content p {
+  margin-bottom: 1em; /* Space between paragraphs */
+}
 
 /* The × close button */
 .close {
