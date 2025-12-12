@@ -1,10 +1,10 @@
-// load-reviews.js
+// load-book-reviews.js
 document.addEventListener('DOMContentLoaded', function() {
     const modal = document.getElementById('book-modal') || createModal();
     let reviewsData = null;
 
     // Fetch the reviews data
-    fetch('reviews.json')
+    fetch('books.json')
         .then(response => response.json())
         .then(data => {
             reviewsData = data;
