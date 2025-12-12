@@ -1,6 +1,6 @@
 // load-book-reviews.js
 document.addEventListener('DOMContentLoaded', function() {
-    const modal = document.getElementById('book-modal') || createModal();
+    const modal = document.getElementById('book-modal');
     let reviewsData = null;
 
     // Fetch the reviews data
@@ -11,23 +11,10 @@ document.addEventListener('DOMContentLoaded', function() {
             generateBookList(data);
         });
 
-    // Create modal if it doesn't exist
-    function createModal() {
-        const modal = document.createElement('div');
-        modal.id = 'book-modal';
-        modal.className = 'modal';
-        modal.innerHTML = '<div class="modal-content"></div>';
-        document.body.appendChild(modal);
-        return modal;
-    }
-
     // Generate the book list from JSON data
     function generateBookList(data) {
-        const bookListContainer = document.querySelector('.main ul');
-        if (!bookListContainer) return;
-
-        // Clear existing list
-        bookListContainer.innerHTML = '';
+        const mainContainer = document.querySelector('.main');
+        if (!mainContainer) return;
 
         // Sort books by date (most recent first)
         const sortedBooks = Object.entries(data).sort((a, b) => {
@@ -47,8 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         // Generate HTML for each year
-        const mainContainer = document.querySelector('.main');
-        mainContainer.innerHTML = '<h1 style="background-color:powderblue;margin-bottom:0;font-family:Courier">Books</h1>';
+        mainContainer.innerHTML = '<h1 style="background-color:powderblue;margin-bottom:0;">Books</h1>';
 
         Object.keys(booksByYear).sort((a, b) => b - a).forEach(year => {
             const yearHeader = document.createElement('h2');
