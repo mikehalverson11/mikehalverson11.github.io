@@ -1,23 +1,29 @@
+<!doctype html>
+
 <html>
     <head>
-        <title> Movies </title>
+        <meta charset="utf-8">
+        <title>Movie</title>
         <link rel="stylesheet" href="styles.css">
     </head>
 <body>
-
 <div class='container'>
-<div class='sidebar' id='sidebar'>
+  <div class='sidebar' id='sidebar'>
   </div>
   <div class='main'>
-    <h1 style="background-color:powderblue;margin-bottom:0;font-family:Courier"> Movies </h1> 
-    <h2 style="margin-top:0;margin-bottom:0;font-family:Courier"> 2025 </h2>
-    <ul>
-        <li><a>The Passion of the Christ</a></li>
-      </ul>
-    <h2 style="margin-top:0;margin-bottom:0"> 2024 </h4>
+    <!-- Books will be generated here by JavaScript -->
   </div>
 </div>
 
- <script src="sidebar.js"></script>
-</body>  
-</html> 
+<!-- Single modal for all books -->
+<div id="book-modal" class="modal">
+  <div class="modal-content">
+    <!-- Content loaded dynamically -->
+  </div>
+</div>
+
+<script src="sidebar.js"></script>
+<script src="load-movie-reviews.js"></script>
+
+</body>
+</html>
