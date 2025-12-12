@@ -1,8 +1,9 @@
- <!doctype html>
+<!doctype html>
 
 <html>
     <head>
-        <title> Books </title>
+        <meta charset="utf-8">
+        <title>Books</title>
         <link rel="stylesheet" href="styles.css">
     </head>
 <body>
@@ -10,30 +11,19 @@
   <div class='sidebar' id='sidebar'>
   </div>
   <div class='main'>
-    <h1 style="background-color:powderblue;margin-bottom:0;font-family:Courier"> Books </h1> 
-    <h2 style="margin-top:0;margin-bottom:0;font-family:Courier"> 2025 </h2>
-    <ul>
-        <li><a href="#shadowticket" class="review-link">Shadow Ticket- Thomas Pynchon</a></li>
-        <li><a>Saving Time - Jenny Odell</a></li>
-        <li><a>The Greening of America</a></li>
-      </ul>
-    <h2 style="margin-top:0;margin-bottom:0"> 2024 </h4>
+    <!-- Books will be generated here by JavaScript -->
   </div>
 </div>
 
-
-
-<!-- Modal for first book -->
-<div id="shadowticket" class="modal">
+<!-- Single modal for all books -->
+<div id="book-modal" class="modal">
   <div class="modal-content">
-    <a href="#" class="close">&times;</a>
-    <h2>Shadow Ticket</h2>
-    <p>This book was amazing!</p>
+    <!-- Content loaded dynamically -->
   </div>
 </div>
 
-   <script src="sidebar.js"></script>
-
+<script src="sidebar.js"></script>
+<script src="load-reviews.js"></script>
 
 </body>
 </html>
