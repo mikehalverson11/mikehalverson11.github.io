@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const ticker = document.getElementById('ticker');
             // Split by | and repeat content for seamless loop
             const items = data.split('|').map(item => item.trim());
-            const tickerHTML = items.join(' • ') + ' • ' + items.join(' • ');
+            const tickerHTML = items.join(' • ') + ' • ' + items.join(' • ') +  ' • ' items.join(' • ') + ' • ' + items.join(' • ');
             ticker.textContent = tickerHTML;
         });
 });
