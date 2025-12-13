@@ -98,3 +98,41 @@ li {
 .close:hover {
   color: red;
 }
+
+
+/* Ticker container - fixed at bottom */
+.ticker-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 0;
+  overflow: hidden;
+  z-index: 2000; /* Above everything else */
+  border-top: 2px solid #ffd700; /* Gold border like ESPN */
+}
+
+/* The scrolling content */
+.ticker-content {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-left 30s linear infinite;
+  padding-left: 100%; /* Start off-screen */
+}
+
+/* Scrolling animation */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Pause on hover */
+.ticker-container:hover .ticker-content {
+  animation-play-state: paused;
+}
