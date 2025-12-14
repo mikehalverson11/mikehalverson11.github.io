@@ -152,3 +152,20 @@ li {
 .ticker-container:hover .ticker-content {
   animation-play-state: paused;
 }
+
+/* Fixed GIF in bottom right corner */
+.corner-gif {
+  position: fixed;
+  bottom: 60px; /* Adjust based on your ticker height */
+  right: 20px; /* Distance from right edge */
+  width: 100px; /* Adjust size as needed */
+  height: 20px;
+  z-index: 2001; /* Above ticker (ticker is z-index: 2000) */
+  opacity: 0.8; /* Slightly transparent */
+  transition: opacity 0.3s ease;
+}
+
+/* Optional: Full opacity on hover */
+.corner-gif:hover {
+  opacity: 1;
+}
