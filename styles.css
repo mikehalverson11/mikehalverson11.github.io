@@ -42,12 +42,11 @@ li {
 }
 .main li {
   margin-bottom: 10px;
-  color: blue;
 }
 
 .main a {
   text-decoration: none;
-  color: #333;
+  color: blue;
   padding: 8px 12px;
   display: inline-block;
   background-color: powderblue;
