@@ -158,8 +158,8 @@ li {
   position: fixed;
   bottom: 60px; /* Adjust based on your ticker height */
   right: 20px; /* Distance from right edge */
-  width: 100px; /* Adjust size as needed */
-  height: 60px;
+  width: 140px; /* Adjust size as needed */
+  height: 110px;
   z-index: 2001; /* Above ticker (ticker is z-index: 2000) */
   opacity: 0.8; /* Slightly transparent */
   transition: opacity 0.3s ease;
