@@ -41,6 +41,28 @@ li {
   padding: 20px;
 }
 
+.main ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.main li {
+  margin-bottom: 12px; /* More space between items */
+}
+
+.main a {
+  text-decoration: none;
+  color: #2c3e50; /* Softer dark color */
+  padding: 5px 0;
+  display: inline-block;
+  border-bottom: 1px solid transparent; /* Invisible border */
+  transition: border-color 0.2s ease;
+}
+
+.main a:hover {
+  border-bottom: 1px solid #2c3e50; /* Border appears on hover */
+}
+
 
 .review-link {
   color: blue;
