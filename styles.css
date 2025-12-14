@@ -42,6 +42,7 @@ li {
 }
 .main li {
   margin-bottom: 10px;
+  color: blue;
 }
 
 .main a {
