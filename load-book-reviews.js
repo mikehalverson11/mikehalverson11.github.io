@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
             reviewsData = data;
             organizeBooksByYear(data);
             createYearDropdown();
-            generateBookList('all'); // Show all books initially
+            generateBookList('2025'); // Show all books initially
         });
 
     // Organize books by year
