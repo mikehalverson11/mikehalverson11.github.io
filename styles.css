@@ -169,3 +169,29 @@ li {
 .corner-gif:hover {
   opacity: 1;
 }
+/* Year filter dropdown */
+.year-filter {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+
+.year-filter label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.year-filter select {
+  padding: 5px 10px;
+  font-family: Courier;
+  border: 2px solid #333;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.year-filter select:hover {
+  border-color: #0066cc;
+}
+
