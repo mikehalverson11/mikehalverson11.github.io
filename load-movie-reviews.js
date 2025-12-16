@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const link = document.createElement('a');
                 link.href = `#${movie.id}`;
                 link.className = 'review-link';
-                link.textContent = `${movie.title} - ${movie.director}`;
+                link.textContent = `${movie.title}`;
                 li.appendChild(link);
                 ul.appendChild(li);
             });
