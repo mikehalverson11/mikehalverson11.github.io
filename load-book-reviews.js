@@ -2,29 +2,26 @@
 document.addEventListener('DOMContentLoaded', function() {
     const modal = document.getElementById('book-modal');
     let reviewsData = null;
+    let booksByYear = {};
 
     // Fetch the reviews data
     fetch('books.json')
         .then(response => response.json())
         .then(data => {
             reviewsData = data;
-            generateBookList(data);
+            organizeBooksByYear(data);
+            createYearDropdown();
+            generateBookList('all'); // Show all books initially
         });
 
-    // Generate the book list from JSON data
-    function generateBookList(data) {
-        const mainContainer = document.querySelector('.main');
-        if (!mainContainer) return;
-
-        // Sort books by date (most recent first)
+    // Organize books by year
+    function organizeBooksByYear(data) {
         const sortedBooks = Object.entries(data).sort((a, b) => {
             const dateA = new Date(a[1].day_read);
             const dateB = new Date(b[1].day_read);
             return dateB - dateA;
         });
 
-        // Group books by year
-        const booksByYear = {};
         sortedBooks.forEach(([id, book]) => {
             const year = new Date(book.day_read).getFullYear();
             if (!booksByYear[year]) {
@@ -32,11 +29,62 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             booksByYear[year].push({ id, ...book });
         });
+    }
+
+    // Create the year dropdown
+    function createYearDropdown() {
+        const mainContainer = document.querySelector('.main');
+        
+        const filterDiv = document.createElement('div');
+        filterDiv.className = 'year-filter';
+        filterDiv.innerHTML = `
+            <label for="year-select">Filter by year: </label>
+            <select id="year-select">
+                <option value="all">All Years</option>
+            </select>
+        `;
+        
+        // Add years to dropdown (most recent first)
+        const years = Object.keys(booksByYear).sort((a, b) => b - a);
+        const select = filterDiv.querySelector('#year-select');
+        years.forEach(year => {
+            const option = document.createElement('option');
+            option.value = year;
+            option.textContent = year;
+            select.appendChild(option);
+        });
+
+        // Insert at the top of main
+        mainContainer.insertBefore(filterDiv, mainContainer.firstChild);
+
+        // Add event listener for dropdown changes
+        select.addEventListener('change', function() {
+            generateBookList(this.value);
+        });
+    }
+
+    // Generate the book list based on selected year
+    function generateBookList(selectedYear) {
+        const mainContainer = document.querySelector('.main');
+        
+        // Remove old book list (keep the filter)
+        const oldContent = mainContainer.querySelectorAll('h1, h2, ul');
+        oldContent.forEach(el => el.remove());
+
+        // Add the Books header
+        const header = document.createElement('h1');
+        header.style.backgroundColor = 'powderblue';
+        header.style.marginBottom = '0';
+        header.textContent = 'Books';
+        mainContainer.appendChild(header);
+
+        // Filter years to display
+        const yearsToShow = selectedYear === 'all' 
+            ? Object.keys(booksByYear).sort((a, b) => b - a)
+            : [selectedYear];
 
         // Generate HTML for each year
-        mainContainer.innerHTML = '<h1 style="background-color:powderblue;margin-bottom:0;">Books</h1>';
-
-        Object.keys(booksByYear).sort((a, b) => b - a).forEach(year => {
+        yearsToShow.forEach(year => {
             const yearHeader = document.createElement('h2');
             yearHeader.style.marginTop = '0';
             yearHeader.style.marginBottom = '0';
@@ -84,8 +132,10 @@ document.addEventListener('DOMContentLoaded', function() {
         const modalContent = modal.querySelector('.modal-content');
         
         // Handle \n line breaks - split into paragraphs
-        const paragraphs = book.review.split('\n')
-            .filter(p => p.trim()) // Remove empty strings
+        const paragraphs = book.review
+            .replace(/\\n/g, '\n')
+            .split('\n')
+            .filter(p => p.trim())
             .map(p => `<p>${p}</p>`)
             .join('');
         
