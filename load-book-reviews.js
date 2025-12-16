@@ -131,11 +131,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const book = reviewsData[bookId];
         const modalContent = modal.querySelector('.modal-content');
         
-        // Handle \n line breaks - split into paragraphs
-        const paragraphs = book.review
-            .replace(/\\n/g, '\n')
-            .split('\n')
-            .filter(p => p.trim())
+         // Handle \n line breaks - split into paragraphs
+        const paragraphs = book.review.split('\n')
+            .filter(p => p.trim()) // Remove empty strings
             .map(p => `<p>${p}</p>`)
             .join('');
         
