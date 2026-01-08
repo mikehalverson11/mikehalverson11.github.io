@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
             reviewsData = data;
             organizeBooksByYear(data);
             createYearDropdown();
-            generateBookList('2025'); // Show all books initially
+            generateBookList('2026'); // Show all books initially
         });
 
     // Organize books by year
@@ -51,6 +51,9 @@ document.addEventListener('DOMContentLoaded', function() {
             const option = document.createElement('option');
             option.value = year;
             option.textContent = year;
+            if (year === '2026') {
+                option.selected = true;
+            }
             select.appendChild(option);
         });
 
