@@ -195,3 +195,57 @@ li {
   border-color: #0066cc;
 }
 
+/* Blog grid layout */
+#blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 20px 0;
+}
+
+/* Individual blog card */
+.blog-card {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Blog link (removes default link styling) */
+.blog-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+/* Blog card image */
+.blog-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Blog info section (title and date) */
+.blog-info {
+  padding: 15px;
+}
+
+.blog-info h3 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.blog-date {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+  font-style: italic;
+}

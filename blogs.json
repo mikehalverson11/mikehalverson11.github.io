@@ -1,0 +1,7 @@
+{"test_post": {"title": "Test Post", "content": "This is a test post", "date_published": "2026/01/22"},
+  "second-post": {
+    "title": "Thoughts on Web Development",
+    "date_published": "01/20/2026",
+    "content": "Building websites is fun!\n\nI've learned so much about HTML, CSS, and JavaScript."
+  }
+}
