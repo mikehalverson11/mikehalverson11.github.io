@@ -27,9 +27,12 @@ document.addEventListener('DOMContentLoaded', function() {
             const blogCard = document.createElement('div');
             blogCard.className = 'blog-card';
             
+            // Use custom image if provided, otherwise default to old computer
+            const imageSrc = blog.image || 'Images/oldcomputer.jpg';
+            
             blogCard.innerHTML = `
                 <a href="#${id}" class="blog-link">
-                    <img src="Images/oldcomputer.jpg" alt="${blog.title}">
+                    <img src="${imageSrc}" alt="${blog.title}">
                     <div class="blog-info">
                         <h3>${blog.title}</h3>
                         <p class="blog-date">${blog.date_published}</p>

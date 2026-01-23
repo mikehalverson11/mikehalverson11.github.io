@@ -2,6 +2,7 @@
   "second-post": {
     "title": "Thoughts on Web Development",
     "date_published": "01/20/2026",
+    "image": "Images/stonks2.jpg",
     "content": "Building websites is fun!\n\nI've learned so much about HTML, CSS, and JavaScript."
   }
 }
