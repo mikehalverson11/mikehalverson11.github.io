@@ -1,0 +1,18 @@
+{
+  "first-update": {
+    "title": "Started Learning Guitar",
+    "date_published": "01/10/2026",
+    "content": "Finally picked up the guitar I bought last year!\n\nI'm starting with some basic chords and it's harder than I thought but really fun."
+  },
+  "second-update": {
+    "title": "Trip to the Mountains",
+    "date_published": "01/15/2026",
+    "image": "Images/stonk2.jpg",
+    "content": "Went hiking this weekend and the views were incredible.\n\nThe fresh air and exercise were exactly what I needed."
+  },
+  "third-update": {
+    "title": "New Job!",
+    "date_published": "01/20/2026",
+    "content": "Excited to announce I'm starting a new position next month.\n\nLooking forward to new challenges and opportunities to grow."
+  }
+}
