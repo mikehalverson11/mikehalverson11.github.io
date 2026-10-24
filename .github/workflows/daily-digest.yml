@@ -2,7 +2,7 @@ name: Daily digest
  
 on:
   schedule:
-    - cron: "0 11 * * *"   # 11:00 UTC = 6am EST / 7am EDT (GitHub may run it a few minutes late)
+    - cron: "0 6 * * *"   # 11:00 UTC = 6am EST / 7am EDT (GitHub may run it a few minutes late)
   workflow_dispatch:        # lets you run it by hand from the Actions tab
  
 permissions:
