@@ -68,7 +68,7 @@ NEW_MUSIC_MAX_NAME_LOOKUPS = 60  # cap on slow by-name artist lookups (1 per ~se
 CURRENT_BOOK = {
     "title": "Prisoner of Love",
     "author": "Jean Genet",
-    "extra_keywords": "",
+    "extra_keywords": "Palestine Black Panthers Genet",
 }
 
 INDEXES = {"S&P 500 (SPY)": "SPY", "Nasdaq 100 (QQQ)": "QQQ", "Dow (DIA)": "DIA"}
