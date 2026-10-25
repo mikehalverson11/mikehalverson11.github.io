@@ -81,6 +81,8 @@ NEWSLETTERS = [
     {"url": "https://www.ettingermentum.news/"},
     {"url": "https://internetprincess.substack.com/"},
     {"url": "https://connorwroesouthard.substack.com/"},
+    {"url": "https://capybaroness.substack.com/"},
+    {"url": "https://elienis.com"}
     # {"url": "https://someone.substack.com"},                  # name is optional
     # {"name": "Custom name", "url": "https://example.com"},
 ]
@@ -932,9 +934,31 @@ def _private_newsletters():
     return feeds
 
 
-def _fetch_posts(feed, cutoff):
-    r = requests.get(feed["url"], headers=HEADERS, timeout=30)
+# Some hosts (Substack, behind Cloudflare) reject unfamiliar scripts with 403. Retry once with a
+# conventional feed-reader style identification before giving up.
+_FEED_HEADERS = [
+    {**HEADERS, "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8"},
+    {
+        "User-Agent": "Mozilla/5.0 (compatible; daily-digest/0.1; personal RSS reader)",
+        "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+    },
+]
+
+
+def _get_feed(url):
+    r = None
+    for hdrs in _FEED_HEADERS:
+        r = requests.get(url, headers=hdrs, timeout=30)
+        if r.status_code not in (403, 429):
+            break
+        time.sleep(2)
     r.raise_for_status()
+    return r
+
+
+def _fetch_posts(feed, cutoff):
+    r = _get_feed(feed["url"])
     root = ET.fromstring(r.content)
     title_el = root.find("channel/title")
     if title_el is None:
@@ -1007,7 +1031,7 @@ def newsletter_blocks(now):
             # Don't echo str(exc): for private feeds it would contain the secret link.
             status = getattr(getattr(exc, "response", None), "status_code", None)
             reason = f"HTTP {status}" if status else type(exc).__name__
-            notes.append((f"{label}: feed unavailable ({reason})", feed["private"]))
+            notes.append((label, reason, feed["private"]))
 
     posts.sort(key=lambda x: x["when"], reverse=True)
     posts = posts[:NEWSLETTER_MAX_SHOWN]
@@ -1021,8 +1045,11 @@ def newsletter_blocks(now):
         blocks += [_post_bullet(x) for x in private]
     if not posts:
         blocks.append(paragraph(f"No new posts in the last {NEWSLETTER_LOOKBACK_DAYS} days."))
-    for note, is_private in notes:
-        b = paragraph(f"({note})")
+    grouped = {}
+    for label, reason, is_private in notes:
+        grouped.setdefault((reason, is_private), []).append(label)
+    for (reason, is_private), labels in grouped.items():
+        b = paragraph(f"(Couldn't load {len(labels)} feed{'s' if len(labels) != 1 else ''} - {reason}: {', '.join(labels)})")
         if is_private:
             NEWSLETTER_PRIVATE_IDS.add(id(b))
         blocks.append(b)
