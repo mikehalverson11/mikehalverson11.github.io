@@ -10,12 +10,19 @@ Outputs (each is optional; set the env vars for the ones you want):
 
 Other env vars:
   FINNHUB_API_KEY     - free key from finnhub.io
+  SERPAPI_API_KEY     - optional; web search (JSTOR + wider web) for the reading section
+  SUBSTACK_PRIVATE_FEEDS - optional; paid Substack feeds, one per line as 'Name | URL' (keep secret)
+  PODCAST_PRIVATE_FEEDS - optional; Patreon/private feeds, one per line as 'Name | URL' (keep secret)
 """
+import html
 import json
 import os
 import random
 import re
 import time
+import xml.etree.ElementTree as ET
+from email.utils import parsedate_to_datetime
+from urllib.parse import urlparse
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
@@ -53,6 +60,34 @@ DOM_REMINDERS= {
 }
 
 ON_THIS_DAY_COUNT = 3
+
+# Podcasts. Public feeds go here. Patreon/private feeds go in the PODCAST_PRIVATE_FEEDS
+# secret instead (see the PODCASTS section), because those links are personal passwords.
+PODCAST_FEEDS = [
+    {"name": "The Zach Lowe Show", "url": "https://podcasts.apple.com/us/podcast/the-zach-lowe-show/id1805478723"},
+    # {"name": "Show name", "url": "https://example.com/feed.xml"},
+    # An Apple Podcasts page link also works (name is optional then):
+    # {"url": "https://podcasts.apple.com/us/podcast/some-show/id1234567890"},
+]
+PODCAST_LOOKBACK_DAYS = 3        # show each podcast's newest episode if it was published in the last N days
+PODCAST_MAX_SHOWN = 15           # max number of podcasts listed
+PODCASTS_PRIVATE_ON_WEBSITE = True   # True: Patreon/private episodes also appear on the website JSON
+
+# Substack / newsletter feeds. Any publication URL works (substack.com or a custom domain);
+# the script finds its /feed. Paid-subscriber feeds go in the SUBSTACK_PRIVATE_FEEDS secret.
+NEWSLETTERS = [
+    {"url": "https://samkriss.substack.com/"},
+    {"url": "https://www.late-review.com/"},
+    {"url": "https://www.ettingermentum.news/"},
+    {"url": "https://internetprincess.substack.com/"},
+    {"url": "https://connorwroesouthard.substack.com/"},
+    # {"url": "https://someone.substack.com"},                  # name is optional
+    # {"name": "Custom name", "url": "https://example.com"},
+]
+NEWSLETTER_LOOKBACK_DAYS = 3         # show posts published in the last N days
+NEWSLETTER_POSTS_PER_PUB = 1         # newest N posts from each publication
+NEWSLETTER_MAX_SHOWN = 15
+NEWSLETTERS_PRIVATE_ON_WEBSITE = True  # True: paid-feed posts also appear on the website JSON
 
 # New music from artists you scrobble on Last.fm (needs LASTFM_API_KEY + LASTFM_USER secrets)
 LASTFM_LOOKBACK_DAYS = 730     # build your artist list from the last N days of listening (730 = 2 years)
@@ -111,6 +146,7 @@ FINNHUB_KEY = os.environ.get("FINNHUB_API_KEY", "")
 LASTFM_KEY = os.environ.get("LASTFM_API_KEY", "")      # optional: new-music section
 LASTFM_USER = os.environ.get("LASTFM_USER", "")
 MUSICBRAINZ_CONTACT = os.environ.get("MUSICBRAINZ_CONTACT", "personal project")  # an email is polite
+SERPAPI_KEY = os.environ.get("SERPAPI_API_KEY", "")    # optional: web search for the reading section
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "")        # optional: phone push via ntfy.sh
 NOTION_USER_ID = os.environ.get("NOTION_USER_ID", "")  # optional: @-mention yourself on the page
 
@@ -459,7 +495,7 @@ def _crossref(query, extra_filter=""):
     return r.json()["message"]["items"]
 
 
-def article_blocks():
+def _crossref_article_blocks():
     blocks = [heading("Reading: related article")]
     book = CURRENT_BOOK
     if book["title"] == "Your Book Title":
@@ -638,6 +674,359 @@ def new_music_blocks(now):
     except Exception as exc:
         blocks.append(paragraph(f"New music lookup unavailable ({exc})"))
     return blocks, fresh
+
+
+# ------------------------------ WEB SEARCH (SerpApi) ------------------
+# Skip shops, retailers and review-aggregator pages: we want readable articles.
+SKIP_DOMAINS = (
+    "amazon.", "goodreads.com", "ebay.", "abebooks.", "barnesandnoble.", "bookshop.org",
+    "walmart.", "target.com", "etsy.", "pinterest.", "facebook.", "instagram.", "tiktok.",
+    "thriftbooks.", "betterworldbooks.", "alibris.", "worldcat.org",
+)
+
+
+def serp_search(query):
+    """One SerpApi Google search (counts as 1 of your 250 free searches/month)."""
+    r = requests.get(
+        "https://serpapi.com/search.json",
+        params={"engine": "google", "q": query, "api_key": SERPAPI_KEY, "hl": "en", "gl": "us"},
+        headers=HEADERS, timeout=40,
+    )
+    r.raise_for_status()
+    data = r.json()
+    if data.get("error"):
+        if "hasn't returned any results" in data["error"].lower():
+            return []
+        raise RuntimeError(data["error"])
+    return data.get("organic_results", [])
+
+
+def pick_result(results, require_domain=None):
+    """Choose one decent-looking result from the top few, skipping shops and social pages."""
+    good = []
+    for res in results:
+        link = res.get("link", "")
+        host = urlparse(link).netloc.lower()
+        if not link or any(bad in host for bad in SKIP_DOMAINS):
+            continue
+        if require_domain and require_domain not in host:
+            continue
+        good.append(res)
+    return random.choice(good[:5]) if good else None
+
+
+def result_blocks(label, res):
+    host = urlparse(res["link"]).netloc.removeprefix("www.")
+    snippet = (res.get("snippet") or "").strip()
+    blocks = [paragraph(label), linked_paragraph(res.get("title", res["link"]), res["link"])]
+    blocks.append(paragraph(f"{host}" + (f" - {snippet[:300]}" if snippet else "")))
+    return blocks
+
+
+def article_blocks():
+    """Preferred: JSTOR + wider-web picks via SerpApi. Falls back to the Crossref lookup."""
+    book = CURRENT_BOOK
+    if not SERPAPI_KEY or book["title"] == "Your Book Title":
+        return _crossref_article_blocks()
+
+    blocks = [heading("Reading: related articles")]
+    blocks.append(paragraph(f"Because you're reading {book['title']} by {book['author']}:"))
+    try:
+        extra = book["extra_keywords"].strip()
+
+        # 1) JSTOR, via a site-restricted Google search. If it comes up empty, retry on the author alone.
+        jstor_query = f'site:jstor.org "{book["author"]}" ' + (extra or f'"{book["title"]}"')
+        jstor = pick_result(serp_search(jstor_query), require_domain="jstor.org")
+        if not jstor:
+            jstor = pick_result(serp_search(f'site:jstor.org "{book["author"]}"'), require_domain="jstor.org")
+        blocks += result_blocks("From JSTOR", jstor) if jstor else [paragraph("No JSTOR result found today.")]
+
+        # 2) The wider web: essays, reviews, analysis
+        web_query = f'"{book["title"]}" {book["author"]} (essay OR review OR analysis) {extra}'.strip()
+        web = pick_result(serp_search(web_query))
+        blocks += result_blocks("From around the web", web) if web else [paragraph("No web result found today.")]
+        return blocks
+    except Exception as exc:
+        print(f"SerpApi lookup failed ({exc}); falling back to Crossref")
+        return _crossref_article_blocks() + [paragraph(f"(Web search unavailable today: {exc})")]
+
+
+# ------------------------------ PODCASTS ------------------------------
+# Public feeds: edit PODCAST_FEEDS above.
+# Private (Patreon etc.) feeds: add a repository secret PODCAST_PRIVATE_FEEDS, one feed per line:
+#     Show name | https://the-private-feed-link
+# NEVER put private links in this file or commit them; sharing them violates Patreon's terms.
+_ITUNES = "{http://www.itunes.com/dtds/podcast-1.0.dtd}"
+PRIVATE_BLOCK_IDS = set()  # blocks that must stay off the public website
+
+
+def _private_feeds():
+    feeds = []
+    for line in os.environ.get("PODCAST_PRIVATE_FEEDS", "").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        name, sep, url = line.partition("|")
+        if sep and url.strip().startswith("http"):
+            feeds.append({"name": name.strip(), "url": url.strip(), "private": True})
+    return feeds
+
+
+def _minutes(raw):
+    """iTunes duration can be seconds, MM:SS or HH:MM:SS."""
+    try:
+        parts = [int(float(x)) for x in (raw or "").strip().split(":")]
+    except ValueError:
+        return None
+    if not parts:
+        return None
+    seconds = 0
+    for part in parts:
+        seconds = seconds * 60 + part
+    return round(seconds / 60) if seconds else None
+
+
+def _resolve_feed(feed):
+    """Turn an Apple Podcasts page link into the show's real RSS feed URL (free iTunes lookup API)."""
+    url = feed["url"]
+    if feed.get("private") or not re.search(r"(podcasts|itunes)\.apple\.com", url):
+        return feed
+    match = re.search(r"id(\d+)", url)
+    if not match:
+        raise RuntimeError("couldn't find a podcast id in the Apple link")
+    r = requests.get(
+        "https://itunes.apple.com/lookup",
+        params={"id": match.group(1), "entity": "podcast"}, headers=HEADERS, timeout=20,
+    )
+    r.raise_for_status()
+    results = r.json().get("results", [])
+    if not results or not results[0].get("feedUrl"):
+        raise RuntimeError("Apple lists no public RSS feed for this show (subscription or Apple-only?)")
+    return {**feed, "url": results[0]["feedUrl"], "name": feed.get("name") or results[0].get("collectionName", "Podcast")}
+
+
+def _fetch_feed(feed, cutoff):
+    r = requests.get(feed["url"], headers=HEADERS, timeout=30)
+    r.raise_for_status()
+    root = ET.fromstring(r.content)
+    episodes = []
+    for item in root.iter("item"):
+        try:
+            when = parsedate_to_datetime(item.findtext("pubDate") or "")
+        except (TypeError, ValueError):
+            continue
+        if when.tzinfo is None:
+            when = when.replace(tzinfo=ZoneInfo("UTC"))
+        if when < cutoff:
+            continue
+        link = (item.findtext("link") or "").strip()
+        if not link and not feed.get("private"):  # never fall back to a tokenized audio URL
+            link = (item.find("enclosure").get("url", "") if item.find("enclosure") is not None else "")
+        episodes.append({
+            "show": feed["name"],
+            "title": (item.findtext("title") or "Untitled").strip(),
+            "link": link if link.startswith("http") else "",
+            "when": when,
+            "minutes": _minutes(item.findtext(_ITUNES + "duration")),
+            "private": bool(feed.get("private")),
+        })
+    return episodes
+
+
+def _episode_bullet(ep):
+    text = f"{ep['show']}: "
+    label = ep["title"][:300]
+    tail = f"  ({ep['when'].astimezone(TZ):%a %b %d}" + (f", {ep['minutes']} min" if ep["minutes"] else "") + ")"
+    title_part = {"type": "text", "text": {"content": label}}
+    if ep["link"]:
+        title_part["text"]["link"] = {"url": ep["link"]}
+    block = {
+        "object": "block", "type": "bulleted_list_item",
+        "bulleted_list_item": {"rich_text": [
+            {"type": "text", "text": {"content": text}}, title_part, {"type": "text", "text": {"content": tail}},
+        ]},
+    }
+    if ep["private"]:
+        PRIVATE_BLOCK_IDS.add(id(block))
+    return block
+
+
+def podcast_blocks(now):
+    feeds = [{**f, "private": False} for f in PODCAST_FEEDS] + _private_feeds()
+    blocks = [heading("New podcast episodes")]
+    if not feeds:
+        return blocks + [paragraph("Add feeds to PODCAST_FEEDS or the PODCAST_PRIVATE_FEEDS secret.")]
+    cutoff = now.astimezone(ZoneInfo("UTC")) - timedelta(days=PODCAST_LOOKBACK_DAYS)
+    episodes, notes = [], []
+    for feed in feeds:
+        label = feed.get("name") or "A podcast"
+        try:
+            feed = _resolve_feed(feed)
+            episodes += _fetch_feed(feed, cutoff)
+        except Exception as exc:
+            # Don't echo str(exc) for HTTP errors: for private feeds it would contain the secret link.
+            status = getattr(getattr(exc, "response", None), "status_code", None)
+            reason = f"HTTP {status}" if status else (str(exc) if isinstance(exc, RuntimeError) else type(exc).__name__)
+            notes.append((f"{label}: feed unavailable ({reason})", feed["private"]))
+
+    episodes.sort(key=lambda e: e["when"], reverse=True)
+    newest_per_show, seen_shows = [], set()
+    for e in episodes:  # sorted newest first, so the first one we see per show is its latest
+        if e["show"] not in seen_shows:
+            seen_shows.add(e["show"])
+            newest_per_show.append(e)
+    shown = newest_per_show[:PODCAST_MAX_SHOWN]
+    public = [e for e in shown if not e["private"]]
+    private = [e for e in shown if e["private"]]
+    blocks += [_episode_bullet(e) for e in public]
+    if private:
+        label = paragraph("Members-only (Patreon / private feeds)")
+        PRIVATE_BLOCK_IDS.add(id(label))
+        blocks.append(label)
+        blocks += [_episode_bullet(e) for e in private]
+    if not episodes:
+        blocks.append(paragraph(f"No new episodes in the last {PODCAST_LOOKBACK_DAYS} days."))
+    for note, is_private in notes:
+        b = paragraph(f"({note})")
+        if is_private:
+            PRIVATE_BLOCK_IDS.add(id(b))
+        blocks.append(b)
+    return blocks
+
+
+def site_visible(blocks):
+    """Blocks safe for the public website (private-feed items removed unless you opted in)."""
+    hide = set()
+    if not PODCASTS_PRIVATE_ON_WEBSITE:
+        hide |= PRIVATE_BLOCK_IDS
+    if not NEWSLETTERS_PRIVATE_ON_WEBSITE:
+        hide |= NEWSLETTER_PRIVATE_IDS
+    return [b for b in blocks if id(b) not in hide] if hide else blocks
+
+
+# ------------------------------ NEWSLETTERS (Substack) ----------------
+# Public: add publications to NEWSLETTERS above (the public feed has free posts + previews of paid ones).
+# Paid: add a repository secret SUBSTACK_PRIVATE_FEEDS, one per line:  Name | https://...substack.com/feed/private/<token>
+# The private link is a password for your subscription: never put it in this file or commit it.
+NEWSLETTER_PRIVATE_IDS = set()
+_ATOM = "{http://www.w3.org/2005/Atom}"
+
+
+def _substack_feed_url(url):
+    path = urlparse(url).path
+    if path.rstrip("/").endswith("/feed") or "/feed/" in path:
+        return url
+    p = urlparse(url)
+    return f"{p.scheme}://{p.netloc}/feed"
+
+
+def _private_newsletters():
+    feeds = []
+    for line in os.environ.get("SUBSTACK_PRIVATE_FEEDS", "").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        name, sep, url = line.partition("|")
+        if sep and url.strip().startswith("http"):
+            feeds.append({"name": name.strip(), "url": url.strip(), "private": True})
+    return feeds
+
+
+def _fetch_posts(feed, cutoff):
+    r = requests.get(feed["url"], headers=HEADERS, timeout=30)
+    r.raise_for_status()
+    root = ET.fromstring(r.content)
+    title_el = root.find("channel/title")
+    if title_el is None:
+        title_el = root.find(_ATOM + "title")
+    name = feed.get("name") or ((title_el.text or "").strip() if title_el is not None else "") or "Newsletter"
+
+    posts = []
+    for item in list(root.iter("item")) + list(root.iter(_ATOM + "entry")):
+        raw = item.findtext("pubDate") or item.findtext(_ATOM + "published") or item.findtext(_ATOM + "updated") or ""
+        try:
+            when = parsedate_to_datetime(raw)
+        except (TypeError, ValueError):
+            try:
+                when = datetime.fromisoformat(raw.strip().replace("Z", "+00:00"))
+            except ValueError:
+                continue
+        if when.tzinfo is None:
+            when = when.replace(tzinfo=ZoneInfo("UTC"))
+        if when < cutoff:
+            continue
+        link = (item.findtext("link") or "").strip()
+        if not link:
+            for l in item.findall(_ATOM + "link"):
+                if l.get("rel", "alternate") == "alternate":
+                    link = l.get("href", "")
+        summary = item.findtext("description") or item.findtext(_ATOM + "summary") or ""
+        summary = html.unescape(re.sub(r"<[^>]+>", "", summary)).strip()
+        posts.append({
+            "pub": name,
+            "title": (item.findtext("title") or item.findtext(_ATOM + "title") or "Untitled").strip(),
+            "link": link if link.startswith("http") else "",
+            "when": when,
+            "summary": summary[:160] + ("..." if len(summary) > 160 else ""),
+            "private": bool(feed.get("private")),
+        })
+    return posts
+
+
+def _post_bullet(post):
+    title_part = {"type": "text", "text": {"content": post["title"][:300]}}
+    if post["link"]:
+        title_part["text"]["link"] = {"url": post["link"]}
+    tail = f"  ({post['when'].astimezone(TZ):%a %b %d})" + (f" - {post['summary']}" if post["summary"] else "")
+    block = {
+        "object": "block", "type": "bulleted_list_item",
+        "bulleted_list_item": {"rich_text": [
+            {"type": "text", "text": {"content": f"{post['pub']}: "}}, title_part, {"type": "text", "text": {"content": tail}},
+        ]},
+    }
+    if post["private"]:
+        NEWSLETTER_PRIVATE_IDS.add(id(block))
+    return block
+
+
+def newsletter_blocks(now):
+    feeds = [
+        {**f, "url": _substack_feed_url(f["url"]), "private": False} for f in NEWSLETTERS
+    ] + _private_newsletters()
+    blocks = [heading("New newsletter posts")]
+    if not feeds:
+        return blocks + [paragraph("Add publications to NEWSLETTERS or the SUBSTACK_PRIVATE_FEEDS secret.")]
+    cutoff = now.astimezone(ZoneInfo("UTC")) - timedelta(days=NEWSLETTER_LOOKBACK_DAYS)
+    posts, notes = [], []
+    for feed in feeds:
+        label = feed.get("name") or urlparse(feed["url"]).netloc if not feed["private"] else (feed.get("name") or "A newsletter")
+        try:
+            found = sorted(_fetch_posts(feed, cutoff), key=lambda x: x["when"], reverse=True)
+            posts += found[:NEWSLETTER_POSTS_PER_PUB]
+        except Exception as exc:
+            # Don't echo str(exc): for private feeds it would contain the secret link.
+            status = getattr(getattr(exc, "response", None), "status_code", None)
+            reason = f"HTTP {status}" if status else type(exc).__name__
+            notes.append((f"{label}: feed unavailable ({reason})", feed["private"]))
+
+    posts.sort(key=lambda x: x["when"], reverse=True)
+    posts = posts[:NEWSLETTER_MAX_SHOWN]
+    public = [x for x in posts if not x["private"]]
+    private = [x for x in posts if x["private"]]
+    blocks += [_post_bullet(x) for x in public]
+    if private:
+        tag = paragraph("Paid subscriptions (private feeds)")
+        NEWSLETTER_PRIVATE_IDS.add(id(tag))
+        blocks.append(tag)
+        blocks += [_post_bullet(x) for x in private]
+    if not posts:
+        blocks.append(paragraph(f"No new posts in the last {NEWSLETTER_LOOKBACK_DAYS} days."))
+    for note, is_private in notes:
+        b = paragraph(f"({note})")
+        if is_private:
+            NEWSLETTER_PRIVATE_IDS.add(id(b))
+        blocks.append(b)
+    return blocks
 
 
 # ------------------------------ WEBSITE JSON --------------------------
@@ -862,13 +1251,15 @@ def main():
     body += history_blocks(now) + [divider()]
     music_blocks, fresh_music = new_music_blocks(now)
     body += music_blocks + [divider()]
+    body += podcast_blocks(now) + [divider()]
+    body += newsletter_blocks(now) + [divider()]
     body += article_blocks() + [divider()]
     body += dish_blocks()
 
     blocks = header + reminders + body  # identical content for Notion and the website
 
     if DIGEST_JSON_PATH:
-        write_site_json(DIGEST_JSON_PATH, blocks, now)
+        write_site_json(DIGEST_JSON_PATH, site_visible(blocks), now)
 
     if NOTION_TOKEN and NOTION_PAGE_ID:
         # Create the archive container first so it stays at the top of the page

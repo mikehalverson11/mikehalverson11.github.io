@@ -37,6 +37,8 @@ jobs:
           NOTION_PAGE_ID: ${{ secrets.NOTION_PAGE_ID }}
           NOTION_USER_ID: ${{ secrets.NOTION_USER_ID }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}  # optional
+
         run: python daily_digest_generator.py
  
       - name: Commit digest.json
