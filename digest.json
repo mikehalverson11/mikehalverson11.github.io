@@ -1,11 +1,30 @@
 {
- "generated": "2026-10-24T12:56:27-04:00",
+ "generated": "2026-10-25T07:04:17-04:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Saturday, October 24, 2026"
+     "text": "Daily digest for Sunday, October 25, 2026"
+    }
+   ]
+  },
+  {
+   "type": "divider"
+  },
+  {
+   "type": "heading",
+   "parts": [
+    {
+     "text": "Today's reminders"
+    }
+   ]
+  },
+  {
+   "type": "todo",
+   "parts": [
+    {
+     "text": "Set Fantasy Football Lineup"
     }
    ]
   },
@@ -24,7 +43,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 61F (feels 59F), Clear"
+     "text": "Now: 46F (feels 39F), Clear"
     }
    ]
   },
@@ -32,7 +51,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Today: Partly cloudy, high 64F / low 44F, 0% chance of precipitation, wind up to 10 mph"
+     "text": "Today: Overcast, high 66F / low 45F, 2% chance of precipitation, wind up to 10 mph"
     }
    ]
   },
@@ -51,7 +70,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "[NBA] Portland Trail Blazers 128 @ Sacramento Kings 120  (Final)"
+     "text": "[NHL] San Jose Sharks 4 @ Boston Bruins 6  (Final)"
     }
    ]
   },
@@ -60,14 +79,6 @@
    "parts": [
     {
      "text": "Coming up"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NHL] San Jose Sharks at Boston Bruins  - Sat Oct 24, 07:00 PM"
     }
    ]
   },
@@ -217,7 +228,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1648: The Peace of Westphalia is signed, marking the end of the Thirty Years' War and the Eighty Years' War."
+     "text": "1854: The Battle of Balaclava takes place during the Crimean War. It is soon memorialized in verse as The Charge of the Light Brigade."
     }
    ]
   },
@@ -225,7 +236,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1812: Napoleonic Wars: The Battle of Maloyaroslavets takes place near Moscow."
+     "text": "1962: Cuban Missile Crisis: Adlai Stevenson shows the United Nations Security Council reconnaissance photographs of Soviet ballistic missiles in Cuba."
     }
    ]
   },
@@ -233,7 +244,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1813: Treaty of Gulistan: The Russo-Persian War of 1804-1813 comes to a close with the signing of the Treaty of Gulistan, under which terms Qajar Iran agrees to cede the bulk of its Caucasian territories, which comprise much of modern Dagestan, Georgia, Armenia, and Azerbaijan, to the Russian Empire."
+     "text": "1997: After a civil war, Denis Sassou Nguesso proclaims himself President of the Republic of the Congo."
     }
    ]
   },
@@ -346,8 +357,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "A Note On Theatre",
-     "url": "https://www.jstor.org/stable/1125082"
+     "text": "Tragedy, Genet and <i>The Maids</i>",
+     "url": "https://www.jstor.org/stable/1125083"
     }
    ]
   },
@@ -355,7 +366,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Jean Genet - The Tulane Drama Review (1963)"
+     "text": "Oreste F. Pucciani - The Tulane Drama Review (1963)"
     }
    ]
   },
@@ -363,7 +374,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "So you need a foreword. But what is there to say about a play from which I felt detached even before it was finished? To speak of its composition would be to evoke a world and climate without grandeur. But I would rather say a few words about the theatre in general. I dislike it. One will gather as much from reading this play .What I have been told about Japanese, Chinese, and Balinese revels and the perhaps magnified idea that persists in my brain make the formula of the Western theatre seem to me too coarse. One can only dream of an art that would be a profound web of active symbols capable ..."
+     "text": "The Maids, produced for the first time in 1946 by Louis Jouvet at the Thèâtre de l'Athènèe, marks perhaps the beginning of “anti-theatre” in France. Certainly we are aware for the first time in The Maids of a strange new consciousness of theatre as in the same year Nathalie Sarraute in Portrait of a Man Unknown made us aware of a new concept of the novel. Sartre wrote of Nathalie Sarraute's “anti-novel”: “We live in an age of reflection and the novel is in process of reflecting on itself.” One might say with equal validity of Genet that his plays are theatre reflecting on the nature of theatre..."
     }
    ]
   },
@@ -379,10 +390,14 @@
    ]
   },
   {
+   "type": "image",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Hot_Pot.jpg/330px-Hot_Pot.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Manoomin porridge"
+     "text": "Hot pot"
     }
    ]
   },
@@ -390,7 +405,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Manoomin porridge, also known as wild rice porridge, is a breakfast dish in Minnesotan cuisine. It was inspired by Native American foodways, as seen with the usage of wild rice (manoomin). The dish is a porridge with wild rice, dairy, dried fruits, nuts, and maple syrup. The dish was invented at Hell's Kitchen restaurant in Minneapolis, but can be found at restaurants around the state."
+     "text": "Hot pot or hotpot, also known as steamboat, is a dish of soup or stock kept simmering in a pot by a heat source on the table, accompanied by an array of raw meats, vegetables and soy-based foods which diners quickly cook by dipping in the broth."
     }
    ]
   },
@@ -398,7 +413,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/Manoomin_porridge"
+     "text": "https://en.wikipedia.org/wiki/Hot_pot"
     }
    ]
   }
