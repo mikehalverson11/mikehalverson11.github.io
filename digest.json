@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T07:04:17-04:00",
+ "generated": "2026-10-25T14:43:37-04:00",
  "blocks": [
   {
    "type": "paragraph",
@@ -43,7 +43,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 46F (feels 39F), Clear"
+     "text": "Now: 66F (feels 62F), Partly cloudy"
     }
    ]
   },
@@ -51,7 +51,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Today: Overcast, high 66F / low 45F, 2% chance of precipitation, wind up to 10 mph"
+     "text": "Today: Overcast, high 66F / low 44F, 1% chance of precipitation, wind up to 7 mph"
     }
    ]
   },
@@ -79,14 +79,6 @@
    "parts": [
     {
      "text": "Coming up"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NFL] San Francisco 49ers at Atlanta Falcons  - Sun Oct 25, 01:00 PM"
     }
    ]
   },
@@ -228,6 +220,14 @@
    "type": "bullet",
    "parts": [
     {
+     "text": "1747: War of the Austrian Succession: A British fleet under Admiral Edward Hawke defeats the French at the Second Battle of Cape Finisterre."
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
      "text": "1854: The Battle of Balaclava takes place during the Crimean War. It is soon memorialized in verse as The Charge of the Light Brigade."
     }
    ]
@@ -236,15 +236,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1962: Cuban Missile Crisis: Adlai Stevenson shows the United Nations Security Council reconnaissance photographs of Soviet ballistic missiles in Cuba."
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "1997: After a civil war, Denis Sassou Nguesso proclaims himself President of the Republic of the Congo."
+     "text": "1918: British forces attack Turkish forces under Mustafa Kemal in the battle of Aleppo, which the British capture the following day."
     }
    ]
   },
@@ -341,7 +333,76 @@
    "type": "heading",
    "parts": [
     {
-     "text": "Reading: related article"
+     "text": "New podcast episodes"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "parts": [
+    {
+     "text": "No new episodes in the last 3 days."
+    }
+   ]
+  },
+  {
+   "type": "divider"
+  },
+  {
+   "type": "heading",
+   "parts": [
+    {
+     "text": "New newsletter posts"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "Ettingermentum Newsletter: "
+    },
+    {
+     "text": "The Official 2026 Democratic Campaigns Tier List, Part II",
+     "url": "https://www.ettingermentum.news/p/the-official-2026-democratic-campaigns-eb6"
+    },
+    {
+     "text": "  (Sat Oct 24) - Rounding out our look at the biggest Democratic campaigns this year by crowning the best of the best."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "parts": [
+    {
+     "text": "(samkriss.substack.com: feed unavailable (HTTP 403))"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "parts": [
+    {
+     "text": "(internetprincess.substack.com: feed unavailable (HTTP 403))"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "parts": [
+    {
+     "text": "(connorwroesouthard.substack.com: feed unavailable (HTTP 403))"
+    }
+   ]
+  },
+  {
+   "type": "divider"
+  },
+  {
+   "type": "heading",
+   "parts": [
+    {
+     "text": "Reading: related articles"
     }
    ]
   },
@@ -357,8 +418,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Tragedy, Genet and <i>The Maids</i>",
-     "url": "https://www.jstor.org/stable/1125083"
+     "text": "From JSTOR"
     }
    ]
   },
@@ -366,7 +426,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Oreste F. Pucciani - The Tulane Drama Review (1963)"
+     "text": "The Politics of Enmity",
+     "url": "https://www.jstor.org/stable/2930378"
     }
    ]
   },
@@ -374,7 +435,32 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "The Maids, produced for the first time in 1946 by Louis Jouvet at the Thèâtre de l'Athènèe, marks perhaps the beginning of “anti-theatre” in France. Certainly we are aware for the first time in The Maids of a strange new consciousness of theatre as in the same year Nathalie Sarraute in Portrait of a Man Unknown made us aware of a new concept of the novel. Sartre wrote of Nathalie Sarraute's “anti-novel”: “We live in an age of reflection and the novel is in process of reflecting on itself.” One might say with equal validity of Genet that his plays are theatre reflecting on the nature of theatre..."
+     "text": "jstor.org - Concerning the relation between politics and perversion, see Jean-Michel. Rabat6's original analysis in his article \"Jean Genet, la position du franc-tireur,\" L ..."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "parts": [
+    {
+     "text": "From around the web"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "parts": [
+    {
+     "text": "Genet's Palestinian Revolution",
+     "url": "https://www.thenation.com/article/archive/genets-palestinian-revolution/"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "parts": [
+    {
+     "text": "thenation.com - His involvement with the Palestinians is the story of Prisoner of Love. But Genet did not, as it were, go home and start writing. Another ten ..."
     }
    ]
   },
@@ -390,30 +476,10 @@
    ]
   },
   {
-   "type": "image",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Hot_Pot.jpg/330px-Hot_Pot.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-  },
-  {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Hot pot"
-    }
-   ]
-  },
-  {
-   "type": "paragraph",
-   "parts": [
-    {
-     "text": "Hot pot or hotpot, also known as steamboat, is a dish of soup or stock kept simmering in a pot by a heat source on the table, accompanied by an array of raw meats, vegetables and soy-based foods which diners quickly cook by dipping in the broth."
-    }
-   ]
-  },
-  {
-   "type": "paragraph",
-   "parts": [
-    {
-     "text": "https://en.wikipedia.org/wiki/Hot_pot"
+     "text": "Couldn't fetch a dish today (429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&prop=categories&titles=Hilopites&cllimit=max&clshow=%21hidden&format=json)"
     }
    ]
   }
