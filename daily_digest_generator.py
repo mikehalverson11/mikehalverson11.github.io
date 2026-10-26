@@ -14,6 +14,7 @@ Other env vars:
   SUBSTACK_PRIVATE_FEEDS - optional; paid Substack feeds, one per line as 'Name | URL' (keep secret)
   PODCAST_PRIVATE_FEEDS - optional; Patreon/private feeds, one per line as 'Name | URL' (keep secret)
 """
+import atexit
 import html
 import json
 import os
@@ -21,6 +22,7 @@ import random
 import re
 import time
 import xml.etree.ElementTree as ET
+from types import SimpleNamespace
 from email.utils import parsedate_to_datetime
 from urllib.parse import urlparse
 from datetime import datetime, timedelta
@@ -89,6 +91,9 @@ NEWSLETTERS = [
     # {"url": "https://someone.substack.com"},                  # name is optional
     # {"name": "Custom name", "url": "https://example.com"},
 ]
+USE_SUBSTACK_API = True              # try Substack's unofficial JSON endpoint (/api/v1/posts) before the RSS feed
+BROWSER_FIRST_DOMAINS = ("substack.com",)  # feeds on these hosts go straight to the browser (the plain request is usually blocked)
+USE_BROWSER_FALLBACK = True          # if a feed is blocked (403 / bot-check page), retry once in headless Chrome via Selenium
 NEWSLETTER_LOOKBACK_DAYS = 3         # show posts published in the last N days
 NEWSLETTER_POSTS_PER_PUB = 1         # newest N posts from each publication
 NEWSLETTER_MAX_SHOWN = 15
@@ -113,6 +118,9 @@ CURRENT_BOOK = {
 
 INDEXES = {"S&P 500 (SPY)": "SPY", "Nasdaq 100 (QQQ)": "QQQ", "Dow (DIA)": "DIA"}
 WATCHLIST = ["AAPL", "VOO", "NVDA"]
+
+# Wikimedia asks API users to identify themselves with contact info in the User-Agent.
+WIKI_CONTACT = "mikehalverson916@gmail.com"
 
 DISH_CATEGORIES = [
     "Category:Soups", "Category:Stews", "Category:Salads",
@@ -306,17 +314,65 @@ def market_blocks():
 
 
 # ------------------------------ WIKIPEDIA -----------------------------
-def wiki_members(category, member_type):
-    r = requests.get(
-        "https://en.wikipedia.org/w/api.php",
-        params={
-            "action": "query", "list": "categorymembers", "cmtitle": category,
-            "cmtype": member_type, "cmlimit": 500, "format": "json",
-        },
-        headers=HEADERS, timeout=20,
+_WIKI_API = "https://en.wikipedia.org/w/api.php"
+_wiki_last_call = [0.0]
+
+
+def _wiki_headers():
+    # Format recommended by Wikimedia: tool name/version (contact) library/version
+    return {"User-Agent": f"daily-digest/0.1 ({WIKI_CONTACT}) python-requests/{requests.__version__}"}
+
+
+def _wiki_get(url, **params):
+    """Polite Wikimedia GET.
+    - identifies us with a contact email
+    - keeps requests at least 1 second apart, one at a time
+    - sends maxlag so MediaWiki can ask us to back off when its servers are busy
+    - on 429/5xx or a maxlag reply, waits (honoring Retry-After) and retries a few times
+    """
+    is_action_api = url.endswith("api.php")
+    if is_action_api:
+        params.setdefault("maxlag", 5)
+    last, why = None, ""
+    for attempt in range(4):
+        gap = time.monotonic() - _wiki_last_call[0]
+        if gap < 1.0:
+            time.sleep(1.0 - gap)
+        r = requests.get(url, params=params, headers=_wiki_headers(), timeout=30)
+        _wiki_last_call[0] = time.monotonic()
+
+        busy = r.status_code in (429, 502, 503, 504)
+        if not busy and is_action_api:
+            try:
+                body = r.json()
+            except ValueError:
+                body = {}
+            busy = isinstance(body, dict) and body.get("error", {}).get("code") == "maxlag"
+        if not busy:
+            r.raise_for_status()
+            return r
+
+        last, why = r, f"HTTP {r.status_code}"
+        try:
+            wait = int(r.headers.get("Retry-After", 0))
+        except (TypeError, ValueError):
+            wait = 0
+        time.sleep(min(wait or 5 * 2 ** attempt, 60))  # 5s, 10s, 20s, 40s unless the server says otherwise
+    if last is not None and last.status_code >= 400:
+        last.raise_for_status()
+    raise RuntimeError(f"Wikipedia is busy ({why}); will try again tomorrow")
+
+
+def wiki_members(category):
+    """One request: the articles and subcategories directly inside a category."""
+    r = _wiki_get(
+        _WIKI_API, action="query", list="categorymembers", cmtitle=category,
+        cmtype="page|subcat", cmnamespace="0|14", cmlimit=500, format="json",
     )
-    r.raise_for_status()
-    return [m["title"] for m in r.json().get("query", {}).get("categorymembers", [])]
+    titles = [m["title"] for m in r.json().get("query", {}).get("categorymembers", [])]
+    pages = [t for t in titles if not t.startswith("Category:")]
+    subcats = [t for t in titles if t.startswith("Category:")]
+    return pages, subcats
 
 
 # Wikipedia categories / summaries containing these words are not dishes
@@ -336,14 +392,14 @@ NOT_DISH_SUMMARY = re.compile(
 )
 
 
-def find_dish_title(max_depth=3, attempts=10):
-    """Walk down a food category tree until we land on a page."""
+def find_dish_title(max_depth=3, attempts=4):
+    """Walk down a food category tree until we land on a page (one request per step)."""
     for _ in range(attempts):
         category = random.choice(DISH_CATEGORIES)
         for _depth in range(max_depth + 1):
-            pages = [t for t in wiki_members(category, "page")
-                     if not NOT_DISH.search(t) and not t.startswith(("Index of",))]
-            subcats = [c for c in wiki_members(category, "subcat") if not NOT_DISH.search(c)]
+            pages, subcats = wiki_members(category)
+            pages = [t for t in pages if not NOT_DISH.search(t) and not t.startswith("Index of")]
+            subcats = [c for c in subcats if not NOT_DISH.search(c)]
             if pages and (not subcats or random.random() < 0.6):
                 return random.choice(pages)
             if not subcats:
@@ -352,52 +408,53 @@ def find_dish_title(max_depth=3, attempts=10):
     raise RuntimeError("no dish pages found after several tries")
 
 
-def looks_like_dish(title, summary):
+def fetch_dish_page(title):
+    """One request: summary, thumbnail, link, categories and disambiguation flag for a page."""
+    r = _wiki_get(
+        _WIKI_API, action="query", format="json", formatversion=2, redirects=1, titles=title,
+        prop="categories|extracts|pageimages|info|description|pageprops",
+        cllimit="max", clshow="!hidden", exintro=1, explaintext=1, exsentences=4,
+        piprop="thumbnail", pithumbsize=640, inprop="url", ppprop="disambiguation",
+    )
+    pages = r.json().get("query", {}).get("pages", [])
+    if not pages or pages[0].get("missing"):
+        return None
+    pg = pages[0]
+    return {
+        "title": pg.get("title", title),
+        "description": pg.get("description", ""),
+        "extract": (pg.get("extract") or "").strip(),
+        "thumb": pg.get("thumbnail", {}).get("source", ""),
+        "url": pg.get("fullurl", ""),
+        "categories": [c["title"] for c in pg.get("categories", [])],
+        "disambiguation": "disambiguation" in pg.get("pageprops", {}),
+    }
+
+
+def looks_like_dish(page):
     """Reject companies, brands, people, etc. using the page's own categories and summary."""
-    text = f"{summary.get('description', '')} {summary.get('extract', '')[:300]}"
+    text = f"{page['description']} {page['extract'][:300]}"
     if NOT_DISH_SUMMARY.search(text):
         return False
-    r = requests.get(
-        "https://en.wikipedia.org/w/api.php",
-        params={
-            "action": "query", "prop": "categories", "titles": title,
-            "cllimit": "max", "clshow": "!hidden", "format": "json",
-        },
-        headers=HEADERS, timeout=20,
-    )
-    r.raise_for_status()
-    for page in r.json().get("query", {}).get("pages", {}).values():
-        for cat in page.get("categories", []):
-            if NOT_DISH.search(cat["title"]):
-                return False
-    return True
+    return not any(NOT_DISH.search(c) for c in page["categories"])
 
 
 def dish_blocks():
     blocks = [heading("Random dish")]
     try:
-        data = None
-        for _ in range(8):  # keep trying until a candidate passes the dish check
-            title = find_dish_title()
-            s = requests.get(
-                "https://en.wikipedia.org/api/rest_v1/page/summary/"
-                + requests.utils.quote(title.replace(" ", "_"), safe=""),
-                headers=HEADERS, timeout=20,
-            )
-            s.raise_for_status()
-            candidate = s.json()
-            if candidate.get("type") == "disambiguation":
-                continue
-            if looks_like_dish(title, candidate):
-                data = candidate
+        page = None
+        for _ in range(5):  # keep trying until a candidate passes the dish check
+            candidate = fetch_dish_page(find_dish_title())
+            if candidate and not candidate["disambiguation"] and looks_like_dish(candidate):
+                page = candidate
                 break
-        if data is None:
+        if page is None:
             raise RuntimeError("couldn't find a dish page that passed the filters")
-        if data.get("thumbnail", {}).get("source"):
-            blocks.append(image(data["thumbnail"]["source"]))
-        blocks.append(paragraph(data["title"]))
-        blocks.append(paragraph(data.get("extract", "")))
-        blocks.append(paragraph(data["content_urls"]["desktop"]["page"]))
+        if page["thumb"]:
+            blocks.append(image(page["thumb"]))
+        blocks.append(paragraph(page["title"]))
+        blocks.append(paragraph(page["extract"]))
+        blocks.append(paragraph(f"{page['url']}  (Wikipedia, CC BY-SA)"))
     except Exception as exc:
         blocks.append(paragraph(f"Couldn't fetch a dish today ({exc})"))
     return blocks
@@ -471,11 +528,7 @@ def weather_blocks():
 def history_blocks(now):
     blocks = [heading("This day in history")]
     try:
-        r = requests.get(
-            f"https://en.wikipedia.org/api/rest_v1/feed/onthisday/events/{now:%m}/{now:%d}",
-            headers=HEADERS, timeout=20,
-        )
-        r.raise_for_status()
+        r = _wiki_get(f"https://en.wikipedia.org/api/rest_v1/feed/onthisday/events/{now:%m}/{now:%d}")
         events = r.json()["events"]
         for e in sorted(random.sample(events, min(ON_THIS_DAY_COUNT, len(events))), key=lambda x: x["year"]):
             blocks.append(bullet(f"{e['year']}: {e['text']}"))
@@ -766,14 +819,23 @@ PRIVATE_BLOCK_IDS = set()  # blocks that must stay off the public website
 
 
 def _private_feeds():
-    feeds = []
-    for line in os.environ.get("PODCAST_PRIVATE_FEEDS", "").splitlines():
+    raw = os.environ.get("PODCAST_PRIVATE_FEEDS", "")
+    feeds, bad = [], 0
+    for line in raw.splitlines():
         line = line.strip()
         if not line or line.startswith("#"):
             continue
         name, sep, url = line.partition("|")
         if sep and url.strip().startswith("http"):
             feeds.append({"name": name.strip(), "url": url.strip(), "private": True})
+        elif line.startswith("http"):  # URL only: the show's name comes from the feed itself
+            feeds.append({"name": "", "url": line, "private": True})
+        else:
+            bad += 1
+    if not raw.strip():
+        print("PODCAST_PRIVATE_FEEDS is empty or not passed to the script; skipping private podcast feeds.")
+    elif bad or not feeds:
+        print(f"PODCAST_PRIVATE_FEEDS: {bad} line(s) didn't look like 'Name | https://...'")
     return feeds
 
 
@@ -811,31 +873,37 @@ def _resolve_feed(feed):
 
 
 def _fetch_feed(feed, cutoff):
-    r = requests.get(feed["url"], headers=HEADERS, timeout=30)
-    r.raise_for_status()
+    r = _get_feed(feed["url"])  # retries 403/429 with feed-reader style headers
     root = ET.fromstring(r.content)
+    channel_title = (root.findtext("channel/title") or "").strip()
+    show_name = feed.get("name") or channel_title or "Podcast"
     episodes = []
+    stats = {"show": show_name, "total": 0, "unparsed": 0, "newest": None, "private": bool(feed.get("private"))}
     for item in root.iter("item"):
+        stats["total"] += 1
         try:
             when = parsedate_to_datetime(item.findtext("pubDate") or "")
         except (TypeError, ValueError):
+            stats["unparsed"] += 1  # an item whose date we couldn't read is counted, not silently dropped
             continue
         if when.tzinfo is None:
             when = when.replace(tzinfo=ZoneInfo("UTC"))
+        if stats["newest"] is None or when > stats["newest"]:
+            stats["newest"] = when
         if when < cutoff:
             continue
         link = (item.findtext("link") or "").strip()
         if not link and not feed.get("private"):  # never fall back to a tokenized audio URL
             link = (item.find("enclosure").get("url", "") if item.find("enclosure") is not None else "")
         episodes.append({
-            "show": feed["name"],
+            "show": show_name,
             "title": (item.findtext("title") or "Untitled").strip(),
             "link": link if link.startswith("http") else "",
             "when": when,
             "minutes": _minutes(item.findtext(_ITUNES + "duration")),
             "private": bool(feed.get("private")),
         })
-    return episodes
+    return episodes, stats
 
 
 def _episode_bullet(ep):
@@ -859,15 +927,22 @@ def _episode_bullet(ep):
 def podcast_blocks(now):
     feeds = [{**f, "private": False} for f in PODCAST_FEEDS] + _private_feeds()
     blocks = [heading("New podcast episodes")]
+    if os.environ.get("PODCAST_PRIVATE_FEEDS", "").strip() and not any(f["private"] for f in feeds):
+        blocks.append(paragraph("(PODCAST_PRIVATE_FEEDS is set, but no line matched 'Name | https://...')"))
     if not feeds:
         return blocks + [paragraph("Add feeds to PODCAST_FEEDS or the PODCAST_PRIVATE_FEEDS secret.")]
     cutoff = now.astimezone(ZoneInfo("UTC")) - timedelta(days=PODCAST_LOOKBACK_DAYS)
-    episodes, notes = [], []
+    episodes, notes, all_stats = [], [], []
     for feed in feeds:
         label = feed.get("name") or "A podcast"
         try:
             feed = _resolve_feed(feed)
-            episodes += _fetch_feed(feed, cutoff)
+            found, stat = _fetch_feed(feed, cutoff)
+            episodes += found
+            all_stats.append(stat)
+            newest = f"{stat['newest'].astimezone(TZ):%Y-%m-%d %H:%M}" if stat["newest"] else "n/a"
+            print(f"[podcasts] {stat['show']}: {stat['total']} items, newest {newest}, "
+                  f"{len(found)} in window, {stat['unparsed']} with unreadable dates")
         except Exception as exc:
             # Don't echo str(exc) for HTTP errors: for private feeds it would contain the secret link.
             status = getattr(getattr(exc, "response", None), "status_code", None)
@@ -891,6 +966,21 @@ def podcast_blocks(now):
         blocks += [_episode_bullet(e) for e in private]
     if not episodes:
         blocks.append(paragraph(f"No new episodes in the last {PODCAST_LOOKBACK_DAYS} days."))
+        # Show what each feed actually contained, so "nothing new" can be told apart from "broken".
+        for want_private in (False, True):
+            parts = []
+            for st in (x for x in all_stats if x["private"] == want_private):
+                if st["total"] == 0:
+                    parts.append(f"{st['show']}: feed loaded but has no episodes")
+                elif st["newest"] is None:
+                    parts.append(f"{st['show']}: {st['total']} items but no readable dates")
+                else:
+                    parts.append(f"{st['show']}: latest {st['newest'].astimezone(TZ):%b %d}")
+            if parts:
+                line = paragraph("(Checked: " + "; ".join(parts) + ")")
+                if want_private:
+                    PRIVATE_BLOCK_IDS.add(id(line))
+                blocks.append(line)
     for note, is_private in notes:
         b = paragraph(f"({note})")
         if is_private:
@@ -949,18 +1039,164 @@ _FEED_HEADERS = [
 ]
 
 
+_browser = {"driver": None, "failed": False}
+
+
+def _close_browser():
+    if _browser["driver"] is not None:
+        try:
+            _browser["driver"].quit()
+        except Exception:
+            pass
+        _browser["driver"] = None
+
+
+def _get_browser():
+    """Start headless Chrome once per run (only if a blocked feed needs it). None if unavailable."""
+    if _browser["failed"]:
+        return None
+    if _browser["driver"] is None:
+        try:
+            from selenium import webdriver  # imported lazily: only needed for the fallback
+            opts = webdriver.ChromeOptions()
+            args = ["--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu", "--window-size=1280,900"]
+            if not os.environ.get("BROWSER_HEADED"):  # BROWSER_HEADED=1 runs a normal Chrome window (use with xvfb-run on CI)
+                args.insert(0, "--headless=new")
+            for arg in args:
+                opts.add_argument(arg)
+            driver = webdriver.Chrome(options=opts)  # Selenium Manager finds/downloads the driver
+            driver.set_page_load_timeout(45)
+            driver.set_script_timeout(30)
+            _browser["driver"] = driver
+            atexit.register(_close_browser)
+        except Exception as exc:
+            print(f"[browser] fallback unavailable ({type(exc).__name__}); is selenium installed and Chrome present?")
+            _browser["failed"] = True
+            return None
+    return _browser["driver"]
+
+
+def _fetch_with_browser(url, driver):
+    """Load the site's home page first (so any browser check can run), then fetch the feed
+    from inside the page, which returns the raw XML instead of Chrome's XML viewer."""
+    parts = urlparse(url)
+    driver.get(f"{parts.scheme}://{parts.netloc}/")
+    time.sleep(3)
+    for _ in range(10):  # if a browser check ("Just a moment...") is running, give it up to ~20s to finish
+        title = (driver.title or "").lower()
+        if not any(marker in title for marker in ("just a moment", "verifying", "attention required", "checking your browser")):
+            break
+        time.sleep(2)
+    path = parts.path + (f"?{parts.query}" if parts.query else "")
+    result = driver.execute_async_script(
+        "const done = arguments[arguments.length - 1];"
+        "fetch(arguments[0], {credentials: 'include'})"
+        ".then(r => r.text().then(t => done({status: r.status, text: t})))"
+        ".catch(e => done({status: 0, text: String(e)}));",
+        path,
+    )
+    print(f"[browser] {parts.netloc}: page title {(driver.title or '')[:50]!r}, feed fetch HTTP {result.get('status')}")
+    if result.get("status") != 200:
+        raise RuntimeError(f"blocked even in a real browser (HTTP {result.get('status')})")
+    text = result.get("text", "")
+    if text[:500].lstrip().lower().startswith(("<!doctype html", "<html")):
+        raise RuntimeError("blocked even in a real browser (got a bot-check page)")
+    return text.encode("utf-8")
+
+
 def _get_feed(url):
+    """Fetch a feed with requests; if it's blocked, optionally retry once in headless Chrome."""
+    host = urlparse(url).netloc.lower()
+    tried_browser = False
+    if USE_BROWSER_FALLBACK and any(host.endswith(dom) for dom in BROWSER_FIRST_DOMAINS):
+        driver = _get_browser()
+        if driver is not None:
+            tried_browser = True
+            try:
+                return SimpleNamespace(content=_fetch_with_browser(url, driver))
+            except Exception as exc:  # fall through to the normal request path below
+                print(f"[browser] first attempt for {host} failed ({exc}); trying a plain request")
     r = None
     for hdrs in _FEED_HEADERS:
         r = requests.get(url, headers=hdrs, timeout=30)
         if r.status_code not in (403, 429):
             break
         time.sleep(2)
+    try:
+        r.raise_for_status()
+        if r.content[:500].lstrip().lower().startswith((b"<!doctype html", b"<html")):
+            raise RuntimeError("got a web page instead of a feed (probably a bot check)")
+        return r
+    except requests.HTTPError as exc:
+        if r.status_code not in (403, 429):
+            raise
+        err = exc
+    except RuntimeError as exc:  # bot-check page
+        err = exc
+    if USE_BROWSER_FALLBACK and not tried_browser:
+        driver = _get_browser()
+        if driver is not None:
+            return SimpleNamespace(content=_fetch_with_browser(url, driver))
+    raise err
+
+
+def _pretty_host(netloc):
+    host = netloc.lower().removeprefix("www.")
+    for suffix in (".substack.com", ".com", ".net", ".news", ".org", ".co", ".io"):
+        if host.endswith(suffix):
+            host = host[: -len(suffix)]
+            break
+    return host.replace("-", " ").title()
+
+
+def _fetch_posts_api(feed, cutoff):
+    """Substack's unofficial JSON endpoint: the same data its own site loads. Public publications only."""
+    parts = urlparse(feed["url"])
+    r = requests.get(
+        f"{parts.scheme}://{parts.netloc}/api/v1/posts",
+        params={"limit": 10}, headers={**HEADERS, "Accept": "application/json"}, timeout=30,
+    )
     r.raise_for_status()
-    return r
+    data = r.json()
+    if not isinstance(data, list):
+        raise RuntimeError("unexpected response from the Substack API")
+    name = feed.get("name") or _pretty_host(parts.netloc)
+    posts = []
+    stats = {"pub": name, "total": 0, "newest": None, "private": False, "via": "api"}
+    for item in data:
+        stats["total"] += 1
+        try:
+            when = datetime.fromisoformat((item.get("post_date") or "").replace("Z", "+00:00"))
+        except ValueError:
+            continue
+        if when.tzinfo is None:
+            when = when.replace(tzinfo=ZoneInfo("UTC"))
+        if stats["newest"] is None or when > stats["newest"]:
+            stats["newest"] = when
+        if when < cutoff:
+            continue
+        summary = (item.get("subtitle") or item.get("description") or "").strip()
+        if item.get("audience") == "only_paid":
+            summary = ("[paid] " + summary).strip()
+        posts.append({
+            "pub": name,
+            "title": (item.get("title") or "Untitled").strip(),
+            "link": item.get("canonical_url") or "",
+            "when": when,
+            "summary": summary[:160] + ("..." if len(summary) > 160 else ""),
+            "private": False,
+        })
+    return posts, stats
 
 
 def _fetch_posts(feed, cutoff):
+    if USE_SUBSTACK_API and not feed.get("private"):
+        try:
+            return _fetch_posts_api(feed, cutoff)
+        except Exception as exc:  # not a Substack, blocked, or format changed: use the RSS feed instead
+            status = getattr(getattr(exc, "response", None), "status_code", None)
+            print(f"[newsletters] API unavailable for {urlparse(feed['url']).netloc} "
+                  f"({'HTTP ' + str(status) if status else type(exc).__name__}); using the RSS feed")
     r = _get_feed(feed["url"])
     root = ET.fromstring(r.content)
     title_el = root.find("channel/title")
@@ -969,7 +1205,9 @@ def _fetch_posts(feed, cutoff):
     name = feed.get("name") or ((title_el.text or "").strip() if title_el is not None else "") or "Newsletter"
 
     posts = []
+    stats = {"pub": name, "total": 0, "newest": None, "private": bool(feed.get("private"))}
     for item in list(root.iter("item")) + list(root.iter(_ATOM + "entry")):
+        stats["total"] += 1
         raw = item.findtext("pubDate") or item.findtext(_ATOM + "published") or item.findtext(_ATOM + "updated") or ""
         try:
             when = parsedate_to_datetime(raw)
@@ -980,6 +1218,8 @@ def _fetch_posts(feed, cutoff):
                 continue
         if when.tzinfo is None:
             when = when.replace(tzinfo=ZoneInfo("UTC"))
+        if stats["newest"] is None or when > stats["newest"]:
+            stats["newest"] = when
         if when < cutoff:
             continue
         link = (item.findtext("link") or "").strip()
@@ -997,7 +1237,7 @@ def _fetch_posts(feed, cutoff):
             "summary": summary[:160] + ("..." if len(summary) > 160 else ""),
             "private": bool(feed.get("private")),
         })
-    return posts
+    return posts, stats
 
 
 def _post_bullet(post):
@@ -1024,16 +1264,21 @@ def newsletter_blocks(now):
     if not feeds:
         return blocks + [paragraph("Add publications to NEWSLETTERS or the SUBSTACK_PRIVATE_FEEDS secret.")]
     cutoff = now.astimezone(ZoneInfo("UTC")) - timedelta(days=NEWSLETTER_LOOKBACK_DAYS)
-    posts, notes = [], []
+    posts, notes, all_stats = [], [], []
     for feed in feeds:
         label = feed.get("name") or urlparse(feed["url"]).netloc if not feed["private"] else (feed.get("name") or "A newsletter")
         try:
-            found = sorted(_fetch_posts(feed, cutoff), key=lambda x: x["when"], reverse=True)
+            fetched, stat = _fetch_posts(feed, cutoff)
+            found = sorted(fetched, key=lambda x: x["when"], reverse=True)
             posts += found[:NEWSLETTER_POSTS_PER_PUB]
+            all_stats.append(stat)
+            newest = f"{stat['newest'].astimezone(TZ):%Y-%m-%d %H:%M}" if stat["newest"] else "n/a"
+            print(f"[newsletters] {stat['pub']}: {stat['total']} items via {stat.get('via', 'rss')}, newest {newest}, {len(found)} in window")
         except Exception as exc:
-            # Don't echo str(exc): for private feeds it would contain the secret link.
+            # Don't echo str(exc) for HTTP errors: for private feeds it would contain the secret link.
             status = getattr(getattr(exc, "response", None), "status_code", None)
-            reason = f"HTTP {status}" if status else type(exc).__name__
+            reason = f"HTTP {status}" if status else (str(exc) if isinstance(exc, RuntimeError) else type(exc).__name__)
+            print(f"[newsletters] {label}: failed ({reason})")
             notes.append((label, reason, feed["private"]))
 
     posts.sort(key=lambda x: x["when"], reverse=True)
@@ -1048,6 +1293,19 @@ def newsletter_blocks(now):
         blocks += [_post_bullet(x) for x in private]
     if not posts:
         blocks.append(paragraph(f"No new posts in the last {NEWSLETTER_LOOKBACK_DAYS} days."))
+    if all_stats and len(posts) < len(all_stats):
+        # which feeds loaded but had nothing in the window (vs. failed to load, listed below)
+        quiet = [st for st in all_stats if not any(x["pub"] == st["pub"] for x in posts)]
+        for want_private in (False, True):
+            parts = [
+                f"{st['pub']}: " + (f"latest {st['newest'].astimezone(TZ):%b %d}" if st["newest"] else "feed loaded but empty")
+                for st in quiet if st["private"] == want_private
+            ]
+            if parts:
+                line = paragraph("(Loaded, nothing new: " + "; ".join(parts) + ")")
+                if want_private:
+                    NEWSLETTER_PRIVATE_IDS.add(id(line))
+                blocks.append(line)
     grouped = {}
     for label, reason, is_private in notes:
         grouped.setdefault((reason, is_private), []).append(label)
