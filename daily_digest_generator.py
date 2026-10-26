@@ -65,6 +65,9 @@ ON_THIS_DAY_COUNT = 3
 # secret instead (see the PODCASTS section), because those links are personal passwords.
 PODCAST_FEEDS = [
     {"name": "The Zach Lowe Show", "url": "https://podcasts.apple.com/us/podcast/the-zach-lowe-show/id1805478723"},
+    {"name": "Pablo Torre Finds Out", "url": "https://podcasts.apple.com/us/podcast/pablo-torre-finds-out/id1685093486"},
+    {"name": "Doomscroll", "url": "https://podcasts.apple.com/us/podcast/doomscroll-with-joshua-citarella/id1513817688"},
+    {"name": "Ones and Tooze", "url": "https://podcasts.apple.com/us/podcast/ones-and-tooze/id1584397047"}
     # {"name": "Show name", "url": "https://example.com/feed.xml"},
     # An Apple Podcasts page link also works (name is optional then):
     # {"url": "https://podcasts.apple.com/us/podcast/some-show/id1234567890"},
