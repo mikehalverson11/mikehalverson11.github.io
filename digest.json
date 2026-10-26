@@ -1,11 +1,11 @@
 {
- "generated": "2026-10-25T14:43:37-04:00",
+ "generated": "2026-10-26T08:37:21-04:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Sunday, October 25, 2026"
+     "text": "Daily digest for Monday, October 26, 2026"
     }
    ]
   },
@@ -24,7 +24,7 @@
    "type": "todo",
    "parts": [
     {
-     "text": "Set Fantasy Football Lineup"
+     "text": "Set Fantasy Basketball Lineup"
     }
    ]
   },
@@ -43,7 +43,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 66F (feels 62F), Partly cloudy"
+     "text": "Now: 48F (feels 43F), Clear"
     }
    ]
   },
@@ -51,7 +51,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Today: Overcast, high 66F / low 44F, 1% chance of precipitation, wind up to 7 mph"
+     "text": "Today: Overcast, high 67F / low 47F, 4% chance of precipitation, wind up to 8 mph"
     }
    ]
   },
@@ -70,7 +70,15 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "[NHL] San Jose Sharks 4 @ Boston Bruins 6  (Final)"
+     "text": "[NBA] Memphis Grizzlies 123 @ Sacramento Kings 112  (Final)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NFL] San Francisco 49ers 20 @ Atlanta Falcons 29  (Final)"
     }
    ]
   },
@@ -79,14 +87,6 @@
    "parts": [
     {
      "text": "Coming up"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NBA] Memphis Grizzlies at Sacramento Kings  - Sun Oct 25, 09:00 PM"
     }
    ]
   },
@@ -135,6 +135,22 @@
    "parts": [
     {
      "text": "[NBA] Sacramento Kings at Memphis Grizzlies  - Sat Oct 31, 08:00 PM"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NBA] Sacramento Kings at Dallas Mavericks  - Mon Nov 02, 08:00 PM"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NHL] Calgary Flames at San Jose Sharks  - Mon Nov 02, 09:00 PM"
     }
    ]
   },
@@ -206,6 +222,22 @@
    ]
   },
   {
+   "type": "paragraph",
+   "parts": [
+    {
+     "text": "Upcoming earnings"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "AAPL reports 2026-11-02"
+    }
+   ]
+  },
+  {
    "type": "divider"
   },
   {
@@ -220,7 +252,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1747: War of the Austrian Succession: A British fleet under Admiral Edward Hawke defeats the French at the Second Battle of Cape Finisterre."
+     "text": "1774: American Revolution: The First Continental Congress adjourns in Philadelphia."
     }
    ]
   },
@@ -228,7 +260,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1854: The Battle of Balaclava takes place during the Crimean War. It is soon memorialized in verse as The Charge of the Light Brigade."
+     "text": "1825: The Erie Canal opens, allowing direct passage from the Hudson River to Lake Erie."
     }
    ]
   },
@@ -236,7 +268,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1918: British forces attack Turkish forces under Mustafa Kemal in the battle of Aleppo, which the British capture the following day."
+     "text": "1942: World War II: In the Battle of the Santa Cruz Islands during the Guadalcanal Campaign, one U.S. aircraft carrier is sunk and another carrier is heavily damaged, while two Japanese carriers and one cruiser are heavily damaged."
     }
    ]
   },
@@ -275,6 +307,21 @@
     {
      "text": "yeule - Hystérique",
      "url": "https://musicbrainz.org/release-group/d7b1b2bf-b4f5-43c3-83e1-9ca7806ca881"
+    },
+    {
+     "text": " (Single)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "2026-10-21  "
+    },
+    {
+     "text": "Cloud Nothings - Death Keeps Me Alive",
+     "url": "https://musicbrainz.org/release-group/74d7ff22-1308-41ca-afc3-9cae37a88f8a"
     },
     {
      "text": " (Single)"
@@ -375,23 +422,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "(samkriss.substack.com: feed unavailable (HTTP 403))"
-    }
-   ]
-  },
-  {
-   "type": "paragraph",
-   "parts": [
-    {
-     "text": "(internetprincess.substack.com: feed unavailable (HTTP 403))"
-    }
-   ]
-  },
-  {
-   "type": "paragraph",
-   "parts": [
-    {
-     "text": "(connorwroesouthard.substack.com: feed unavailable (HTTP 403))"
+     "text": "(Couldn't load 4 feeds - HTTP 403: samkriss.substack.com, internetprincess.substack.com, connorwroesouthard.substack.com, capybaroness.substack.com)"
     }
    ]
   },
@@ -426,8 +457,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "The Politics of Enmity",
-     "url": "https://www.jstor.org/stable/2930378"
+     "text": "Jean Genet: Affirmation of Existence Through Rebellion",
+     "url": "https://www.jstor.org/stable/2537088"
     }
    ]
   },
@@ -435,7 +466,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "jstor.org - Concerning the relation between politics and perversion, see Jean-Michel. Rabat6's original analysis in his article \"Jean Genet, la position du franc-tireur,\" L ..."
+     "text": "jstor.org - Wischenbart: When you're with your Palestinian friends, do you have the impression that they also see you as Jean Genet the writer? Genet: Certaintly not."
     }
    ]
   },
@@ -451,8 +482,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Genet's Palestinian Revolution",
-     "url": "https://www.thenation.com/article/archive/genets-palestinian-revolution/"
+     "text": "Palestine, Political Theatre & the Performance of Queer ...",
+     "url": "https://themarkaz.org/palestine-political-theatre-the-performance-of-queer-solidarity-in-jean-genets-prisoner-of-love/"
     }
    ]
   },
@@ -460,7 +491,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "thenation.com - His involvement with the Palestinians is the story of Prisoner of Love. But Genet did not, as it were, go home and start writing. Another ten ..."
+     "text": "themarkaz.org - In an early scene in Prisoner of Love, Genet recounts a post-colonial dance-off between the Jordanian Bedouin army and the Palestinian fedayeen, ..."
     }
    ]
   },
@@ -476,10 +507,30 @@
    ]
   },
   {
+   "type": "image",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Falafels_2.jpg/330px-Falafels_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Couldn't fetch a dish today (429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&prop=categories&titles=Hilopites&cllimit=max&clshow=%21hidden&format=json)"
+     "text": "Falafel"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "parts": [
+    {
+     "text": "Falafel is a deep-fried ball or patty-shaped fritter of Egyptian origin that features in Middle Eastern cuisine, particularly Levantine cuisines. It is made from ground fava beans, chickpeas, or both, and mixed with herbs and spices before frying."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "parts": [
+    {
+     "text": "https://en.wikipedia.org/wiki/Falafel"
     }
    ]
   }
