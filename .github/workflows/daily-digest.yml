@@ -37,6 +37,7 @@ jobs:
           NOTION_PAGE_ID: ${{ secrets.NOTION_PAGE_ID }}
           NOTION_USER_ID: ${{ secrets.NOTION_USER_ID }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          PODCAST_PRIVATE_FEEDS: ${{ secrets.PODCAST_PRIVATE_FEEDS }}
           SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}  # optional
 
         run: python daily_digest_generator.py
