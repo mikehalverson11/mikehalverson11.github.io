@@ -23,7 +23,7 @@ jobs:
         with:
           python-version: "3.12"
  
-      - run: pip install requests
+      - run: pip install requests selenium
  
       - name: Build digest
         env:
