@@ -1,11 +1,11 @@
 {
- "generated": "2026-10-26T08:37:21-04:00",
+ "generated": "2026-10-27T07:54:14-04:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Monday, October 26, 2026"
+     "text": "Daily digest for Tuesday, October 27, 2026"
     }
    ]
   },
@@ -24,7 +24,7 @@
    "type": "todo",
    "parts": [
     {
-     "text": "Set Fantasy Basketball Lineup"
+     "text": "Fantasy Football Waivers Day"
     }
    ]
   },
@@ -43,7 +43,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 48F (feels 43F), Clear"
+     "text": "Now: 47F (feels 41F), Clear"
     }
    ]
   },
@@ -51,7 +51,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Today: Overcast, high 67F / low 47F, 4% chance of precipitation, wind up to 8 mph"
+     "text": "Today: Overcast, high 66F / low 47F, 3% chance of precipitation, wind up to 11 mph"
     }
    ]
   },
@@ -67,18 +67,10 @@
    ]
   },
   {
-   "type": "bullet",
+   "type": "paragraph",
    "parts": [
     {
-     "text": "[NBA] Memphis Grizzlies 123 @ Sacramento Kings 112  (Final)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NFL] San Francisco 49ers 20 @ Atlanta Falcons 29  (Final)"
+     "text": "No games for your teams last night."
     }
    ]
   },
@@ -169,7 +161,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "S&P 500 (SPY): 759.97  ▼ -3.99 (-0.52%)"
+     "text": "S&P 500 (SPY): 765.37  ▲ +5.40 (+0.71%)"
     }
    ]
   },
@@ -177,7 +169,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Nasdaq 100 (QQQ): 704.40  ▼ -0.07 (-0.01%)"
+     "text": "Nasdaq 100 (QQQ): 712.20  ▲ +7.80 (+1.11%)"
     }
    ]
   },
@@ -185,7 +177,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Dow (DIA): 521.37  ▼ -6.52 (-1.24%)"
+     "text": "Dow (DIA): 522.97  ▲ +1.60 (+0.31%)"
     }
    ]
   },
@@ -201,7 +193,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "AAPL: 347.73  ▼ -0.49 (-0.14%)"
+     "text": "AAPL: 343.91  ▼ -3.81 (-1.10%)"
     }
    ]
   },
@@ -209,7 +201,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "VOO: 698.58  ▼ -3.72 (-0.53%)"
+     "text": "VOO: 703.41  ▲ +4.83 (+0.69%)"
     }
    ]
   },
@@ -217,7 +209,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "NVDA: 210.96  ▼ -1.25 (-0.59%)"
+     "text": "NVDA: 216.00  ▲ +5.04 (+2.39%)"
     }
    ]
   },
@@ -252,7 +244,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1774: American Revolution: The First Continental Congress adjourns in Philadelphia."
+     "text": "1775: King George III expands on his Proclamation of Rebellion in the Thirteen Colonies in his speech from the throne at the opening of Parliament."
     }
    ]
   },
@@ -260,7 +252,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1825: The Erie Canal opens, allowing direct passage from the Hudson River to Lake Erie."
+     "text": "1863: American Civil War: Union forces led by General William F. Smith defeat Confederate forces in the Battle of Brown's Ferry, opening up a supply line to the besieged city of Chattanooga, Tennessee."
     }
    ]
   },
@@ -268,7 +260,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1942: World War II: In the Battle of the Santa Cruz Islands during the Guadalcanal Campaign, one U.S. aircraft carrier is sunk and another carrier is heavily damaged, while two Japanese carriers and one cruiser are heavily damaged."
+     "text": "1962: By refusing to agree to the firing of a nuclear torpedo at a US warship, Vasily Arkhipov averts nuclear war."
     }
    ]
   },
@@ -385,10 +377,85 @@
    ]
   },
   {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "Pablo Torre Finds Out: "
+    },
+    {
+     "text": "We Polled 1,417 Americans About Sports, Politics and Everything in Between",
+     "url": "https://shows.acast.com/pablo-torre-finds-out/episodes/we-polled-1417-americans-about-sports-politics-and-everythin"
+    },
+    {
+     "text": "  (Tue Oct 27, 54 min)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "The Zach Lowe Show: "
+    },
+    {
+     "text": "The Fallout From Jalen Williams's Injury and a Breakdown of the Undefeated and Winless Teams!",
+     "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT9801933773.mp3"
+    },
+    {
+     "text": "  (Mon Oct 26, 94 min)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "Doomscroll: "
+    },
+    {
+     "text": "[PREVIEW] DS 57.5: Q&A",
+     "url": "https://www.patreon.com/joshuacitarella/posts/ds-57-5-q-172270987"
+    },
+    {
+     "text": "  (Mon Oct 26, 13 min)"
+    }
+   ]
+  },
+  {
    "type": "paragraph",
    "parts": [
     {
-     "text": "No new episodes in the last 3 days."
+     "text": "Members-only (Patreon / private feeds)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "Chapo Trap House: "
+    },
+    {
+     "text": "1083 - Voteball Internacional feat. Ryan Grim (10/26/26)",
+     "url": "https://www.patreon.com/chapotraphouse/posts/1083-voteball-10-173518366"
+    },
+    {
+     "text": "  (Tue Oct 27, 82 min)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "TrueAnon: "
+    },
+    {
+     "text": "Episode 587: Xanadu",
+     "url": "https://www.patreon.com/TrueAnonPod/posts/episode-587-173453294"
+    },
+    {
+     "text": "  (Mon Oct 26, 110 min)"
     }
    ]
   },
@@ -407,14 +474,37 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Ettingermentum Newsletter: "
+     "text": "Chasing Sundays: "
+    },
+    {
+     "text": "A peek behind Trending Raps: Instagram algos, death threats, paid promo, more",
+     "url": "https://www.elienis.com/trending-raps-interview-streaming-death-threats-paid-promo/"
+    },
+    {
+     "text": "  (Tue Oct 27) - A revealing interview with the tapped-in Instagram blog connecting the rap and indie undergrounds."
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "Ettingermentum: "
     },
     {
      "text": "The Official 2026 Democratic Campaigns Tier List, Part II",
      "url": "https://www.ettingermentum.news/p/the-official-2026-democratic-campaigns-eb6"
     },
     {
-     "text": "  (Sat Oct 24) - Rounding out our look at the biggest Democratic campaigns this year by crowning the best of the best."
+     "text": "  (Sat Oct 24) - [paid] Rounding out our look at the biggest Democratic campaigns this year by crowning the best of the best."
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "parts": [
+    {
+     "text": "(Loaded, nothing new: Late Review: latest Oct 03)"
     }
    ]
   },
@@ -482,8 +572,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Palestine, Political Theatre & the Performance of Queer ...",
-     "url": "https://themarkaz.org/palestine-political-theatre-the-performance-of-queer-solidarity-in-jean-genets-prisoner-of-love/"
+     "text": "Jean Genet on Palestine and the Panthers ABSTRACT",
+     "url": "https://philpapers.org/archive/HALRBJ.pdf"
     }
    ]
   },
@@ -491,7 +581,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "themarkaz.org - In an early scene in Prisoner of Love, Genet recounts a post-colonial dance-off between the Jordanian Bedouin army and the Palestinian fedayeen, ..."
+     "text": "philpapers.org - 9 “The central importance of Prisoner of Love,” Ongiri summarizes, “lies in its ability to celebrate the importance of the beliefs and ideals of ..."
     }
    ]
   },
@@ -508,13 +598,13 @@
   },
   {
    "type": "image",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Falafels_2.jpg/330px-Falafels_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/B%C3%A1nh_bao_b%C3%A1nh_v%E1%BA%A1c_-_hoi_an_%282024%29.jpg/960px-B%C3%A1nh_bao_b%C3%A1nh_v%E1%BA%A1c_-_hoi_an_%282024%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Falafel"
+     "text": "Bánh bao bánh vạc"
     }
    ]
   },
@@ -522,7 +612,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Falafel is a deep-fried ball or patty-shaped fritter of Egyptian origin that features in Middle Eastern cuisine, particularly Levantine cuisines. It is made from ground fava beans, chickpeas, or both, and mixed with herbs and spices before frying."
+     "text": "Bánh bao bánh vạc (also called white rose dumplings) are a regional specialty of Vietnamese cuisine unique to Hội An. The rice paper is translucent and wrapped to resemble a flower shape (the origin of the name \"white rose\"). It is said to be made with water from a certain well in Hội An, hence this dumpling is not found anywhere else. The filling is prepared with a mix of shrimp, mushrooms, bean sprouts and spring onions."
     }
    ]
   },
@@ -530,7 +620,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/Falafel"
+     "text": "https://en.wikipedia.org/wiki/B%C3%A1nh_bao_b%C3%A1nh_v%E1%BA%A1c  (Wikipedia, CC BY-SA)"
     }
    ]
   }
