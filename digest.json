@@ -1,30 +1,11 @@
 {
- "generated": "2026-10-27T07:54:14-04:00",
+ "generated": "2026-10-28T08:30:03-04:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Tuesday, October 27, 2026"
-    }
-   ]
-  },
-  {
-   "type": "divider"
-  },
-  {
-   "type": "heading",
-   "parts": [
-    {
-     "text": "Today's reminders"
-    }
-   ]
-  },
-  {
-   "type": "todo",
-   "parts": [
-    {
-     "text": "Fantasy Football Waivers Day"
+     "text": "Daily digest for Wednesday, October 28, 2026"
     }
    ]
   },
@@ -43,7 +24,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 47F (feels 41F), Clear"
+     "text": "Now: 53F (feels 47F), Mostly clear"
     }
    ]
   },
@@ -51,7 +32,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Today: Overcast, high 66F / low 47F, 3% chance of precipitation, wind up to 11 mph"
+     "text": "Today: Overcast, high 72F / low 52F, 3% chance of precipitation, wind up to 10 mph"
     }
    ]
   },
@@ -67,10 +48,18 @@
    ]
   },
   {
-   "type": "paragraph",
+   "type": "bullet",
    "parts": [
     {
-     "text": "No games for your teams last night."
+     "text": "[NBA] Sacramento Kings 103 @ San Antonio Spurs 130  (Final)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NHL] Buffalo Sabres 2 @ San Jose Sharks 0  (Final)"
     }
    ]
   },
@@ -79,22 +68,6 @@
    "parts": [
     {
      "text": "Coming up"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NBA] Sacramento Kings at San Antonio Spurs  - Tue Oct 27, 08:00 PM"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NHL] Buffalo Sabres at San Jose Sharks  - Tue Oct 27, 10:30 PM"
     }
    ]
   },
@@ -147,6 +120,22 @@
    ]
   },
   {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NBA] Los Angeles Lakers at Sacramento Kings  - Wed Nov 04, 10:00 PM"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NHL] San Jose Sharks at Los Angeles Kings  - Wed Nov 04, 10:00 PM"
+    }
+   ]
+  },
+  {
    "type": "divider"
   },
   {
@@ -161,7 +150,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "S&P 500 (SPY): 765.37  ▲ +5.40 (+0.71%)"
+     "text": "S&P 500 (SPY): 769.66  ▲ +4.29 (+0.56%)"
     }
    ]
   },
@@ -169,7 +158,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Nasdaq 100 (QQQ): 712.20  ▲ +7.80 (+1.11%)"
+     "text": "Nasdaq 100 (QQQ): 721.25  ▲ +9.05 (+1.27%)"
     }
    ]
   },
@@ -177,7 +166,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Dow (DIA): 522.97  ▲ +1.60 (+0.31%)"
+     "text": "Dow (DIA): 523.28  ▲ +0.31 (+0.06%)"
     }
    ]
   },
@@ -193,7 +182,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "AAPL: 343.91  ▼ -3.81 (-1.10%)"
+     "text": "AAPL: 347.10  ▲ +3.19 (+0.93%)"
     }
    ]
   },
@@ -201,7 +190,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "VOO: 703.41  ▲ +4.83 (+0.69%)"
+     "text": "VOO: 707.52  ▲ +4.11 (+0.58%)"
     }
    ]
   },
@@ -209,7 +198,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "NVDA: 216.00  ▲ +5.04 (+2.39%)"
+     "text": "NVDA: 217.94  ▲ +1.94 (+0.90%)"
     }
    ]
   },
@@ -244,7 +233,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1775: King George III expands on his Proclamation of Rebellion in the Thirteen Colonies in his speech from the throne at the opening of Parliament."
+     "text": "969: The Byzantine Empire recovers Antioch from Arab rule."
     }
    ]
   },
@@ -252,7 +241,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1863: American Civil War: Union forces led by General William F. Smith defeat Confederate forces in the Battle of Brown's Ferry, opening up a supply line to the besieged city of Chattanooga, Tennessee."
+     "text": "1516: Second Ottoman–Mamluk War: Mamluks fail to stop the Ottoman advance towards Egypt at the Battle of Yaunis Khan."
     }
    ]
   },
@@ -260,7 +249,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1962: By refusing to agree to the firing of a nuclear torpedo at a US warship, Vasily Arkhipov averts nuclear war."
+     "text": "2009: The 28 October 2009 Peshawar bombing kills 117 and wounds 213."
     }
    ]
   },
@@ -327,7 +316,7 @@
      "text": "2026-10-16  "
     },
     {
-     "text": "Dummy - do you love the color of the sky?",
+     "text": "Dummy - Do You Love the Color of the Sky?",
      "url": "https://musicbrainz.org/release-group/4946dcec-b799-4410-b91a-9d243cfa56fd"
     },
     {
@@ -486,25 +475,10 @@
    ]
   },
   {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "Ettingermentum: "
-    },
-    {
-     "text": "The Official 2026 Democratic Campaigns Tier List, Part II",
-     "url": "https://www.ettingermentum.news/p/the-official-2026-democratic-campaigns-eb6"
-    },
-    {
-     "text": "  (Sat Oct 24) - [paid] Rounding out our look at the biggest Democratic campaigns this year by crowning the best of the best."
-    }
-   ]
-  },
-  {
    "type": "paragraph",
    "parts": [
     {
-     "text": "(Loaded, nothing new: Late Review: latest Oct 03)"
+     "text": "(Loaded, nothing new: Late Review: latest Oct 03; Ettingermentum: latest Oct 24)"
     }
    ]
   },
@@ -547,8 +521,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Jean Genet: Affirmation of Existence Through Rebellion",
-     "url": "https://www.jstor.org/stable/2537088"
+     "text": "Genet and Europe",
+     "url": "https://www.jstor.org/stable/26287550"
     }
    ]
   },
@@ -556,7 +530,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "jstor.org - Wischenbart: When you're with your Palestinian friends, do you have the impression that they also see you as Jean Genet the writer? Genet: Certaintly not."
+     "text": "jstor.org - opening line of one of the rare essays he published in London. He came to the United States to campaign for the Black Panthers, ... of my biography, Jean Genet ( ..."
     }
    ]
   },
@@ -572,8 +546,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Jean Genet on Palestine and the Panthers ABSTRACT",
-     "url": "https://philpapers.org/archive/HALRBJ.pdf"
+     "text": "Entre Chien et Loup: On Jean Genet's Prisoner of Love | ebr",
+     "url": "https://electronicbookreview.com/publications/entre-chien-et-loup-on-jean-genets-prisoner-of-love/"
     }
    ]
   },
@@ -581,7 +555,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "philpapers.org - 9 “The central importance of Prisoner of Love,” Ongiri summarizes, “lies in its ability to celebrate the importance of the beliefs and ideals of ..."
+     "text": "electronicbookreview.com - Tim Keane reviews Genet's republished Prisoner of Love, a 'mirror-memoir' in which Genet sees Palestine from the inside in an attempt to see ..."
     }
    ]
   },
@@ -597,14 +571,10 @@
    ]
   },
   {
-   "type": "image",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/B%C3%A1nh_bao_b%C3%A1nh_v%E1%BA%A1c_-_hoi_an_%282024%29.jpg/960px-B%C3%A1nh_bao_b%C3%A1nh_v%E1%BA%A1c_-_hoi_an_%282024%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-  },
-  {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Bánh bao bánh vạc"
+     "text": "Kiszczonka"
     }
    ]
   },
@@ -612,7 +582,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Bánh bao bánh vạc (also called white rose dumplings) are a regional specialty of Vietnamese cuisine unique to Hội An. The rice paper is translucent and wrapped to resemble a flower shape (the origin of the name \"white rose\"). It is said to be made with water from a certain well in Hội An, hence this dumpling is not found anywhere else. The filling is prepared with a mix of shrimp, mushrooms, bean sprouts and spring onions."
+     "text": "Kiszczonka (Polish pronunciation: [kiʂˈtʂɔŋka]) is a traditional soup common in Poznań, known also in some other regions of Poland. It consists of water with cooked black pudding, flour, milk and spices."
     }
    ]
   },
@@ -620,7 +590,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/B%C3%A1nh_bao_b%C3%A1nh_v%E1%BA%A1c  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/Kiszczonka  (Wikipedia, CC BY-SA)"
     }
    ]
   }
