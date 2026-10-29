@@ -1,11 +1,38 @@
 {
- "generated": "2026-10-28T08:30:03-04:00",
+ "generated": "2026-10-29T08:41:00-04:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Wednesday, October 28, 2026"
+     "text": "Daily digest for Thursday, October 29, 2026"
+    }
+   ]
+  },
+  {
+   "type": "divider"
+  },
+  {
+   "type": "heading",
+   "parts": [
+    {
+     "text": "Today's reminders"
+    }
+   ]
+  },
+  {
+   "type": "todo",
+   "parts": [
+    {
+     "text": "Set Fantasy Football Lineup"
+    }
+   ]
+  },
+  {
+   "type": "todo",
+   "parts": [
+    {
+     "text": "Rec League Basketball"
     }
    ]
   },
@@ -24,7 +51,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 53F (feels 47F), Mostly clear"
+     "text": "Now: 55F (feels 49F), Clear"
     }
    ]
   },
@@ -32,7 +59,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Today: Overcast, high 72F / low 52F, 3% chance of precipitation, wind up to 10 mph"
+     "text": "Today: Overcast, high 75F / low 55F, 27% chance of precipitation, wind up to 14 mph"
     }
    ]
   },
@@ -48,18 +75,10 @@
    ]
   },
   {
-   "type": "bullet",
+   "type": "paragraph",
    "parts": [
     {
-     "text": "[NBA] Sacramento Kings 103 @ San Antonio Spurs 130  (Final)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NHL] Buffalo Sabres 2 @ San Jose Sharks 0  (Final)"
+     "text": "No games for your teams last night."
     }
    ]
   },
@@ -150,7 +169,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "S&P 500 (SPY): 769.66  ▲ +4.29 (+0.56%)"
+     "text": "S&P 500 (SPY): 772.31  ▲ +2.65 (+0.34%)"
     }
    ]
   },
@@ -158,7 +177,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Nasdaq 100 (QQQ): 721.25  ▲ +9.05 (+1.27%)"
+     "text": "Nasdaq 100 (QQQ): 725.61  ▲ +4.36 (+0.60%)"
     }
    ]
   },
@@ -166,7 +185,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Dow (DIA): 523.28  ▲ +0.31 (+0.06%)"
+     "text": "Dow (DIA): 524.68  ▲ +1.40 (+0.27%)"
     }
    ]
   },
@@ -182,7 +201,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "AAPL: 347.10  ▲ +3.19 (+0.93%)"
+     "text": "AAPL: 343.83  ▼ -3.27 (-0.94%)"
     }
    ]
   },
@@ -190,7 +209,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "VOO: 707.52  ▲ +4.11 (+0.58%)"
+     "text": "VOO: 709.90  ▲ +2.38 (+0.34%)"
     }
    ]
   },
@@ -198,7 +217,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "NVDA: 217.94  ▲ +1.94 (+0.90%)"
+     "text": "NVDA: 215.38  ▼ -2.56 (-1.17%)"
     }
    ]
   },
@@ -233,7 +252,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "969: The Byzantine Empire recovers Antioch from Arab rule."
+     "text": "1621: The London Pageant of 1621 celebrates the inauguration of Edward Barkham (Lord Mayor)."
     }
    ]
   },
@@ -241,7 +260,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1516: Second Ottoman–Mamluk War: Mamluks fail to stop the Ottoman advance towards Egypt at the Battle of Yaunis Khan."
+     "text": "2002: A fire destroys a luxurious department store in Ho Chi Minh City, where 1,500 people are shopping. More than 60 people die and over 100 are unaccounted for in the deadliest peacetime disaster in Vietnam."
     }
    ]
   },
@@ -249,7 +268,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "2009: The 28 October 2009 Peshawar bombing kills 117 and wounds 213."
+     "text": "2022: At least 156 die at a crowd crush during a Halloween celebration in Itaewon district, Seoul, South Korea."
     }
    ]
   },
@@ -340,21 +359,6 @@
    ]
   },
   {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "2026-10-14  "
-    },
-    {
-     "text": "American Football - Wake Her Up / Boys Don’t Cry",
-     "url": "https://musicbrainz.org/release-group/26247dff-b2ea-4090-88e0-c8f87dcaae8c"
-    },
-    {
-     "text": " (Single)"
-    }
-   ]
-  },
-  {
    "type": "divider"
   },
   {
@@ -372,11 +376,11 @@
      "text": "Pablo Torre Finds Out: "
     },
     {
-     "text": "We Polled 1,417 Americans About Sports, Politics and Everything in Between",
-     "url": "https://shows.acast.com/pablo-torre-finds-out/episodes/we-polled-1417-americans-about-sports-politics-and-everythin"
+     "text": "The Summit of Steves: Share & Doppelgänger & Tell (Halloween Edition) with Michael Cruz Kayne and Katie Nolan",
+     "url": "https://shows.acast.com/pablo-torre-finds-out/episodes/the-summit-of-steves-share-doppelganger-tell-halloween-editi"
     },
     {
-     "text": "  (Tue Oct 27, 54 min)"
+     "text": "  (Thu Oct 29, 41 min)"
     }
    ]
   },
@@ -396,21 +400,6 @@
    ]
   },
   {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "Doomscroll: "
-    },
-    {
-     "text": "[PREVIEW] DS 57.5: Q&A",
-     "url": "https://www.patreon.com/joshuacitarella/posts/ds-57-5-q-172270987"
-    },
-    {
-     "text": "  (Mon Oct 26, 13 min)"
-    }
-   ]
-  },
-  {
    "type": "paragraph",
    "parts": [
     {
@@ -425,11 +414,11 @@
      "text": "Chapo Trap House: "
     },
     {
-     "text": "1083 - Voteball Internacional feat. Ryan Grim (10/26/26)",
-     "url": "https://www.patreon.com/chapotraphouse/posts/1083-voteball-10-173518366"
+     "text": "MM50 - De Palma Double",
+     "url": "https://www.patreon.com/chapotraphouse/posts/mm50-de-palma-173705358"
     },
     {
-     "text": "  (Tue Oct 27, 82 min)"
+     "text": "  (Wed Oct 28, 137 min)"
     }
    ]
   },
@@ -521,8 +510,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Genet and Europe",
-     "url": "https://www.jstor.org/stable/26287550"
+     "text": "The Politics of Enmity",
+     "url": "https://www.jstor.org/stable/2930378"
     }
    ]
   },
@@ -530,7 +519,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "jstor.org - opening line of one of the rare essays he published in London. He came to the United States to campaign for the Black Panthers, ... of my biography, Jean Genet ( ..."
+     "text": "jstor.org - Concerning the relation between politics and perversion, see Jean-Michel. Rabat6's original analysis in his article \"Jean Genet, la position du franc-tireur,\" L ..."
     }
    ]
   },
@@ -546,8 +535,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Entre Chien et Loup: On Jean Genet's Prisoner of Love | ebr",
-     "url": "https://electronicbookreview.com/publications/entre-chien-et-loup-on-jean-genets-prisoner-of-love/"
+     "text": "Genet's “Prisoner of Love”: The Evolution of a Muslim Saint",
+     "url": "https://yalereview.org/article/edmund-white-genets-prisoner-of-love"
     }
    ]
   },
@@ -555,7 +544,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "electronicbookreview.com - Tim Keane reviews Genet's republished Prisoner of Love, a 'mirror-memoir' in which Genet sees Palestine from the inside in an attempt to see ..."
+     "text": "yalereview.org - As Clifford Geertz said in his review of Prisoner of Love, “Genet does not seem to think that one thing flows from another, cause after ..."
     }
    ]
   },
@@ -571,10 +560,14 @@
    ]
   },
   {
+   "type": "image",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Slonie_zradlo.jpg/960px-Slonie_zradlo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Kiszczonka"
+     "text": "Slonie žrádlo"
     }
    ]
   },
@@ -582,7 +575,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Kiszczonka (Polish pronunciation: [kiʂˈtʂɔŋka]) is a traditional soup common in Poznań, known also in some other regions of Poland. It consists of water with cooked black pudding, flour, milk and spices."
+     "text": "Slonie žrádlo (Slovak pronunciation: ['sloɲɪe 'ʐraːdlɔ], in Slovakia) or sloní žrádlo (Slovak pronunciation: ['sloɲɪː 'ʒraːdlo], in Czech Republic, literally \"elephant food\"), is a type of Czechoslovak spread or salad of unknown origin. The probable name origin is linked to its quantity \"as for elephants\" (ako pre slony). It is prepared with cooked mixture of vegetable oil, ketchup, mustard, soy sauce, Worcestershire sauce, salt and pepper which is mixed with parizer or ham, eggs, pickled cucumber, onions, we can also add corn, tomatoes, diced hard cheese, and pickled cucumber brine with mayonnaise.\nSlonie žrádlo is typically spread on a slice of veka, fresh bread and also on toasted old bread."
     }
    ]
   },
@@ -590,7 +583,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/Kiszczonka  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/Slonie_%C5%BEr%C3%A1dlo  (Wikipedia, CC BY-SA)"
     }
    ]
   }
