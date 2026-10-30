@@ -1,38 +1,11 @@
 {
- "generated": "2026-10-29T08:41:00-04:00",
+ "generated": "2026-10-30T08:51:14-04:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Thursday, October 29, 2026"
-    }
-   ]
-  },
-  {
-   "type": "divider"
-  },
-  {
-   "type": "heading",
-   "parts": [
-    {
-     "text": "Today's reminders"
-    }
-   ]
-  },
-  {
-   "type": "todo",
-   "parts": [
-    {
-     "text": "Set Fantasy Football Lineup"
-    }
-   ]
-  },
-  {
-   "type": "todo",
-   "parts": [
-    {
-     "text": "Rec League Basketball"
+     "text": "Daily digest for Friday, October 30, 2026"
     }
    ]
   },
@@ -51,7 +24,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 55F (feels 49F), Clear"
+     "text": "Now: 50F (feels 48F), Clear"
     }
    ]
   },
@@ -59,7 +32,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Today: Overcast, high 75F / low 55F, 27% chance of precipitation, wind up to 14 mph"
+     "text": "Today: Overcast, high 66F / low 47F, 19% chance of precipitation, wind up to 10 mph"
     }
    ]
   },
@@ -75,10 +48,18 @@
    ]
   },
   {
-   "type": "paragraph",
+   "type": "bullet",
    "parts": [
     {
-     "text": "No games for your teams last night."
+     "text": "[NBA] Sacramento Kings 120 @ New Orleans Pelicans 132  (Final)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NHL] Vancouver Canucks 2 @ San Jose Sharks 3  (Final)"
     }
    ]
   },
@@ -87,22 +68,6 @@
    "parts": [
     {
      "text": "Coming up"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NBA] Sacramento Kings at New Orleans Pelicans  - Thu Oct 29, 08:00 PM"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NHL] Vancouver Canucks at San Jose Sharks  - Thu Oct 29, 10:00 PM"
     }
    ]
   },
@@ -155,6 +120,22 @@
    ]
   },
   {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NHL] San Jose Sharks at Minnesota Wild  - Fri Nov 06, 08:00 PM"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NBA] San Antonio Spurs at Sacramento Kings  - Fri Nov 06, 10:00 PM"
+    }
+   ]
+  },
+  {
    "type": "divider"
   },
   {
@@ -169,7 +150,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "S&P 500 (SPY): 772.31  ▲ +2.65 (+0.34%)"
+     "text": "S&P 500 (SPY): 769.36  ▼ -2.95 (-0.38%)"
     }
    ]
   },
@@ -177,7 +158,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Nasdaq 100 (QQQ): 725.61  ▲ +4.36 (+0.60%)"
+     "text": "Nasdaq 100 (QQQ): 715.34  ▼ -10.27 (-1.42%)"
     }
    ]
   },
@@ -185,7 +166,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Dow (DIA): 524.68  ▲ +1.40 (+0.27%)"
+     "text": "Dow (DIA): 522.73  ▼ -1.95 (-0.37%)"
     }
    ]
   },
@@ -201,7 +182,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "AAPL: 343.83  ▼ -3.27 (-0.94%)"
+     "text": "AAPL: 348.91  ▲ +5.08 (+1.48%)"
     }
    ]
   },
@@ -209,7 +190,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "VOO: 709.90  ▲ +2.38 (+0.34%)"
+     "text": "VOO: 707.32  ▼ -2.58 (-0.36%)"
     }
    ]
   },
@@ -217,7 +198,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "NVDA: 215.38  ▼ -2.56 (-1.17%)"
+     "text": "NVDA: 213.66  ▼ -1.72 (-0.80%)"
     }
    ]
   },
@@ -252,7 +233,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1621: The London Pageant of 1621 celebrates the inauguration of Edward Barkham (Lord Mayor)."
+     "text": "1920: The Communist Party of Australia is founded in Sydney."
     }
    ]
   },
@@ -260,7 +241,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "2002: A fire destroys a luxurious department store in Ho Chi Minh City, where 1,500 people are shopping. More than 60 people die and over 100 are unaccounted for in the deadliest peacetime disaster in Vietnam."
+     "text": "1995: Quebec citizens narrowly vote (50.58% to 49.42%) in favour of remaining a province of Canada in their second referendum on national sovereignty."
     }
    ]
   },
@@ -268,7 +249,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "2022: At least 156 die at a crowd crush during a Halloween celebration in Itaewon district, Seoul, South Korea."
+     "text": "2014: Four people are killed when a Beechcraft Super King Air crashes at Wichita Dwight D. Eisenhower National Airport in Wichita, Kansas."
     }
    ]
   },
@@ -294,7 +275,7 @@
      "url": "https://musicbrainz.org/release-group/d09aae91-0550-4ee7-a8d1-96423970a5f9"
     },
     {
-     "text": " (Album, out 2026-10-30)"
+     "text": " (Album)"
     }
    ]
   },
@@ -373,14 +354,29 @@
    "type": "bullet",
    "parts": [
     {
+     "text": "Ones and Tooze: "
+    },
+    {
+     "text": "France and Serbia",
+     "url": "https://mgln.ai/e/211/traffic.megaphone.fm/FGP6864164606.mp3"
+    },
+    {
+     "text": "  (Fri Oct 30, 58 min)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
      "text": "Pablo Torre Finds Out: "
     },
     {
-     "text": "The Summit of Steves: Share & Doppelgänger & Tell (Halloween Edition) with Michael Cruz Kayne and Katie Nolan",
-     "url": "https://shows.acast.com/pablo-torre-finds-out/episodes/the-summit-of-steves-share-doppelganger-tell-halloween-editi"
+     "text": "The Unforced Errors of Vivek Ramaswamy",
+     "url": "https://shows.acast.com/pablo-torre-finds-out/episodes/the-unforced-errors-of-vivek-ramaswamy"
     },
     {
-     "text": "  (Thu Oct 29, 41 min)"
+     "text": "  (Fri Oct 30, 42 min)"
     }
    ]
   },
@@ -391,11 +387,11 @@
      "text": "The Zach Lowe Show: "
     },
     {
-     "text": "The Fallout From Jalen Williams's Injury and a Breakdown of the Undefeated and Winless Teams!",
-     "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT9801933773.mp3"
+     "text": "The NBA’s Injury Epidemic, Rookie Review, and Ty Jerome on the Grizzlies!",
+     "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT7057852709.mp3"
     },
     {
-     "text": "  (Mon Oct 26, 94 min)"
+     "text": "  (Thu Oct 29, 104 min)"
     }
    ]
   },
@@ -414,26 +410,11 @@
      "text": "Chapo Trap House: "
     },
     {
-     "text": "MM50 - De Palma Double",
-     "url": "https://www.patreon.com/chapotraphouse/posts/mm50-de-palma-173705358"
+     "text": "1084 - Voteball II: Serbia Rising feat. The Empire Never Ended (10/29/26)",
+     "url": "https://www.patreon.com/chapotraphouse/posts/1084-voteball-ii-173813181"
     },
     {
-     "text": "  (Wed Oct 28, 137 min)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "TrueAnon: "
-    },
-    {
-     "text": "Episode 587: Xanadu",
-     "url": "https://www.patreon.com/TrueAnonPod/posts/episode-587-173453294"
-    },
-    {
-     "text": "  (Mon Oct 26, 110 min)"
+     "text": "  (Thu Oct 29, 62 min)"
     }
    ]
   },
@@ -455,11 +436,26 @@
      "text": "Chasing Sundays: "
     },
     {
-     "text": "A peek behind Trending Raps: Instagram algos, death threats, paid promo, more",
-     "url": "https://www.elienis.com/trending-raps-interview-streaming-death-threats-paid-promo/"
+     "text": "Chasing Fridays: Worldpeace DMT, Panchiko, Seven Blair Angels Q&A, more",
+     "url": "https://www.elienis.com/chasing-fridays-worldpeace-dmt-panchiko-seven-blair-angels-interview/"
     },
     {
-     "text": "  (Tue Oct 27) - A revealing interview with the tapped-in Instagram blog connecting the rap and indie undergrounds."
+     "text": "  (Fri Oct 30) - Kicking off a new era of Chasing Sundays with all the hits: some praise, some pans, and a profile of who's next."
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "Late Review: "
+    },
+    {
+     "text": "self-other-seeing-fucking",
+     "url": "https://www.late-review.com/p/self-other-fucking"
+    },
+    {
+     "text": "  (Thu Oct 29) - personal reflections on egon schiele"
     }
    ]
   },
@@ -467,7 +463,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "(Loaded, nothing new: Late Review: latest Oct 03; Ettingermentum: latest Oct 24)"
+     "text": "(Loaded, nothing new: Ettingermentum: latest Oct 24)"
     }
    ]
   },
@@ -510,8 +506,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "The Politics of Enmity",
-     "url": "https://www.jstor.org/stable/2930378"
+     "text": "Jean Genet: Affirmation of Existence Through Rebellion",
+     "url": "https://www.jstor.org/stable/2537088"
     }
    ]
   },
@@ -519,7 +515,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "jstor.org - Concerning the relation between politics and perversion, see Jean-Michel. Rabat6's original analysis in his article \"Jean Genet, la position du franc-tireur,\" L ..."
+     "text": "jstor.org - Wischenbart: When you're with your Palestinian friends, do you have the impression that they also see you as Jean Genet the writer? Genet: Certaintly not."
     }
    ]
   },
@@ -535,8 +531,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Genet's “Prisoner of Love”: The Evolution of a Muslim Saint",
-     "url": "https://yalereview.org/article/edmund-white-genets-prisoner-of-love"
+     "text": "Jean Genet on Palestine and the Panthers ABSTRACT",
+     "url": "https://philarchive.org/archive/HALRBJ"
     }
    ]
   },
@@ -544,7 +540,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "yalereview.org - As Clifford Geertz said in his review of Prisoner of Love, “Genet does not seem to think that one thing flows from another, cause after ..."
+     "text": "philarchive.org - 9 “The central importance of Prisoner of Love,” Ongiri summarizes, “lies in its ability to celebrate the importance of the beliefs and ideals of the Fedayeen ..."
     }
    ]
   },
@@ -560,14 +556,10 @@
    ]
   },
   {
-   "type": "image",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Slonie_zradlo.jpg/960px-Slonie_zradlo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-  },
-  {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Slonie žrádlo"
+     "text": "Lokshen mit kaese"
     }
    ]
   },
@@ -575,7 +567,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Slonie žrádlo (Slovak pronunciation: ['sloɲɪe 'ʐraːdlɔ], in Slovakia) or sloní žrádlo (Slovak pronunciation: ['sloɲɪː 'ʒraːdlo], in Czech Republic, literally \"elephant food\"), is a type of Czechoslovak spread or salad of unknown origin. The probable name origin is linked to its quantity \"as for elephants\" (ako pre slony). It is prepared with cooked mixture of vegetable oil, ketchup, mustard, soy sauce, Worcestershire sauce, salt and pepper which is mixed with parizer or ham, eggs, pickled cucumber, onions, we can also add corn, tomatoes, diced hard cheese, and pickled cucumber brine with mayonnaise.\nSlonie žrádlo is typically spread on a slice of veka, fresh bread and also on toasted old bread."
+     "text": "Lokshen mit kaese (in Yiddish: Lokshn mit kez לאָקשן מיט קעז, Makaronen mit kez מאקאראָנען מיט קעז, or Mak-mit-Kez מאק־מיט־קעז; in Hebrew: itriyot ve gvinah איטריות וגבינה), also known as lokshen with cheese or Jewish mac and cheese, is an Ashkenazi Jewish dish popular in the Jewish diaspora, particularly in the United States. It consists of lokshen (or Jewish egg noodles) that are served with a cheese sauce — typically made with cottage cheese and black pepper (sometimes farmers cheese may be used in place of the cottage cheese) — and sour cream. Butter, caramelized onions, garlic, tomatoes, mint, currants, parmesan, and other ingredients may be added depending on the region and season. Sometimes a sweet variety is made with cinnamon sugar."
     }
    ]
   },
@@ -583,7 +575,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/Slonie_%C5%BEr%C3%A1dlo  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/Lokshen_mit_kaese  (Wikipedia, CC BY-SA)"
     }
    ]
   }
