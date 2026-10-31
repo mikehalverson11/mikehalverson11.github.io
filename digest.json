@@ -1,11 +1,11 @@
 {
- "generated": "2026-10-30T08:51:14-04:00",
+ "generated": "2026-10-31T11:07:43-04:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Friday, October 30, 2026"
+     "text": "Daily digest for Saturday, October 31, 2026"
     }
    ]
   },
@@ -24,7 +24,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 50F (feels 48F), Clear"
+     "text": "Now: 50F (feels 44F), Overcast"
     }
    ]
   },
@@ -32,7 +32,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Today: Overcast, high 66F / low 47F, 19% chance of precipitation, wind up to 10 mph"
+     "text": "Today: Overcast, high 60F / low 43F, 5% chance of precipitation, wind up to 10 mph"
     }
    ]
   },
@@ -48,18 +48,10 @@
    ]
   },
   {
-   "type": "bullet",
+   "type": "paragraph",
    "parts": [
     {
-     "text": "[NBA] Sacramento Kings 120 @ New Orleans Pelicans 132  (Final)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NHL] Vancouver Canucks 2 @ San Jose Sharks 3  (Final)"
+     "text": "No games for your teams last night."
     }
    ]
   },
@@ -136,6 +128,14 @@
    ]
   },
   {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NHL] San Jose Sharks at Dallas Stars  - Sat Nov 07, 08:00 PM"
+    }
+   ]
+  },
+  {
    "type": "divider"
   },
   {
@@ -150,7 +150,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "S&P 500 (SPY): 769.36  ▼ -2.95 (-0.38%)"
+     "text": "S&P 500 (SPY): 755.72  ▼ -13.64 (-1.77%)"
     }
    ]
   },
@@ -158,7 +158,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Nasdaq 100 (QQQ): 715.34  ▼ -10.27 (-1.42%)"
+     "text": "Nasdaq 100 (QQQ): 690.49  ▼ -24.85 (-3.47%)"
     }
    ]
   },
@@ -166,7 +166,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Dow (DIA): 522.73  ▼ -1.95 (-0.37%)"
+     "text": "Dow (DIA): 517.13  ▼ -5.60 (-1.07%)"
     }
    ]
   },
@@ -182,7 +182,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "AAPL: 348.91  ▲ +5.08 (+1.48%)"
+     "text": "AAPL: 344.63  ▼ -4.28 (-1.23%)"
     }
    ]
   },
@@ -190,7 +190,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "VOO: 707.32  ▼ -2.58 (-0.36%)"
+     "text": "VOO: 694.81  ▼ -12.51 (-1.77%)"
     }
    ]
   },
@@ -198,7 +198,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "NVDA: 213.66  ▼ -1.72 (-0.80%)"
+     "text": "NVDA: 204.64  ▼ -9.02 (-4.22%)"
     }
    ]
   },
@@ -233,7 +233,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1920: The Communist Party of Australia is founded in Sydney."
+     "text": "802: Empress Irene is deposed and banished to Lesbos. Conspirators place Nikephoros, the minister of finance, on the Byzantine throne."
     }
    ]
   },
@@ -241,7 +241,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1995: Quebec citizens narrowly vote (50.58% to 49.42%) in favour of remaining a province of Canada in their second referendum on national sovereignty."
+     "text": "1702: Anglo-Dutch forces, under the Duke of Marlborough and Earl of Athlone, capture Liège during the War of the Spanish Succession."
     }
    ]
   },
@@ -249,7 +249,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "2014: Four people are killed when a Beechcraft Super King Air crashes at Wichita Dwight D. Eisenhower National Airport in Wichita, Kansas."
+     "text": "1996: TAM Transportes Aéreos Regionais Flight 402 crashes in São Paulo, Brazil, killing 99 people."
     }
    ]
   },
@@ -310,32 +310,10 @@
    ]
   },
   {
-   "type": "bullet",
+   "type": "paragraph",
    "parts": [
     {
-     "text": "2026-10-16  "
-    },
-    {
-     "text": "Dummy - Do You Love the Color of the Sky?",
-     "url": "https://musicbrainz.org/release-group/4946dcec-b799-4410-b91a-9d243cfa56fd"
-    },
-    {
-     "text": " (Album)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "2026-10-16  "
-    },
-    {
-     "text": "Nobuyuki Tsujii & Ryuichi Sakamoto - Sakamoto: Merry Christmas Mr. Lawrence",
-     "url": "https://musicbrainz.org/release-group/04b861f0-d295-4fcb-9201-c3771e1d7701"
-    },
-    {
-     "text": " (Single)"
+     "text": "(1 lower-ranked artists skipped; couldn't be matched without a slow lookup.)"
     }
    ]
   },
@@ -448,7 +426,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Late Review: "
+     "text": "the late review: "
     },
     {
      "text": "self-other-seeing-fucking",
@@ -463,7 +441,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "(Loaded, nothing new: Ettingermentum: latest Oct 24)"
+     "text": "(Loaded, nothing new: Ettingermentum Newsletter: latest Oct 24)"
     }
    ]
   },
@@ -506,8 +484,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Jean Genet: Affirmation of Existence Through Rebellion",
-     "url": "https://www.jstor.org/stable/2537088"
+     "text": "Cultural Critique",
+     "url": "https://www.jstor.org/stable/10.5749/culturalcritique.112.2021.0095"
     }
    ]
   },
@@ -515,7 +493,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "jstor.org - Wischenbart: When you're with your Palestinian friends, do you have the impression that they also see you as Jean Genet the writer? Genet: Certaintly not."
+     "text": "jstor.org - Jean Genet was born in Paris on December 19, 1910, but as a ward of assistance publique, he knew nothing about his background until, at the age of twenty- one, ..."
     }
    ]
   },
@@ -531,8 +509,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Jean Genet on Palestine and the Panthers ABSTRACT",
-     "url": "https://philarchive.org/archive/HALRBJ"
+     "text": "Genet's “Prisoner of Love”: The Evolution of a Muslim Saint",
+     "url": "https://yalereview.org/article/edmund-white-genets-prisoner-of-love"
     }
    ]
   },
@@ -540,7 +518,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "philarchive.org - 9 “The central importance of Prisoner of Love,” Ongiri summarizes, “lies in its ability to celebrate the importance of the beliefs and ideals of the Fedayeen ..."
+     "text": "yalereview.org - As Clifford Geertz said in his review of Prisoner of Love, “Genet does not seem to think that one thing flows from another, cause after ..."
     }
    ]
   },
@@ -556,10 +534,14 @@
    ]
   },
   {
+   "type": "image",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/MaLaTang.JPG/960px-MaLaTang.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Lokshen mit kaese"
+     "text": "Malatang"
     }
    ]
   },
@@ -567,7 +549,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Lokshen mit kaese (in Yiddish: Lokshn mit kez לאָקשן מיט קעז, Makaronen mit kez מאקאראָנען מיט קעז, or Mak-mit-Kez מאק־מיט־קעז; in Hebrew: itriyot ve gvinah איטריות וגבינה), also known as lokshen with cheese or Jewish mac and cheese, is an Ashkenazi Jewish dish popular in the Jewish diaspora, particularly in the United States. It consists of lokshen (or Jewish egg noodles) that are served with a cheese sauce — typically made with cottage cheese and black pepper (sometimes farmers cheese may be used in place of the cottage cheese) — and sour cream. Butter, caramelized onions, garlic, tomatoes, mint, currants, parmesan, and other ingredients may be added depending on the region and season. Sometimes a sweet variety is made with cinnamon sugar."
+     "text": "Malatang (traditional Chinese: 麻辣燙; simplified Chinese: 麻辣烫; pinyin: málàtàng; lit. 'numb spicy hot') is a Sichuan street food in which skewered or self-selected meats, vegetables, and noodles simmer briefly in a numbing broth seasoned with Sichuan pepper and dried chili. The dish developed among boat trackers along the Yangtze River near Sichuan, where workers cooked herbs with peppercorns and ginger to counter the damp and sultry climate. \nStreet vendors adapted the communal pot for urban stalls, and by the mid-2010s malatang shops across northern China invited customers to assemble bowls that are priced by weight after a quick boil."
     }
    ]
   },
@@ -575,7 +557,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/Lokshen_mit_kaese  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/Malatang  (Wikipedia, CC BY-SA)"
     }
    ]
   }
