@@ -1,11 +1,38 @@
 {
- "generated": "2026-10-31T11:07:43-04:00",
+ "generated": "2026-11-01T07:58:59-05:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Saturday, October 31, 2026"
+     "text": "Daily digest for Sunday, November 01, 2026"
+    }
+   ]
+  },
+  {
+   "type": "divider"
+  },
+  {
+   "type": "heading",
+   "parts": [
+    {
+     "text": "Today's reminders"
+    }
+   ]
+  },
+  {
+   "type": "todo",
+   "parts": [
+    {
+     "text": "Set Fantasy Football Lineup"
+    }
+   ]
+  },
+  {
+   "type": "todo",
+   "parts": [
+    {
+     "text": "Pay Rent"
     }
    ]
   },
@@ -24,7 +51,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 50F (feels 44F), Overcast"
+     "text": "Now: 52F (feels 42F), Overcast"
     }
    ]
   },
@@ -32,7 +59,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Today: Overcast, high 60F / low 43F, 5% chance of precipitation, wind up to 10 mph"
+     "text": "Today: Overcast, high 66F / low 50F, 14% chance of precipitation, wind up to 15 mph"
     }
    ]
   },
@@ -48,10 +75,18 @@
    ]
   },
   {
-   "type": "paragraph",
+   "type": "bullet",
    "parts": [
     {
-     "text": "No games for your teams last night."
+     "text": "[NBA] Sacramento Kings 105 @ Memphis Grizzlies 136  (Final)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NHL] Ottawa Senators 5 @ San Jose Sharks 1  (Final)"
     }
    ]
   },
@@ -60,22 +95,6 @@
    "parts": [
     {
      "text": "Coming up"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NHL] Ottawa Senators at San Jose Sharks  - Sat Oct 31, 04:00 PM"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NBA] Sacramento Kings at Memphis Grizzlies  - Sat Oct 31, 08:00 PM"
     }
    ]
   },
@@ -132,6 +151,22 @@
    "parts": [
     {
      "text": "[NHL] San Jose Sharks at Dallas Stars  - Sat Nov 07, 08:00 PM"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NFL] Las Vegas Raiders at San Francisco 49ers  - Sun Nov 08, 04:25 PM"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NBA] Miami Heat at Sacramento Kings  - Sun Nov 08, 09:00 PM"
     }
    ]
   },
@@ -233,7 +268,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "802: Empress Irene is deposed and banished to Lesbos. Conspirators place Nikephoros, the minister of finance, on the Byzantine throne."
+     "text": "1941: American photographer Ansel Adams takes a picture of a moonrise over the town of Hernandez, New Mexico that would become one of the most famous images in the history of photography."
     }
    ]
   },
@@ -241,7 +276,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1702: Anglo-Dutch forces, under the Duke of Marlborough and Earl of Athlone, capture Liège during the War of the Spanish Succession."
+     "text": "1982: Honda becomes the first Asian automobile company to produce cars in the United States with the opening of its factory in Marysville, Ohio; a Honda Accord is the first car produced there."
     }
    ]
   },
@@ -249,7 +284,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1996: TAM Transportes Aéreos Regionais Flight 402 crashes in São Paulo, Brazil, killing 99 people."
+     "text": "2004: A suicide bombing at the Carmel Market in Tel Aviv kills three people and injures 50."
     }
    ]
   },
@@ -306,14 +341,6 @@
     },
     {
      "text": " (Single)"
-    }
-   ]
-  },
-  {
-   "type": "paragraph",
-   "parts": [
-    {
-     "text": "(1 lower-ranked artists skipped; couldn't be matched without a slow lookup.)"
     }
    ]
   },
@@ -411,6 +438,21 @@
    "type": "bullet",
    "parts": [
     {
+     "text": "Ettingermentum Newsletter: "
+    },
+    {
+     "text": "The Official 2026 Republican Campaign Tier List",
+     "url": "https://www.ettingermentum.news/p/the-official-2026-republican-campaign"
+    },
+    {
+     "text": "  (Sat Oct 31) - Evaluating the best and the worst of yet another GOP midterm disaster class."
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
      "text": "Chasing Sundays: "
     },
     {
@@ -434,14 +476,6 @@
     },
     {
      "text": "  (Thu Oct 29) - personal reflections on egon schiele"
-    }
-   ]
-  },
-  {
-   "type": "paragraph",
-   "parts": [
-    {
-     "text": "(Loaded, nothing new: Ettingermentum Newsletter: latest Oct 24)"
     }
    ]
   },
@@ -509,8 +543,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Genet's “Prisoner of Love”: The Evolution of a Muslim Saint",
-     "url": "https://yalereview.org/article/edmund-white-genets-prisoner-of-love"
+     "text": "Genet's Palestinian Revolution",
+     "url": "https://www.google.com/goto?url=CAESgwEB6zswFSUSy2PfFiwG5Scsd-hLIHj3ASl7AoiPAOn5jCVCHUYj-pC_VFyz6MqML2mf5srl6-vRo5f9UQ3fTvJSFhH0jVN1tPcCbajShOjhNBLLz_w-bui-YDv5MvDf7_sufK7660ge7FBTbk-geRZCJ_svDNcZXIt3TxDMCCdAVvUH5g"
     }
    ]
   },
@@ -518,7 +552,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "yalereview.org - As Clifford Geertz said in his review of Prisoner of Love, “Genet does not seem to think that one thing flows from another, cause after ..."
+     "text": "google.com - His involvement with the Palestinians is the story of Prisoner of Love. But Genet did not, as it were, go home and start writing. Another ten ..."
     }
    ]
   },
@@ -535,13 +569,13 @@
   },
   {
    "type": "image",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/MaLaTang.JPG/960px-MaLaTang.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Bacon%2C_egg%2C_and_cheese_on_bread.jpg/960px-Bacon%2C_egg%2C_and_cheese_on_bread.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Malatang"
+     "text": "Bacon, egg and cheese sandwich"
     }
    ]
   },
@@ -549,7 +583,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Malatang (traditional Chinese: 麻辣燙; simplified Chinese: 麻辣烫; pinyin: málàtàng; lit. 'numb spicy hot') is a Sichuan street food in which skewered or self-selected meats, vegetables, and noodles simmer briefly in a numbing broth seasoned with Sichuan pepper and dried chili. The dish developed among boat trackers along the Yangtze River near Sichuan, where workers cooked herbs with peppercorns and ginger to counter the damp and sultry climate. \nStreet vendors adapted the communal pot for urban stalls, and by the mid-2010s malatang shops across northern China invited customers to assemble bowls that are priced by weight after a quick boil."
+     "text": "A bacon, egg, and cheese sandwich (BEC), also known as a baconeggandcheese, is a breakfast sandwich made with bacon, eggs (most often fried or scrambled), cheese and bread. It is popular in the United States and Canada."
     }
    ]
   },
@@ -557,7 +591,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/Malatang  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/Bacon,_egg_and_cheese_sandwich  (Wikipedia, CC BY-SA)"
     }
    ]
   }
