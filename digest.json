@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-01T07:58:59-05:00",
+ "generated": "2026-11-02T10:20:18-05:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Sunday, November 01, 2026"
+     "text": "Daily digest for Monday, November 02, 2026"
     }
    ]
   },
@@ -24,7 +24,7 @@
    "type": "todo",
    "parts": [
     {
-     "text": "Set Fantasy Football Lineup"
+     "text": "Set Fantasy Basketball Lineup"
     }
    ]
   },
@@ -51,7 +51,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 52F (feels 42F), Overcast"
+     "text": "Now: 65F (feels 60F), Overcast"
     }
    ]
   },
@@ -59,7 +59,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Today: Overcast, high 66F / low 50F, 14% chance of precipitation, wind up to 15 mph"
+     "text": "Today: Drizzle, high 65F / low 55F, 15% chance of precipitation, wind up to 14 mph"
     }
    ]
   },
@@ -75,18 +75,10 @@
    ]
   },
   {
-   "type": "bullet",
+   "type": "paragraph",
    "parts": [
     {
-     "text": "[NBA] Sacramento Kings 105 @ Memphis Grizzlies 136  (Final)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NHL] Ottawa Senators 5 @ San Jose Sharks 1  (Final)"
+     "text": "No games for your teams last night."
     }
    ]
   },
@@ -171,6 +163,14 @@
    ]
   },
   {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NHL] New York Islanders at San Jose Sharks  - Mon Nov 09, 10:00 PM"
+    }
+   ]
+  },
+  {
    "type": "divider"
   },
   {
@@ -185,7 +185,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "S&P 500 (SPY): 755.72  ▼ -13.64 (-1.77%)"
+     "text": "S&P 500 (SPY): 762.35  ▲ +6.63 (+0.88%)"
     }
    ]
   },
@@ -193,7 +193,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Nasdaq 100 (QQQ): 690.49  ▼ -24.85 (-3.47%)"
+     "text": "Nasdaq 100 (QQQ): 697.22  ▲ +6.73 (+0.97%)"
     }
    ]
   },
@@ -201,7 +201,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Dow (DIA): 517.13  ▼ -5.60 (-1.07%)"
+     "text": "Dow (DIA): 523.00  ▲ +5.87 (+1.14%)"
     }
    ]
   },
@@ -217,7 +217,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "AAPL: 344.63  ▼ -4.28 (-1.23%)"
+     "text": "AAPL: 341.13  ▼ -3.50 (-1.02%)"
     }
    ]
   },
@@ -225,7 +225,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "VOO: 694.81  ▼ -12.51 (-1.77%)"
+     "text": "VOO: 700.82  ▲ +6.01 (+0.86%)"
     }
    ]
   },
@@ -233,23 +233,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "NVDA: 204.64  ▼ -9.02 (-4.22%)"
-    }
-   ]
-  },
-  {
-   "type": "paragraph",
-   "parts": [
-    {
-     "text": "Upcoming earnings"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "AAPL reports 2026-11-02"
+     "text": "NVDA: 208.97  ▲ +4.33 (+2.12%)"
     }
    ]
   },
@@ -268,7 +252,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1941: American photographer Ansel Adams takes a picture of a moonrise over the town of Hernandez, New Mexico that would become one of the most famous images in the history of photography."
+     "text": "1959: The first section of the M1 motorway, the first inter-urban motorway in the United Kingdom, is opened between the present junctions 5 and 18, along with the M10 motorway and M45 motorway."
     }
    ]
   },
@@ -276,7 +260,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1982: Honda becomes the first Asian automobile company to produce cars in the United States with the opening of its factory in Marysville, Ohio; a Honda Accord is the first car produced there."
+     "text": "1988: The Morris worm, the first Internet-distributed computer worm to gain significant mainstream media attention, is launched from MIT."
     }
    ]
   },
@@ -284,7 +268,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "2004: A suicide bombing at the Carmel Market in Tel Aviv kills three people and injures 50."
+     "text": "1997: Tropical Storm Linda makes landfall in the Mekong Delta in Vietnam, causing more than 3,000 deaths."
     }
    ]
   },
@@ -359,44 +343,14 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Ones and Tooze: "
+     "text": "Doomscroll: "
     },
     {
-     "text": "France and Serbia",
-     "url": "https://mgln.ai/e/211/traffic.megaphone.fm/FGP6864164606.mp3"
+     "text": "DS 58: Adolph Reed",
+     "url": "https://www.patreon.com/joshuacitarella/posts/ds-58-adolph-173569757"
     },
     {
-     "text": "  (Fri Oct 30, 58 min)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "Pablo Torre Finds Out: "
-    },
-    {
-     "text": "The Unforced Errors of Vivek Ramaswamy",
-     "url": "https://shows.acast.com/pablo-torre-finds-out/episodes/the-unforced-errors-of-vivek-ramaswamy"
-    },
-    {
-     "text": "  (Fri Oct 30, 42 min)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "The Zach Lowe Show: "
-    },
-    {
-     "text": "The NBA’s Injury Epidemic, Rookie Review, and Ty Jerome on the Grizzlies!",
-     "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT7057852709.mp3"
-    },
-    {
-     "text": "  (Thu Oct 29, 104 min)"
+     "text": "  (Mon Nov 02, 182 min)"
     }
    ]
   },
@@ -412,14 +366,14 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Chapo Trap House: "
+     "text": "TrueAnon: "
     },
     {
-     "text": "1084 - Voteball II: Serbia Rising feat. The Empire Never Ended (10/29/26)",
-     "url": "https://www.patreon.com/chapotraphouse/posts/1084-voteball-ii-173813181"
+     "text": "Episode 588: Porco Sessuale: Paolo Zampolli (Part 1)",
+     "url": "https://www.patreon.com/TrueAnonPod/posts/episode-588-part-174169763"
     },
     {
-     "text": "  (Thu Oct 29, 62 min)"
+     "text": "  (Mon Nov 02, 116 min)"
     }
    ]
   },
@@ -441,41 +395,19 @@
      "text": "Ettingermentum Newsletter: "
     },
     {
-     "text": "The Official 2026 Republican Campaign Tier List",
-     "url": "https://www.ettingermentum.news/p/the-official-2026-republican-campaign"
+     "text": "2028 Democratic Presidential Power Rankings: Pre-Midterms Edition",
+     "url": "https://www.ettingermentum.news/p/2028-democratic-presidential-power-018"
     },
     {
-     "text": "  (Sat Oct 31) - Evaluating the best and the worst of yet another GOP midterm disaster class."
+     "text": "  (Sun Nov 01) - One last look at the state of the Democratic field before the public delivers its verdict on Tuesday."
     }
    ]
   },
   {
-   "type": "bullet",
+   "type": "paragraph",
    "parts": [
     {
-     "text": "Chasing Sundays: "
-    },
-    {
-     "text": "Chasing Fridays: Worldpeace DMT, Panchiko, Seven Blair Angels Q&A, more",
-     "url": "https://www.elienis.com/chasing-fridays-worldpeace-dmt-panchiko-seven-blair-angels-interview/"
-    },
-    {
-     "text": "  (Fri Oct 30) - Kicking off a new era of Chasing Sundays with all the hits: some praise, some pans, and a profile of who's next."
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "the late review: "
-    },
-    {
-     "text": "self-other-seeing-fucking",
-     "url": "https://www.late-review.com/p/self-other-fucking"
-    },
-    {
-     "text": "  (Thu Oct 29) - personal reflections on egon schiele"
+     "text": "(Loaded, nothing new: the late review: latest Oct 29; Chasing Sundays: latest Oct 30)"
     }
    ]
   },
@@ -518,8 +450,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Cultural Critique",
-     "url": "https://www.jstor.org/stable/10.5749/culturalcritique.112.2021.0095"
+     "text": "Genet and Europe",
+     "url": "https://www.jstor.org/stable/26287550"
     }
    ]
   },
@@ -527,7 +459,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "jstor.org - Jean Genet was born in Paris on December 19, 1910, but as a ward of assistance publique, he knew nothing about his background until, at the age of twenty- one, ..."
+     "text": "jstor.org - opening line of one of the rare essays he published in London. He came to the United States to campaign for the Black Panthers, ... of my biography, Jean Genet ( ..."
     }
    ]
   },
@@ -543,8 +475,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Genet's Palestinian Revolution",
-     "url": "https://www.google.com/goto?url=CAESgwEB6zswFSUSy2PfFiwG5Scsd-hLIHj3ASl7AoiPAOn5jCVCHUYj-pC_VFyz6MqML2mf5srl6-vRo5f9UQ3fTvJSFhH0jVN1tPcCbajShOjhNBLLz_w-bui-YDv5MvDf7_sufK7660ge7FBTbk-geRZCJ_svDNcZXIt3TxDMCCdAVvUH5g"
+     "text": "Palestine, Political Theatre & the Performance of Queer ...",
+     "url": "https://themarkaz.org/palestine-political-theatre-the-performance-of-queer-solidarity-in-jean-genets-prisoner-of-love/"
     }
    ]
   },
@@ -552,7 +484,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "google.com - His involvement with the Palestinians is the story of Prisoner of Love. But Genet did not, as it were, go home and start writing. Another ten ..."
+     "text": "themarkaz.org - In an early scene in Prisoner of Love, Genet recounts a post-colonial dance-off between the Jordanian Bedouin army and the Palestinian fedayeen, ..."
     }
    ]
   },
@@ -569,13 +501,13 @@
   },
   {
    "type": "image",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Bacon%2C_egg%2C_and_cheese_on_bread.jpg/960px-Bacon%2C_egg%2C_and_cheese_on_bread.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Mote_Fak_Htope.jpg/960px-Mote_Fak_Htope.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Bacon, egg and cheese sandwich"
+     "text": "Mont phet htok"
     }
    ]
   },
@@ -583,7 +515,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "A bacon, egg, and cheese sandwich (BEC), also known as a baconeggandcheese, is a breakfast sandwich made with bacon, eggs (most often fried or scrambled), cheese and bread. It is popular in the United States and Canada."
+     "text": "Mont phet htok (Burmese: မုန့်ဖက်ထုပ်; pronounced [mo̰ʊɴ pʰɛʔ tʰoʊʔ]), also known as htapana htok (Burmese: ဌာပနာထုပ်) in Upper Myanmar), is a traditional Burmese snack or mont.\nThe dish is a pyramidal rice dumpling filled with coconut meat, which is cooked in sugar or jaggery, and then steamed in banana leaves."
     }
    ]
   },
@@ -591,7 +523,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/Bacon,_egg_and_cheese_sandwich  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/Mont_phet_htok  (Wikipedia, CC BY-SA)"
     }
    ]
   }
