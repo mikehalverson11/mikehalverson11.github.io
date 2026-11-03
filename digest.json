@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-02T10:20:18-05:00",
+ "generated": "2026-11-03T08:56:46-05:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Monday, November 02, 2026"
+     "text": "Daily digest for Tuesday, November 03, 2026"
     }
    ]
   },
@@ -24,7 +24,7 @@
    "type": "todo",
    "parts": [
     {
-     "text": "Set Fantasy Basketball Lineup"
+     "text": "Fantasy Football Waivers Day"
     }
    ]
   },
@@ -51,7 +51,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 65F (feels 60F), Overcast"
+     "text": "Now: 63F (feels 61F), Mostly clear"
     }
    ]
   },
@@ -59,7 +59,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Today: Drizzle, high 65F / low 55F, 15% chance of precipitation, wind up to 14 mph"
+     "text": "Today: Overcast, high 74F / low 59F, 23% chance of precipitation, wind up to 14 mph"
     }
    ]
   },
@@ -75,10 +75,18 @@
    ]
   },
   {
-   "type": "paragraph",
+   "type": "bullet",
    "parts": [
     {
-     "text": "No games for your teams last night."
+     "text": "[NBA] Sacramento Kings 115 @ Dallas Mavericks 100  (Final)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NHL] Calgary Flames 2 @ San Jose Sharks 1  (Final)"
     }
    ]
   },
@@ -87,22 +95,6 @@
    "parts": [
     {
      "text": "Coming up"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NBA] Sacramento Kings at Dallas Mavericks  - Mon Nov 02, 08:00 PM"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NHL] Calgary Flames at San Jose Sharks  - Mon Nov 02, 09:00 PM"
     }
    ]
   },
@@ -171,6 +163,14 @@
    ]
   },
   {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NBA] Orlando Magic at Sacramento Kings  - Tue Nov 10, 10:00 PM"
+    }
+   ]
+  },
+  {
    "type": "divider"
   },
   {
@@ -185,7 +185,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "S&P 500 (SPY): 762.35  ▲ +6.63 (+0.88%)"
+     "text": "S&P 500 (SPY): 752.10  ▼ -3.62 (-0.48%)"
     }
    ]
   },
@@ -193,7 +193,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Nasdaq 100 (QQQ): 697.22  ▲ +6.73 (+0.97%)"
+     "text": "Nasdaq 100 (QQQ): 681.09  ▼ -9.40 (-1.36%)"
     }
    ]
   },
@@ -201,7 +201,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Dow (DIA): 523.00  ▲ +5.87 (+1.14%)"
+     "text": "Dow (DIA): 519.34  ▲ +2.21 (+0.43%)"
     }
    ]
   },
@@ -217,7 +217,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "AAPL: 341.13  ▼ -3.50 (-1.02%)"
+     "text": "AAPL: 338.32  ▼ -6.31 (-1.83%)"
     }
    ]
   },
@@ -225,7 +225,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "VOO: 700.82  ▲ +6.01 (+0.86%)"
+     "text": "VOO: 691.32  ▼ -3.49 (-0.50%)"
     }
    ]
   },
@@ -233,7 +233,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "NVDA: 208.97  ▲ +4.33 (+2.12%)"
+     "text": "NVDA: 202.06  ▼ -2.58 (-1.26%)"
     }
    ]
   },
@@ -252,7 +252,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1959: The first section of the M1 motorway, the first inter-urban motorway in the United Kingdom, is opened between the present junctions 5 and 18, along with the M10 motorway and M45 motorway."
+     "text": "1956: Hungarian Revolution: A new Hungarian government is formed, in which many members of banned non-Communist parties participate. János Kádár and Ferenc Münnich form a counter-government in Moscow as Soviet troops prepare for the final assault."
     }
    ]
   },
@@ -260,7 +260,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1988: The Morris worm, the first Internet-distributed computer worm to gain significant mainstream media attention, is launched from MIT."
+     "text": "1976: Carrie, an American supernatural horror film directed by Brian De Palma, is premiered in 17 theaters in the Washington, D.C.-Baltimore area."
     }
    ]
   },
@@ -268,7 +268,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1997: Tropical Storm Linda makes landfall in the Mekong Delta in Vietnam, causing more than 3,000 deaths."
+     "text": "1980: A Latin Carga Convair CV-880 crashes at Simón Bolívar International Airport in Venezuela, killing four."
     }
    ]
   },
@@ -343,6 +343,36 @@
    "type": "bullet",
    "parts": [
     {
+     "text": "Pablo Torre Finds Out: "
+    },
+    {
+     "text": "The Sporting Class: Baseball's Salary Cap, Universal Playoff Expansion... and Elon Musk, Owner?",
+     "url": "https://shows.acast.com/pablo-torre-finds-out/episodes/the-sporting-class-baseballs-salary-cap-universal-playoff-ex"
+    },
+    {
+     "text": "  (Tue Nov 03, 51 min)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "The Zach Lowe Show: "
+    },
+    {
+     "text": "Under-the-Radar Players Driving Winning or Losing, and Rookie Roundtable!",
+     "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT6996371109.mp3"
+    },
+    {
+     "text": "  (Mon Nov 02, 84 min)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
      "text": "Doomscroll: "
     },
     {
@@ -359,6 +389,21 @@
    "parts": [
     {
      "text": "Members-only (Patreon / private feeds)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "Chapo Trap House: "
+    },
+    {
+     "text": "1085 - Turkish Delight feat. Katherine Krueger (11/2/26)",
+     "url": "https://www.patreon.com/chapotraphouse/posts/1085-turkish-11-174234029"
+    },
+    {
+     "text": "  (Mon Nov 02, 82 min)"
     }
    ]
   },
@@ -392,14 +437,29 @@
    "type": "bullet",
    "parts": [
     {
+     "text": "Chasing Sundays: "
+    },
+    {
+     "text": "100-song playlist: Tinashe, Canyon, The Rolling Stones, more",
+     "url": "https://www.elienis.com/100-song-playlist-tinashe-canyon-rolling-stones-more/"
+    },
+    {
+     "text": "  (Tue Nov 03) - And 10 blurbs about bluesy space-rock, kinetic ambient, the one Adéla song I like, and more."
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
      "text": "Ettingermentum Newsletter: "
     },
     {
-     "text": "2028 Democratic Presidential Power Rankings: Pre-Midterms Edition",
-     "url": "https://www.ettingermentum.news/p/2028-democratic-presidential-power-018"
+     "text": "Final 2026 Race Ratings",
+     "url": "https://www.ettingermentum.news/p/final-2026-race-ratings"
     },
     {
-     "text": "  (Sun Nov 01) - One last look at the state of the Democratic field before the public delivers its verdict on Tuesday."
+     "text": "  (Mon Nov 02) - The state of the race at the end."
     }
    ]
   },
@@ -407,7 +467,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "(Loaded, nothing new: the late review: latest Oct 29; Chasing Sundays: latest Oct 30)"
+     "text": "(Loaded, nothing new: the late review: latest Oct 29)"
     }
    ]
   },
@@ -450,8 +510,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Genet and Europe",
-     "url": "https://www.jstor.org/stable/26287550"
+     "text": "Jean Genet's Anti-Semitism: Fact or Fiction?",
+     "url": "https://www.jstor.org/stable/3133362"
     }
    ]
   },
@@ -459,7 +519,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "jstor.org - opening line of one of the rare essays he published in London. He came to the United States to campaign for the Black Panthers, ... of my biography, Jean Genet ( ..."
+     "text": "jstor.org - AFTER JEAN GENET DIED in 1986 and his dossier1 was opened to the public for the first time, critics and scholars began to dissect his historical record."
     }
    ]
   },
@@ -475,8 +535,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Palestine, Political Theatre & the Performance of Queer ...",
-     "url": "https://themarkaz.org/palestine-political-theatre-the-performance-of-queer-solidarity-in-jean-genets-prisoner-of-love/"
+     "text": "Jean Genet on Palestine and the Panthers ABSTRACT",
+     "url": "https://philarchive.org/archive/HALRBJ"
     }
    ]
   },
@@ -484,7 +544,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "themarkaz.org - In an early scene in Prisoner of Love, Genet recounts a post-colonial dance-off between the Jordanian Bedouin army and the Palestinian fedayeen, ..."
+     "text": "philarchive.org - 9 “The central importance of Prisoner of Love,” Ongiri summarizes, “lies in its ability to celebrate the importance of the beliefs and ideals of the Fedayeen ..."
     }
    ]
   },
@@ -501,13 +561,13 @@
   },
   {
    "type": "image",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Mote_Fak_Htope.jpg/960px-Mote_Fak_Htope.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Shabu-shabu-01.jpg/960px-Shabu-shabu-01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Mont phet htok"
+     "text": "Shabu-shabu"
     }
    ]
   },
@@ -515,7 +575,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Mont phet htok (Burmese: မုန့်ဖက်ထုပ်; pronounced [mo̰ʊɴ pʰɛʔ tʰoʊʔ]), also known as htapana htok (Burmese: ဌာပနာထုပ်) in Upper Myanmar), is a traditional Burmese snack or mont.\nThe dish is a pyramidal rice dumpling filled with coconut meat, which is cooked in sugar or jaggery, and then steamed in banana leaves."
+     "text": "Shabu-shabu (Japanese: しゃぶしゃぶ, romanized: shabushabu) is a Japanese nabemono hotpot dish of thinly sliced meat and vegetables boiled in water and served with dipping sauces. The term is onomatopoeic, derived from the sound – \"swish swish\" – emitted when the ingredients are stirred in the cooking pot. The food is cooked piece by piece by the diner at the table.  Shabu-shabu is generally more savory and less sweet than sukiyaki, another hot pot dish."
     }
    ]
   },
@@ -523,7 +583,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/Mont_phet_htok  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/Shabu-shabu  (Wikipedia, CC BY-SA)"
     }
    ]
   }
