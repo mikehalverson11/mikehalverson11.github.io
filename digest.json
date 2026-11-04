@@ -1,38 +1,11 @@
 {
- "generated": "2026-11-03T08:56:46-05:00",
+ "generated": "2026-11-04T09:08:03-05:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Tuesday, November 03, 2026"
-    }
-   ]
-  },
-  {
-   "type": "divider"
-  },
-  {
-   "type": "heading",
-   "parts": [
-    {
-     "text": "Today's reminders"
-    }
-   ]
-  },
-  {
-   "type": "todo",
-   "parts": [
-    {
-     "text": "Fantasy Football Waivers Day"
-    }
-   ]
-  },
-  {
-   "type": "todo",
-   "parts": [
-    {
-     "text": "Pay Rent"
+     "text": "Daily digest for Wednesday, November 04, 2026"
     }
    ]
   },
@@ -51,7 +24,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 63F (feels 61F), Mostly clear"
+     "text": "Now: 63F (feels 58F), Overcast"
     }
    ]
   },
@@ -59,7 +32,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Today: Overcast, high 74F / low 59F, 23% chance of precipitation, wind up to 14 mph"
+     "text": "Today: Heavy rain, high 70F / low 62F, 79% chance of precipitation, wind up to 20 mph"
     }
    ]
   },
@@ -75,18 +48,10 @@
    ]
   },
   {
-   "type": "bullet",
+   "type": "paragraph",
    "parts": [
     {
-     "text": "[NBA] Sacramento Kings 115 @ Dallas Mavericks 100  (Final)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NHL] Calgary Flames 2 @ San Jose Sharks 1  (Final)"
+     "text": "No games for your teams last night."
     }
    ]
   },
@@ -171,6 +136,14 @@
    ]
   },
   {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NHL] Pittsburgh Penguins at San Jose Sharks  - Wed Nov 11, 10:00 PM"
+    }
+   ]
+  },
+  {
    "type": "divider"
   },
   {
@@ -185,7 +158,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "S&P 500 (SPY): 752.10  ▼ -3.62 (-0.48%)"
+     "text": "S&P 500 (SPY): 754.35  ▲ +2.25 (+0.30%)"
     }
    ]
   },
@@ -193,7 +166,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Nasdaq 100 (QQQ): 681.09  ▼ -9.40 (-1.36%)"
+     "text": "Nasdaq 100 (QQQ): 685.28  ▲ +4.19 (+0.62%)"
     }
    ]
   },
@@ -201,7 +174,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Dow (DIA): 519.34  ▲ +2.21 (+0.43%)"
+     "text": "Dow (DIA): 517.06  ▼ -2.28 (-0.44%)"
     }
    ]
   },
@@ -217,7 +190,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "AAPL: 338.32  ▼ -6.31 (-1.83%)"
+     "text": "AAPL: 331.90  ▼ -6.42 (-1.90%)"
     }
    ]
   },
@@ -225,7 +198,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "VOO: 691.32  ▼ -3.49 (-0.50%)"
+     "text": "VOO: 693.54  ▲ +2.22 (+0.32%)"
     }
    ]
   },
@@ -233,7 +206,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "NVDA: 202.06  ▼ -2.58 (-1.26%)"
+     "text": "NVDA: 206.69  ▲ +4.63 (+2.29%)"
     }
    ]
   },
@@ -252,7 +225,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1956: Hungarian Revolution: A new Hungarian government is formed, in which many members of banned non-Communist parties participate. János Kádár and Ferenc Münnich form a counter-government in Moscow as Soviet troops prepare for the final assault."
+     "text": "1924: Nellie Tayloe Ross of Wyoming becomes the first female elected as governor in the United States."
     }
    ]
   },
@@ -260,7 +233,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1976: Carrie, an American supernatural horror film directed by Brian De Palma, is premiered in 17 theaters in the Washington, D.C.-Baltimore area."
+     "text": "1944: World War II: Operation Pheasant, an Allied offensive to liberate North Brabant in the Netherlands, ends successfully."
     }
    ]
   },
@@ -268,7 +241,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1980: A Latin Carga Convair CV-880 crashes at Simón Bolívar International Airport in Venezuela, killing four."
+     "text": "1962: The United States concludes Operation Fishbowl, its final above-ground nuclear weapons testing series, in anticipation of the 1963 Partial Nuclear Test Ban Treaty."
     }
    ]
   },
@@ -437,6 +410,21 @@
    "type": "bullet",
    "parts": [
     {
+     "text": "Ettingermentum Newsletter: "
+    },
+    {
+     "text": "Announcing the 2026 Ettingermentum Election Night Stream",
+     "url": "https://www.ettingermentum.news/p/announcing-the-2026-ettingermentum"
+    },
+    {
+     "text": "  (Tue Nov 03) - Where to get the real news this evening."
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
      "text": "Chasing Sundays: "
     },
     {
@@ -445,21 +433,6 @@
     },
     {
      "text": "  (Tue Nov 03) - And 10 blurbs about bluesy space-rock, kinetic ambient, the one Adéla song I like, and more."
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "Ettingermentum Newsletter: "
-    },
-    {
-     "text": "Final 2026 Race Ratings",
-     "url": "https://www.ettingermentum.news/p/final-2026-race-ratings"
-    },
-    {
-     "text": "  (Mon Nov 02) - The state of the race at the end."
     }
    ]
   },
@@ -510,8 +483,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Jean Genet's Anti-Semitism: Fact or Fiction?",
-     "url": "https://www.jstor.org/stable/3133362"
+     "text": "Cultural Critique",
+     "url": "https://www.jstor.org/stable/10.5749/culturalcritique.112.2021.0095"
     }
    ]
   },
@@ -519,7 +492,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "jstor.org - AFTER JEAN GENET DIED in 1986 and his dossier1 was opened to the public for the first time, critics and scholars began to dissect his historical record."
+     "text": "jstor.org - Jean Genet was born in Paris on December 19, 1910, but as a ward of assistance publique, he knew nothing about his background until, at the age of twenty- one, ..."
     }
    ]
   },
@@ -535,8 +508,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Jean Genet on Palestine and the Panthers ABSTRACT",
-     "url": "https://philarchive.org/archive/HALRBJ"
+     "text": "Entre Chien et Loup: On Jean Genet's Prisoner of Love | ebr",
+     "url": "https://electronicbookreview.com/publications/entre-chien-et-loup-on-jean-genets-prisoner-of-love/"
     }
    ]
   },
@@ -544,7 +517,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "philarchive.org - 9 “The central importance of Prisoner of Love,” Ongiri summarizes, “lies in its ability to celebrate the importance of the beliefs and ideals of the Fedayeen ..."
+     "text": "electronicbookreview.com - Tim Keane reviews Genet's republished Prisoner of Love, a 'mirror-memoir' in which Genet sees Palestine from the inside in an attempt to see ..."
     }
    ]
   },
@@ -561,13 +534,13 @@
   },
   {
    "type": "image",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Shabu-shabu-01.jpg/960px-Shabu-shabu-01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Berggasthof_Haldenhof_-_K%C3%A4skn%C3%B6pfle_%281%29.jpg/960px-Berggasthof_Haldenhof_-_K%C3%A4skn%C3%B6pfle_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Shabu-shabu"
+     "text": "Käsespätzle"
     }
    ]
   },
@@ -575,7 +548,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Shabu-shabu (Japanese: しゃぶしゃぶ, romanized: shabushabu) is a Japanese nabemono hotpot dish of thinly sliced meat and vegetables boiled in water and served with dipping sauces. The term is onomatopoeic, derived from the sound – \"swish swish\" – emitted when the ingredients are stirred in the cooking pot. The food is cooked piece by piece by the diner at the table.  Shabu-shabu is generally more savory and less sweet than sukiyaki, another hot pot dish."
+     "text": "Käsespätzle (German for \"spätzle with cheese\", also called Käsknöpfle in Vorarlberg and Liechtenstein or Kasspatzl in Tyrol, Austria and Bavaria) is a traditional dish of the German regions of Swabia, Baden and Allgäu, and also in the Austrian regions Vorarlberg and Tyrol, as well as Liechtenstein and Switzerland."
     }
    ]
   },
@@ -583,7 +556,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/Shabu-shabu  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/K%C3%A4sesp%C3%A4tzle  (Wikipedia, CC BY-SA)"
     }
    ]
   }
