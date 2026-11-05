@@ -1,11 +1,38 @@
 {
- "generated": "2026-11-04T09:08:03-05:00",
+ "generated": "2026-11-05T09:26:19-05:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Wednesday, November 04, 2026"
+     "text": "Daily digest for Thursday, November 05, 2026"
+    }
+   ]
+  },
+  {
+   "type": "divider"
+  },
+  {
+   "type": "heading",
+   "parts": [
+    {
+     "text": "Today's reminders"
+    }
+   ]
+  },
+  {
+   "type": "todo",
+   "parts": [
+    {
+     "text": "Set Fantasy Football Lineup"
+    }
+   ]
+  },
+  {
+   "type": "todo",
+   "parts": [
+    {
+     "text": "Rec League Basketball"
     }
    ]
   },
@@ -24,7 +51,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 63F (feels 58F), Overcast"
+     "text": "Now: 57F (feels 53F), Clear"
     }
    ]
   },
@@ -32,7 +59,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Today: Heavy rain, high 70F / low 62F, 79% chance of precipitation, wind up to 20 mph"
+     "text": "Today: Light drizzle, high 62F / low 52F, 33% chance of precipitation, wind up to 14 mph"
     }
    ]
   },
@@ -48,10 +75,18 @@
    ]
   },
   {
-   "type": "paragraph",
+   "type": "bullet",
    "parts": [
     {
-     "text": "No games for your teams last night."
+     "text": "[NBA] Los Angeles Lakers 116 @ Sacramento Kings 103  (Final)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NHL] San Jose Sharks 2 @ Los Angeles Kings 7  (Final)"
     }
    ]
   },
@@ -60,22 +95,6 @@
    "parts": [
     {
      "text": "Coming up"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NBA] Los Angeles Lakers at Sacramento Kings  - Wed Nov 04, 10:00 PM"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NHL] San Jose Sharks at Los Angeles Kings  - Wed Nov 04, 10:00 PM"
     }
    ]
   },
@@ -158,7 +177,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "S&P 500 (SPY): 754.35  ▲ +2.25 (+0.30%)"
+     "text": "S&P 500 (SPY): 766.81  ▲ +12.46 (+1.65%)"
     }
    ]
   },
@@ -166,7 +185,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Nasdaq 100 (QQQ): 685.28  ▲ +4.19 (+0.62%)"
+     "text": "Nasdaq 100 (QQQ): 691.95  ▲ +6.67 (+0.97%)"
     }
    ]
   },
@@ -174,7 +193,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Dow (DIA): 517.06  ▼ -2.28 (-0.44%)"
+     "text": "Dow (DIA): 533.11  ▲ +16.05 (+3.10%)"
     }
    ]
   },
@@ -190,7 +209,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "AAPL: 331.90  ▼ -6.42 (-1.90%)"
+     "text": "AAPL: 349.51  ▲ +17.61 (+5.31%)"
     }
    ]
   },
@@ -198,7 +217,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "VOO: 693.54  ▲ +2.22 (+0.32%)"
+     "text": "VOO: 704.78  ▲ +11.24 (+1.62%)"
     }
    ]
   },
@@ -206,7 +225,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "NVDA: 206.69  ▲ +4.63 (+2.29%)"
+     "text": "NVDA: 200.13  ▼ -6.56 (-3.17%)"
     }
    ]
   },
@@ -225,7 +244,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1924: Nellie Tayloe Ross of Wyoming becomes the first female elected as governor in the United States."
+     "text": "1881: In New Zealand, 1600 armed volunteers and constabulary field forces led by Minister of Native Affairs John Bryce march on the pacifist Māori settlement at Parihaka, evicting upwards of 2,000 residents, and destroying the settlement in the context of the New Zealand land confiscations."
     }
    ]
   },
@@ -233,7 +252,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1944: World War II: Operation Pheasant, an Allied offensive to liberate North Brabant in the Netherlands, ends successfully."
+     "text": "1986: USS Rentz, USS Reeves and USS Oldendorf visit Qingdao, China; the first US naval visit to China since 1949."
     }
    ]
   },
@@ -241,7 +260,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1962: The United States concludes Operation Fishbowl, its final above-ground nuclear weapons testing series, in anticipation of the 1963 Partial Nuclear Test Ban Treaty."
+     "text": "1996: Pakistani President Farooq Leghari dismisses the government of Prime Minister Benazir Bhutto and dissolves the National Assembly."
     }
    ]
   },
@@ -287,21 +306,6 @@
    ]
   },
   {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "2026-10-21  "
-    },
-    {
-     "text": "Cloud Nothings - Death Keeps Me Alive",
-     "url": "https://musicbrainz.org/release-group/74d7ff22-1308-41ca-afc3-9cae37a88f8a"
-    },
-    {
-     "text": " (Single)"
-    }
-   ]
-  },
-  {
    "type": "divider"
   },
   {
@@ -319,11 +323,26 @@
      "text": "Pablo Torre Finds Out: "
     },
     {
-     "text": "The Sporting Class: Baseball's Salary Cap, Universal Playoff Expansion... and Elon Musk, Owner?",
-     "url": "https://shows.acast.com/pablo-torre-finds-out/episodes/the-sporting-class-baseballs-salary-cap-universal-playoff-ex"
+     "text": "Exclusive: The Onion Wants a Bowl Game. (Seriously.) Let's Make It Happen, America.",
+     "url": "https://shows.acast.com/pablo-torre-finds-out/episodes/placeholder-114"
     },
     {
-     "text": "  (Tue Nov 03, 51 min)"
+     "text": "  (Thu Nov 05, 39 min)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "Ones and Tooze: "
+    },
+    {
+     "text": "U.S. and Israeli Elections",
+     "url": "https://mgln.ai/e/211/traffic.megaphone.fm/FGP5252147256.mp3"
+    },
+    {
+     "text": "  (Wed Nov 04, 56 min)"
     }
    ]
   },
@@ -343,21 +362,6 @@
    ]
   },
   {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "Doomscroll: "
-    },
-    {
-     "text": "DS 58: Adolph Reed",
-     "url": "https://www.patreon.com/joshuacitarella/posts/ds-58-adolph-173569757"
-    },
-    {
-     "text": "  (Mon Nov 02, 182 min)"
-    }
-   ]
-  },
-  {
    "type": "paragraph",
    "parts": [
     {
@@ -369,14 +373,14 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Chapo Trap House: "
+     "text": "TrueAnon: "
     },
     {
-     "text": "1085 - Turkish Delight feat. Katherine Krueger (11/2/26)",
-     "url": "https://www.patreon.com/chapotraphouse/posts/1085-turkish-11-174234029"
+     "text": "Episode 589: Porco Sessuale: Paolo Zampolli (Part 2)",
+     "url": "https://www.patreon.com/TrueAnonPod/posts/episode-589-part-174469136"
     },
     {
-     "text": "  (Mon Nov 02, 82 min)"
+     "text": "  (Thu Nov 05, 120 min)"
     }
    ]
   },
@@ -384,14 +388,14 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "TrueAnon: "
+     "text": "Chapo Trap House: "
     },
     {
-     "text": "Episode 588: Porco Sessuale: Paolo Zampolli (Part 1)",
-     "url": "https://www.patreon.com/TrueAnonPod/posts/episode-588-part-174169763"
+     "text": "MM51 - Spielberg’s Dinosaurs",
+     "url": "https://www.patreon.com/chapotraphouse/posts/mm51-spielbergs-174381009"
     },
     {
-     "text": "  (Mon Nov 02, 116 min)"
+     "text": "  (Wed Nov 04, 190 min)"
     }
    ]
   },
@@ -483,8 +487,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Cultural Critique",
-     "url": "https://www.jstor.org/stable/10.5749/culturalcritique.112.2021.0095"
+     "text": "Jean Genet: Affirmation of Existence Through Rebellion",
+     "url": "https://www.jstor.org/stable/2537088"
     }
    ]
   },
@@ -492,7 +496,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "jstor.org - Jean Genet was born in Paris on December 19, 1910, but as a ward of assistance publique, he knew nothing about his background until, at the age of twenty- one, ..."
+     "text": "jstor.org - Wischenbart: When you're with your Palestinian friends, do you have the impression that they also see you as Jean Genet the writer? Genet: Certaintly not."
     }
    ]
   },
@@ -508,8 +512,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Entre Chien et Loup: On Jean Genet's Prisoner of Love | ebr",
-     "url": "https://electronicbookreview.com/publications/entre-chien-et-loup-on-jean-genets-prisoner-of-love/"
+     "text": "Genet's “Prisoner of Love”: The Evolution of a Muslim Saint",
+     "url": "https://yalereview.org/article/edmund-white-genets-prisoner-of-love"
     }
    ]
   },
@@ -517,7 +521,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "electronicbookreview.com - Tim Keane reviews Genet's republished Prisoner of Love, a 'mirror-memoir' in which Genet sees Palestine from the inside in an attempt to see ..."
+     "text": "yalereview.org - As Clifford Geertz said in his review of Prisoner of Love, “Genet does not seem to think that one thing flows from another, cause after ..."
     }
    ]
   },
@@ -534,13 +538,13 @@
   },
   {
    "type": "image",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Berggasthof_Haldenhof_-_K%C3%A4skn%C3%B6pfle_%281%29.jpg/960px-Berggasthof_Haldenhof_-_K%C3%A4skn%C3%B6pfle_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Traditional_Maltese_Kusksu_%28Fava_Bean_Soup%29.jpg/960px-Traditional_Maltese_Kusksu_%28Fava_Bean_Soup%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Käsespätzle"
+     "text": "Kusksu"
     }
    ]
   },
@@ -548,7 +552,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Käsespätzle (German for \"spätzle with cheese\", also called Käsknöpfle in Vorarlberg and Liechtenstein or Kasspatzl in Tyrol, Austria and Bavaria) is a traditional dish of the German regions of Swabia, Baden and Allgäu, and also in the Austrian regions Vorarlberg and Tyrol, as well as Liechtenstein and Switzerland."
+     "text": "Kusksu (Maltese pronunciation: [ˈkus.ksu]) is a traditional Maltese soup made primarily from seasonal broad beans, small pasta beads, and fresh ġbejniet. Although similar in shape, the small pasta beads, known locally as kusksu, look like couscous, but this one tends to be lighter and fluffier in texture. In contrast, kusksu, which gives the soup its name, is \"miniature pasta\" which is thick and ideal for simmering. Once cooked, the short-cut pasta beads give the soup a creamy and warm texture."
     }
    ]
   },
@@ -556,7 +560,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/K%C3%A4sesp%C3%A4tzle  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/Kusksu  (Wikipedia, CC BY-SA)"
     }
    ]
   }
