@@ -1,38 +1,11 @@
 {
- "generated": "2026-11-05T09:26:19-05:00",
+ "generated": "2026-11-06T09:02:07-05:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Thursday, November 05, 2026"
-    }
-   ]
-  },
-  {
-   "type": "divider"
-  },
-  {
-   "type": "heading",
-   "parts": [
-    {
-     "text": "Today's reminders"
-    }
-   ]
-  },
-  {
-   "type": "todo",
-   "parts": [
-    {
-     "text": "Set Fantasy Football Lineup"
-    }
-   ]
-  },
-  {
-   "type": "todo",
-   "parts": [
-    {
-     "text": "Rec League Basketball"
+     "text": "Daily digest for Friday, November 06, 2026"
     }
    ]
   },
@@ -51,7 +24,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 57F (feels 53F), Clear"
+     "text": "Now: 48F (feels 42F), Drizzle"
     }
    ]
   },
@@ -59,7 +32,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Today: Light drizzle, high 62F / low 52F, 33% chance of precipitation, wind up to 14 mph"
+     "text": "Today: Light drizzle, high 52F / low 43F, 50% chance of precipitation, wind up to 12 mph"
     }
    ]
   },
@@ -75,18 +48,10 @@
    ]
   },
   {
-   "type": "bullet",
+   "type": "paragraph",
    "parts": [
     {
-     "text": "[NBA] Los Angeles Lakers 116 @ Sacramento Kings 103  (Final)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NHL] San Jose Sharks 2 @ Los Angeles Kings 7  (Final)"
+     "text": "No games for your teams last night."
     }
    ]
   },
@@ -163,6 +128,14 @@
    ]
   },
   {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NBA] Portland Trail Blazers at Sacramento Kings  - Fri Nov 13, 10:00 PM"
+    }
+   ]
+  },
+  {
    "type": "divider"
   },
   {
@@ -177,7 +150,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "S&P 500 (SPY): 766.81  ▲ +12.46 (+1.65%)"
+     "text": "S&P 500 (SPY): 733.00  ▼ -33.81 (-4.41%)"
     }
    ]
   },
@@ -185,7 +158,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Nasdaq 100 (QQQ): 691.95  ▲ +6.67 (+0.97%)"
+     "text": "Nasdaq 100 (QQQ): 647.05  ▼ -44.90 (-6.49%)"
     }
    ]
   },
@@ -193,7 +166,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Dow (DIA): 533.11  ▲ +16.05 (+3.10%)"
+     "text": "Dow (DIA): 514.27  ▼ -18.84 (-3.53%)"
     }
    ]
   },
@@ -209,7 +182,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "AAPL: 349.51  ▲ +17.61 (+5.31%)"
+     "text": "AAPL: 344.17  ▼ -5.34 (-1.53%)"
     }
    ]
   },
@@ -217,7 +190,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "VOO: 704.78  ▲ +11.24 (+1.62%)"
+     "text": "VOO: 673.97  ▼ -30.81 (-4.37%)"
     }
    ]
   },
@@ -225,7 +198,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "NVDA: 200.13  ▼ -6.56 (-3.17%)"
+     "text": "NVDA: 181.60  ▼ -18.53 (-9.26%)"
     }
    ]
   },
@@ -244,7 +217,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1881: In New Zealand, 1600 armed volunteers and constabulary field forces led by Minister of Native Affairs John Bryce march on the pacifist Māori settlement at Parihaka, evicting upwards of 2,000 residents, and destroying the settlement in the context of the New Zealand land confiscations."
+     "text": "963: Synod of Rome: Emperor Otto I calls a council at St. Peter's Basilica in Rome. Pope John XII is deposed on charges of an armed rebellion against Otto."
     }
    ]
   },
@@ -252,7 +225,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1986: USS Rentz, USS Reeves and USS Oldendorf visit Qingdao, China; the first US naval visit to China since 1949."
+     "text": "1985: Colombian conflict: leftist guerrillas of the 19th of April Movement seize control of the Palace of Justice in Bogotá."
     }
    ]
   },
@@ -260,7 +233,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1996: Pakistani President Farooq Leghari dismisses the government of Prime Minister Benazir Bhutto and dissolves the National Assembly."
+     "text": "2002: Jiang Lijun is detained by Chinese police for signing the Open Letter to the 16th National Congress of the Chinese Communist Party."
     }
    ]
   },
@@ -323,11 +296,26 @@
      "text": "Pablo Torre Finds Out: "
     },
     {
-     "text": "Exclusive: The Onion Wants a Bowl Game. (Seriously.) Let's Make It Happen, America.",
-     "url": "https://shows.acast.com/pablo-torre-finds-out/episodes/placeholder-114"
+     "text": "How to Reset the Course of a Nation, with Rachel Maddow",
+     "url": "https://shows.acast.com/pablo-torre-finds-out/episodes/how-to-reset-the-course-of-a-nation-with-rachel-maddow"
     },
     {
-     "text": "  (Thu Nov 05, 39 min)"
+     "text": "  (Fri Nov 06, 50 min)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "The Zach Lowe Show: "
+    },
+    {
+     "text": "Early NBA Tier List: Elite Squads, Relegation Teams, and Crisis Candidates!",
+     "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT2776270019.mp3"
+    },
+    {
+     "text": "  (Thu Nov 05, 96 min)"
     }
    ]
   },
@@ -347,25 +335,25 @@
    ]
   },
   {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "The Zach Lowe Show: "
-    },
-    {
-     "text": "Under-the-Radar Players Driving Winning or Losing, and Rookie Roundtable!",
-     "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT6996371109.mp3"
-    },
-    {
-     "text": "  (Mon Nov 02, 84 min)"
-    }
-   ]
-  },
-  {
    "type": "paragraph",
    "parts": [
     {
      "text": "Members-only (Patreon / private feeds)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "Chapo Trap House: "
+    },
+    {
+     "text": "1086 - Crusader Kings II feat. Derek Davison and Eleanor Janega (11/5/26)",
+     "url": "https://www.patreon.com/chapotraphouse/posts/1086-crusader-ii-174512240"
+    },
+    {
+     "text": "  (Thu Nov 05, 88 min)"
     }
    ]
   },
@@ -385,21 +373,6 @@
    ]
   },
   {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "Chapo Trap House: "
-    },
-    {
-     "text": "MM51 - Spielberg’s Dinosaurs",
-     "url": "https://www.patreon.com/chapotraphouse/posts/mm51-spielbergs-174381009"
-    },
-    {
-     "text": "  (Wed Nov 04, 190 min)"
-    }
-   ]
-  },
-  {
    "type": "divider"
   },
   {
@@ -407,6 +380,21 @@
    "parts": [
     {
      "text": "New newsletter posts"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "Chasing Sundays: "
+    },
+    {
+     "text": "Chasing Fridays: RIP Magic, Liam Mc Cay, Dylan Thom Q&A, more",
+     "url": "https://www.elienis.com/chasing-fridays-rip-magic-liam-mc-cay-dylan-thom-interview-more/"
+    },
+    {
+     "text": "  (Fri Nov 06) - Plus: djent infecting hardcore, an exciting new noise-rock band, and three live reports from the fringes."
     }
    ]
   },
@@ -422,21 +410,6 @@
     },
     {
      "text": "  (Tue Nov 03) - Where to get the real news this evening."
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "Chasing Sundays: "
-    },
-    {
-     "text": "100-song playlist: Tinashe, Canyon, The Rolling Stones, more",
-     "url": "https://www.elienis.com/100-song-playlist-tinashe-canyon-rolling-stones-more/"
-    },
-    {
-     "text": "  (Tue Nov 03) - And 10 blurbs about bluesy space-rock, kinetic ambient, the one Adéla song I like, and more."
     }
    ]
   },
@@ -487,8 +460,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Jean Genet: Affirmation of Existence Through Rebellion",
-     "url": "https://www.jstor.org/stable/2537088"
+     "text": "Cultural Critique",
+     "url": "https://www.jstor.org/stable/10.5749/culturalcritique.112.2021.0095"
     }
    ]
   },
@@ -496,7 +469,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "jstor.org - Wischenbart: When you're with your Palestinian friends, do you have the impression that they also see you as Jean Genet the writer? Genet: Certaintly not."
+     "text": "jstor.org - Jean Genet was born in Paris on December 19, 1910, but as a ward of assistance publique, he knew nothing about his background until, at the age of twenty- one, ..."
     }
    ]
   },
@@ -513,7 +486,7 @@
    "parts": [
     {
      "text": "Genet's “Prisoner of Love”: The Evolution of a Muslim Saint",
-     "url": "https://yalereview.org/article/edmund-white-genets-prisoner-of-love"
+     "url": "https://www.google.com/goto?url=CAESgAEBxCJF1_4u09p4Jvdv_KJpup5cGrZuUgsSinDksDkSjkBIm9yZVEiilTZUHM6-r1HNxMT_TkNoj1-jB8wOdC9R_zBrndAySeXTuPEpNB0NU0CDeC_gABFs1M_LW0U6_AP1qKzsbqHJ4e1adb9bNn5aWt5EPHUrypZk_17El7lZCA"
     }
    ]
   },
@@ -521,7 +494,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "yalereview.org - As Clifford Geertz said in his review of Prisoner of Love, “Genet does not seem to think that one thing flows from another, cause after ..."
+     "text": "google.com - As Clifford Geertz said in his review of Prisoner of Love, “Genet does not seem to think that one thing flows from another, cause after ..."
     }
    ]
   },
@@ -538,13 +511,13 @@
   },
   {
    "type": "image",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Traditional_Maltese_Kusksu_%28Fava_Bean_Soup%29.jpg/960px-Traditional_Maltese_Kusksu_%28Fava_Bean_Soup%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Taro_sauce_jaune_avec_peau_de_boeuf.jpg/960px-Taro_sauce_jaune_avec_peau_de_boeuf.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Kusksu"
+     "text": "Achu (soup)"
     }
    ]
   },
@@ -552,7 +525,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Kusksu (Maltese pronunciation: [ˈkus.ksu]) is a traditional Maltese soup made primarily from seasonal broad beans, small pasta beads, and fresh ġbejniet. Although similar in shape, the small pasta beads, known locally as kusksu, look like couscous, but this one tends to be lighter and fluffier in texture. In contrast, kusksu, which gives the soup its name, is \"miniature pasta\" which is thick and ideal for simmering. Once cooked, the short-cut pasta beads give the soup a creamy and warm texture."
+     "text": "Achu soup is a yellow soup that is a traditional food in Cameroon. It is made with cocoyam, spices, water, palm oil, \"Canwa / Nikki\" (limestone), and fish or other ingredients."
     }
    ]
   },
@@ -560,7 +533,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/Kusksu  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/Achu_(soup)  (Wikipedia, CC BY-SA)"
     }
    ]
   }
