@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-06T09:02:07-05:00",
+ "generated": "2026-11-07T07:45:22-05:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Friday, November 06, 2026"
+     "text": "Daily digest for Saturday, November 07, 2026"
     }
    ]
   },
@@ -24,7 +24,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 48F (feels 42F), Drizzle"
+     "text": "Now: 43F (feels 36F), Overcast"
     }
    ]
   },
@@ -32,7 +32,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Today: Light drizzle, high 52F / low 43F, 50% chance of precipitation, wind up to 12 mph"
+     "text": "Today: Heavy drizzle, high 46F / low 42F, 40% chance of precipitation, wind up to 15 mph"
     }
    ]
   },
@@ -48,10 +48,18 @@
    ]
   },
   {
-   "type": "paragraph",
+   "type": "bullet",
    "parts": [
     {
-     "text": "No games for your teams last night."
+     "text": "[NBA] San Antonio Spurs 124 @ Sacramento Kings 109  (Final)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NHL] San Jose Sharks 1 @ Minnesota Wild 4  (Final)"
     }
    ]
   },
@@ -60,22 +68,6 @@
    "parts": [
     {
      "text": "Coming up"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NHL] San Jose Sharks at Minnesota Wild  - Fri Nov 06, 08:00 PM"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NBA] San Antonio Spurs at Sacramento Kings  - Fri Nov 06, 10:00 PM"
     }
    ]
   },
@@ -136,6 +128,14 @@
    ]
   },
   {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NHL] San Jose Sharks at Utah Mammoth  - Sat Nov 14, 09:00 PM"
+    }
+   ]
+  },
+  {
    "type": "divider"
   },
   {
@@ -150,7 +150,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "S&P 500 (SPY): 733.00  ▼ -33.81 (-4.41%)"
+     "text": "S&P 500 (SPY): 735.29  ▲ +2.29 (+0.31%)"
     }
    ]
   },
@@ -158,7 +158,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Nasdaq 100 (QQQ): 647.05  ▼ -44.90 (-6.49%)"
+     "text": "Nasdaq 100 (QQQ): 656.10  ▲ +9.05 (+1.40%)"
     }
    ]
   },
@@ -166,7 +166,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Dow (DIA): 514.27  ▼ -18.84 (-3.53%)"
+     "text": "Dow (DIA): 512.22  ▼ -2.05 (-0.40%)"
     }
    ]
   },
@@ -182,7 +182,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "AAPL: 344.17  ▼ -5.34 (-1.53%)"
+     "text": "AAPL: 342.37  ▼ -1.80 (-0.52%)"
     }
    ]
   },
@@ -190,7 +190,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "VOO: 673.97  ▼ -30.81 (-4.37%)"
+     "text": "VOO: 675.99  ▲ +2.02 (+0.30%)"
     }
    ]
   },
@@ -198,7 +198,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "NVDA: 181.60  ▼ -18.53 (-9.26%)"
+     "text": "NVDA: 186.64  ▲ +5.04 (+2.78%)"
     }
    ]
   },
@@ -217,7 +217,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "963: Synod of Rome: Emperor Otto I calls a council at St. Peter's Basilica in Rome. Pope John XII is deposed on charges of an armed rebellion against Otto."
+     "text": "1916: Woodrow Wilson is reelected as President of the United States."
     }
    ]
   },
@@ -225,7 +225,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1985: Colombian conflict: leftist guerrillas of the 19th of April Movement seize control of the Palace of Justice in Bogotá."
+     "text": "1918: Kurt Eisner overthrows the Wittelsbach dynasty in the Kingdom of Bavaria."
     }
    ]
   },
@@ -233,7 +233,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "2002: Jiang Lijun is detained by Chinese police for signing the Open Letter to the 16th National Congress of the Chinese Communist Party."
+     "text": "1967: Carl B. Stokes is elected as Mayor of Cleveland, Ohio, becoming the first African American mayor of a major American city."
     }
    ]
   },
@@ -252,11 +252,11 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "2026-10-30  "
+     "text": "2026-11-06  "
     },
     {
-     "text": "Andy Stott - Late Loop",
-     "url": "https://musicbrainz.org/release-group/d09aae91-0550-4ee7-a8d1-96423970a5f9"
+     "text": "oso oso - an exchange of information",
+     "url": "https://musicbrainz.org/release-group/fd83d15a-cd3a-45fa-bbcd-3af1e6d1b2b8"
     },
     {
      "text": " (Album)"
@@ -267,14 +267,44 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "2026-10-23  "
+     "text": "2026-11-06  "
     },
     {
-     "text": "yeule - Hystérique",
-     "url": "https://musicbrainz.org/release-group/d7b1b2bf-b4f5-43c3-83e1-9ca7806ca881"
+     "text": "Robert Fripp & Brian Eno - Wind On Water (edit): Robert Fripp @ 80, Vol. 26",
+     "url": "https://musicbrainz.org/release-group/dcce8e1c-6f55-4280-a8d7-33abaf625da7"
     },
     {
      "text": " (Single)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "2026-11-02  "
+    },
+    {
+     "text": "oso oso - the facts",
+     "url": "https://musicbrainz.org/release-group/384caa7a-432e-4bbe-b61d-d1f1615e6e15"
+    },
+    {
+     "text": " (Single)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "2026-10-30  "
+    },
+    {
+     "text": "Andy Stott - Late Loop",
+     "url": "https://musicbrainz.org/release-group/d09aae91-0550-4ee7-a8d1-96423970a5f9"
+    },
+    {
+     "text": " (Album)"
     }
    ]
   },
@@ -399,25 +429,10 @@
    ]
   },
   {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "Ettingermentum Newsletter: "
-    },
-    {
-     "text": "Announcing the 2026 Ettingermentum Election Night Stream",
-     "url": "https://www.ettingermentum.news/p/announcing-the-2026-ettingermentum"
-    },
-    {
-     "text": "  (Tue Nov 03) - Where to get the real news this evening."
-    }
-   ]
-  },
-  {
    "type": "paragraph",
    "parts": [
     {
-     "text": "(Loaded, nothing new: the late review: latest Oct 29)"
+     "text": "(Loaded, nothing new: the late review: latest Oct 29; Ettingermentum Newsletter: latest Nov 03)"
     }
    ]
   },
@@ -460,8 +475,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Cultural Critique",
-     "url": "https://www.jstor.org/stable/10.5749/culturalcritique.112.2021.0095"
+     "text": "The Politics of Enmity",
+     "url": "https://www.jstor.org/stable/2930378"
     }
    ]
   },
@@ -469,7 +484,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "jstor.org - Jean Genet was born in Paris on December 19, 1910, but as a ward of assistance publique, he knew nothing about his background until, at the age of twenty- one, ..."
+     "text": "jstor.org - Concerning the relation between politics and perversion, see Jean-Michel. Rabat6's original analysis in his article \"Jean Genet, la position du franc-tireur,\" L ..."
     }
    ]
   },
@@ -485,8 +500,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Genet's “Prisoner of Love”: The Evolution of a Muslim Saint",
-     "url": "https://www.google.com/goto?url=CAESgAEBxCJF1_4u09p4Jvdv_KJpup5cGrZuUgsSinDksDkSjkBIm9yZVEiilTZUHM6-r1HNxMT_TkNoj1-jB8wOdC9R_zBrndAySeXTuPEpNB0NU0CDeC_gABFs1M_LW0U6_AP1qKzsbqHJ4e1adb9bNn5aWt5EPHUrypZk_17El7lZCA"
+     "text": "Jean Genet on Palestine and the Panthers ABSTRACT",
+     "url": "https://philarchive.org/archive/HALRBJ"
     }
    ]
   },
@@ -494,7 +509,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "google.com - As Clifford Geertz said in his review of Prisoner of Love, “Genet does not seem to think that one thing flows from another, cause after ..."
+     "text": "philarchive.org - 9 “The central importance of Prisoner of Love,” Ongiri summarizes, “lies in its ability to celebrate the importance of the beliefs and ideals of the Fedayeen ..."
     }
    ]
   },
@@ -511,13 +526,13 @@
   },
   {
    "type": "image",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Taro_sauce_jaune_avec_peau_de_boeuf.jpg/960px-Taro_sauce_jaune_avec_peau_de_boeuf.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Spaghettata.JPG/960px-Spaghettata.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Achu (soup)"
+     "text": "Pasta al pomodoro"
     }
    ]
   },
@@ -525,7 +540,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Achu soup is a yellow soup that is a traditional food in Cameroon. It is made with cocoyam, spices, water, palm oil, \"Canwa / Nikki\" (limestone), and fish or other ingredients."
+     "text": "Pasta al pomodoro (Italian: [ˈpasta al pomoˈdɔːro]) is a pasta dish typically prepared with fresh tomatoes, extra virgin olive oil, garlic, basil, and salt. It is intended to be a quick and light dish, rather than a dish in a heavy sauce."
     }
    ]
   },
@@ -533,7 +548,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/Achu_(soup)  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/Pasta_al_pomodoro  (Wikipedia, CC BY-SA)"
     }
    ]
   }
