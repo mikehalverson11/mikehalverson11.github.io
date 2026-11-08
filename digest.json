@@ -1,11 +1,30 @@
 {
- "generated": "2026-11-07T07:45:22-05:00",
+ "generated": "2026-11-08T08:04:03-05:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Saturday, November 07, 2026"
+     "text": "Daily digest for Sunday, November 08, 2026"
+    }
+   ]
+  },
+  {
+   "type": "divider"
+  },
+  {
+   "type": "heading",
+   "parts": [
+    {
+     "text": "Today's reminders"
+    }
+   ]
+  },
+  {
+   "type": "todo",
+   "parts": [
+    {
+     "text": "Set Fantasy Football Lineup"
     }
    ]
   },
@@ -24,7 +43,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 43F (feels 36F), Overcast"
+     "text": "Now: 37F (feels 29F), Overcast"
     }
    ]
   },
@@ -32,7 +51,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Today: Heavy drizzle, high 46F / low 42F, 40% chance of precipitation, wind up to 15 mph"
+     "text": "Today: Overcast, high 55F / low 36F, 2% chance of precipitation, wind up to 17 mph"
     }
    ]
   },
@@ -51,15 +70,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "[NBA] San Antonio Spurs 124 @ Sacramento Kings 109  (Final)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NHL] San Jose Sharks 1 @ Minnesota Wild 4  (Final)"
+     "text": "[NHL] San Jose Sharks 3 @ Dallas Stars 4  (Final)"
     }
    ]
   },
@@ -68,14 +79,6 @@
    "parts": [
     {
      "text": "Coming up"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NHL] San Jose Sharks at Dallas Stars  - Sat Nov 07, 08:00 PM"
     }
    ]
   },
@@ -132,6 +135,30 @@
    "parts": [
     {
      "text": "[NHL] San Jose Sharks at Utah Mammoth  - Sat Nov 14, 09:00 PM"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NFL] San Francisco 49ers at Dallas Cowboys  - Sun Nov 15, 04:25 PM"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NBA] Oklahoma City Thunder at Sacramento Kings  - Sun Nov 15, 09:00 PM"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NHL] Nashville Predators at San Jose Sharks  - Sun Nov 15, 09:00 PM"
     }
    ]
   },
@@ -217,7 +244,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1916: Woodrow Wilson is reelected as President of the United States."
+     "text": "1278: Trần Thánh Tông, the second emperor of the Trần dynasty, decides to pass the throne to his crown prince Trần Khâm and take up the post of Retired Emperor."
     }
    ]
   },
@@ -225,7 +252,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1918: Kurt Eisner overthrows the Wittelsbach dynasty in the Kingdom of Bavaria."
+     "text": "1920: Rupert Bear, illustrated by Mary Tourtel makes his first appearance in print."
     }
    ]
   },
@@ -233,7 +260,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1967: Carl B. Stokes is elected as Mayor of Cleveland, Ohio, becoming the first African American mayor of a major American city."
+     "text": "1960: John F. Kennedy is elected as the 35th President of the United States, defeating incumbent Vice President Richard Nixon, who would later be elected president in 1968  and 1972."
     }
    ]
   },
@@ -350,21 +377,6 @@
    ]
   },
   {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "Ones and Tooze: "
-    },
-    {
-     "text": "U.S. and Israeli Elections",
-     "url": "https://mgln.ai/e/211/traffic.megaphone.fm/FGP5252147256.mp3"
-    },
-    {
-     "text": "  (Wed Nov 04, 56 min)"
-    }
-   ]
-  },
-  {
    "type": "paragraph",
    "parts": [
     {
@@ -475,8 +487,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "The Politics of Enmity",
-     "url": "https://www.jstor.org/stable/2930378"
+     "text": "Genet and Europe",
+     "url": "https://www.jstor.org/stable/26287550"
     }
    ]
   },
@@ -484,7 +496,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "jstor.org - Concerning the relation between politics and perversion, see Jean-Michel. Rabat6's original analysis in his article \"Jean Genet, la position du franc-tireur,\" L ..."
+     "text": "jstor.org - opening line of one of the rare essays he published in London. He came to the United States to campaign for the Black Panthers, ... of my biography, Jean Genet ( ..."
     }
    ]
   },
@@ -500,8 +512,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Jean Genet on Palestine and the Panthers ABSTRACT",
-     "url": "https://philarchive.org/archive/HALRBJ"
+     "text": "Palestine, Political Theatre & the Performance of Queer ...",
+     "url": "https://themarkaz.org/palestine-political-theatre-the-performance-of-queer-solidarity-in-jean-genets-prisoner-of-love/"
     }
    ]
   },
@@ -509,7 +521,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "philarchive.org - 9 “The central importance of Prisoner of Love,” Ongiri summarizes, “lies in its ability to celebrate the importance of the beliefs and ideals of the Fedayeen ..."
+     "text": "themarkaz.org - In an early scene in Prisoner of Love, Genet recounts a post-colonial dance-off between the Jordanian Bedouin army and the Palestinian fedayeen, ..."
     }
    ]
   },
@@ -526,13 +538,13 @@
   },
   {
    "type": "image",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Spaghettata.JPG/960px-Spaghettata.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Shrimp_and_corn_chowder.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
   },
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Pasta al pomodoro"
+     "text": "Chowder"
     }
    ]
   },
@@ -540,7 +552,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Pasta al pomodoro (Italian: [ˈpasta al pomoˈdɔːro]) is a pasta dish typically prepared with fresh tomatoes, extra virgin olive oil, garlic, basil, and salt. It is intended to be a quick and light dish, rather than a dish in a heavy sauce."
+     "text": "Chowder is a type of thick soup prepared with milk or cream, a roux, and seafood or vegetables. Oyster crackers or saltines may accompany chowders as a side item, and cracker pieces may be dropped atop the dish.\nCommon chowders include seafood chowder, which often consists of fish, clams, and other types of shellfish; lamb or veal chowder made with barley; corn chowder, which uses corn instead of clams; various fish chowders; and potato chowder, which is often made with cheese."
     }
    ]
   },
@@ -548,7 +560,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/Pasta_al_pomodoro  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/Chowder  (Wikipedia, CC BY-SA)"
     }
    ]
   }
