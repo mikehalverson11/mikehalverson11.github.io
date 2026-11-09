@@ -101,7 +101,7 @@ NEWSLETTERS_PRIVATE_ON_WEBSITE = True  # True: paid-feed posts also appear on th
 
 # New music from artists you scrobble on Last.fm (needs LASTFM_API_KEY + LASTFM_USER secrets)
 LASTFM_LOOKBACK_DAYS = 730     # build your artist list from the last N days of listening (730 = 2 years)
-LASTFM_TOP_ARTISTS = 200       # ...and watch your top N artists from that window
+LASTFM_TOP_ARTISTS = 250       # ...and watch your top N artists from that window
 LASTFM_FALLBACK_PERIOD = "12month"  # used only if the date-range lookup fails
 NEW_MUSIC_LOOKBACK_DAYS = 14   # show releases from the last N days...
 NEW_MUSIC_AHEAD_DAYS = 14      # ...and announced ones coming in the next N days
@@ -111,9 +111,9 @@ NEW_MUSIC_MAX_NAME_LOOKUPS = 60  # cap on slow by-name artist lookups (1 per ~se
 # Book you're currently reading -> used to find a related scholarly article.
 # Update these when you start a new book. extra_keywords are optional topics.
 CURRENT_BOOK = {
-    "title": "Prisoner of Love",
-    "author": "Jean Genet",
-    "extra_keywords": "Palestine Black Panthers Genet",
+    "title": "A Heart So White",
+    "author": "Javier Marias",
+    "extra_keywords": "MacBeth Spain",
 }
 
 INDEXES = {"S&P 500 (SPY)": "SPY", "Nasdaq 100 (QQQ)": "QQQ", "Dow (DIA)": "DIA"}
