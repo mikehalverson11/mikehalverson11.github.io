@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-08T08:04:03-05:00",
+ "generated": "2026-11-09T10:46:34-05:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Sunday, November 08, 2026"
+     "text": "Daily digest for Monday, November 09, 2026"
     }
    ]
   },
@@ -24,7 +24,7 @@
    "type": "todo",
    "parts": [
     {
-     "text": "Set Fantasy Football Lineup"
+     "text": "Set Fantasy Basketball Lineup"
     }
    ]
   },
@@ -43,7 +43,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 37F (feels 29F), Overcast"
+     "text": "Now: 50F (feels 41F), Overcast"
     }
    ]
   },
@@ -51,7 +51,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Today: Overcast, high 55F / low 36F, 2% chance of precipitation, wind up to 17 mph"
+     "text": "Today: Overcast, high 53F / low 44F, 0% chance of precipitation, wind up to 15 mph"
     }
    ]
   },
@@ -70,7 +70,15 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "[NHL] San Jose Sharks 3 @ Dallas Stars 4  (Final)"
+     "text": "[NBA] Miami Heat 114 @ Sacramento Kings 108  (Final)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NFL] Las Vegas Raiders 17 @ San Francisco 49ers 38  (Final)"
     }
    ]
   },
@@ -79,22 +87,6 @@
    "parts": [
     {
      "text": "Coming up"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NFL] Las Vegas Raiders at San Francisco 49ers  - Sun Nov 08, 04:25 PM"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NBA] Miami Heat at Sacramento Kings  - Sun Nov 08, 09:00 PM"
     }
    ]
   },
@@ -177,7 +169,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "S&P 500 (SPY): 735.29  ▲ +2.29 (+0.31%)"
+     "text": "S&P 500 (SPY): 749.74  ▲ +14.45 (+1.97%)"
     }
    ]
   },
@@ -185,7 +177,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Nasdaq 100 (QQQ): 656.10  ▲ +9.05 (+1.40%)"
+     "text": "Nasdaq 100 (QQQ): 675.10  ▲ +19.00 (+2.90%)"
     }
    ]
   },
@@ -193,7 +185,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Dow (DIA): 512.22  ▼ -2.05 (-0.40%)"
+     "text": "Dow (DIA): 520.44  ▲ +8.22 (+1.60%)"
     }
    ]
   },
@@ -209,7 +201,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "AAPL: 342.37  ▼ -1.80 (-0.52%)"
+     "text": "AAPL: 350.87  ▲ +8.50 (+2.48%)"
     }
    ]
   },
@@ -217,7 +209,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "VOO: 675.99  ▲ +2.02 (+0.30%)"
+     "text": "VOO: 689.16  ▲ +13.17 (+1.95%)"
     }
    ]
   },
@@ -225,7 +217,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "NVDA: 186.64  ▲ +5.04 (+2.78%)"
+     "text": "NVDA: 179.26  ▼ -7.38 (-3.95%)"
     }
    ]
   },
@@ -244,7 +236,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1278: Trần Thánh Tông, the second emperor of the Trần dynasty, decides to pass the throne to his crown prince Trần Khâm and take up the post of Retired Emperor."
+     "text": "1913: The Great Lakes Storm of 1913, the most destructive natural disaster ever to hit the lakes, reaches its greatest intensity after beginning two days earlier. The storm destroys 19 ships and kills more than 250 people."
     }
    ]
   },
@@ -252,7 +244,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1920: Rupert Bear, illustrated by Mary Tourtel makes his first appearance in print."
+     "text": "1935: The Committee for Industrial Organization, the precursor to the Congress of Industrial Organizations, is founded in Atlantic City, New Jersey, by eight trade unions belonging to the American Federation of Labor."
     }
    ]
   },
@@ -260,7 +252,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1960: John F. Kennedy is elected as the 35th President of the United States, defeating incumbent Vice President Richard Nixon, who would later be elected president in 1968  and 1972."
+     "text": "2014: A non-binding self-determination consultation is held in Catalonia, asking Catalan citizens their opinion on whether Catalonia should become a state and, if so, whether it should be an independent state."
     }
    ]
   },
@@ -272,6 +264,21 @@
    "parts": [
     {
      "text": "New music from your artists"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "2026-11-13  "
+    },
+    {
+     "text": "U2 - Carnaval de luz",
+     "url": "https://musicbrainz.org/release-group/09f9581c-52b0-4d2b-bb1b-d5902830b8c1"
+    },
+    {
+     "text": " (Album, out 2026-11-13)"
     }
    ]
   },
@@ -299,6 +306,21 @@
     {
      "text": "Robert Fripp & Brian Eno - Wind On Water (edit): Robert Fripp @ 80, Vol. 26",
      "url": "https://musicbrainz.org/release-group/dcce8e1c-6f55-4280-a8d7-33abaf625da7"
+    },
+    {
+     "text": " (Single)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "2026-11-04  "
+    },
+    {
+     "text": "The Durutti Column, Four Tet - Your Shadow at Morning (Four Tet Rework)",
+     "url": "https://musicbrainz.org/release-group/c8930101-7234-4e12-8437-4fab407f5e62"
     },
     {
      "text": " (Single)"
@@ -350,29 +372,14 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Pablo Torre Finds Out: "
+     "text": "Doomscroll: "
     },
     {
-     "text": "How to Reset the Course of a Nation, with Rachel Maddow",
-     "url": "https://shows.acast.com/pablo-torre-finds-out/episodes/how-to-reset-the-course-of-a-nation-with-rachel-maddow"
+     "text": "[PREVIEW] DS 58.5: Adolph Reed",
+     "url": "https://www.patreon.com/joshuacitarella/posts/ds-58-5-adolph-173570087"
     },
     {
-     "text": "  (Fri Nov 06, 50 min)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "The Zach Lowe Show: "
-    },
-    {
-     "text": "Early NBA Tier List: Elite Squads, Relegation Teams, and Crisis Candidates!",
-     "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT2776270019.mp3"
-    },
-    {
-     "text": "  (Thu Nov 05, 96 min)"
+     "text": "  (Mon Nov 09, 14 min)"
     }
    ]
   },
@@ -388,29 +395,14 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Chapo Trap House: "
-    },
-    {
-     "text": "1086 - Crusader Kings II feat. Derek Davison and Eleanor Janega (11/5/26)",
-     "url": "https://www.patreon.com/chapotraphouse/posts/1086-crusader-ii-174512240"
-    },
-    {
-     "text": "  (Thu Nov 05, 88 min)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
      "text": "TrueAnon: "
     },
     {
-     "text": "Episode 589: Porco Sessuale: Paolo Zampolli (Part 2)",
-     "url": "https://www.patreon.com/TrueAnonPod/posts/episode-589-part-174469136"
+     "text": "Episode 590: Democaust: Blue Inferno",
+     "url": "https://www.patreon.com/TrueAnonPod/posts/episode-590-blue-174841758"
     },
     {
-     "text": "  (Thu Nov 05, 120 min)"
+     "text": "  (Mon Nov 09, 132 min)"
     }
    ]
   },
@@ -426,17 +418,10 @@
    ]
   },
   {
-   "type": "bullet",
+   "type": "paragraph",
    "parts": [
     {
-     "text": "Chasing Sundays: "
-    },
-    {
-     "text": "Chasing Fridays: RIP Magic, Liam Mc Cay, Dylan Thom Q&A, more",
-     "url": "https://www.elienis.com/chasing-fridays-rip-magic-liam-mc-cay-dylan-thom-interview-more/"
-    },
-    {
-     "text": "  (Fri Nov 06) - Plus: djent infecting hardcore, an exciting new noise-rock band, and three live reports from the fringes."
+     "text": "No new posts in the last 3 days."
     }
    ]
   },
@@ -444,7 +429,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "(Loaded, nothing new: the late review: latest Oct 29; Ettingermentum Newsletter: latest Nov 03)"
+     "text": "(Loaded, nothing new: the late review: latest Oct 29; Ettingermentum Newsletter: latest Nov 03; Chasing Sundays: latest Nov 06)"
     }
    ]
   },
@@ -471,7 +456,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Because you're reading Prisoner of Love by Jean Genet:"
+     "text": "Because you're reading A Heart So White by Javier Marias:"
     }
    ]
   },
@@ -479,24 +464,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "From JSTOR"
-    }
-   ]
-  },
-  {
-   "type": "paragraph",
-   "parts": [
-    {
-     "text": "Genet and Europe",
-     "url": "https://www.jstor.org/stable/26287550"
-    }
-   ]
-  },
-  {
-   "type": "paragraph",
-   "parts": [
-    {
-     "text": "jstor.org - opening line of one of the rare essays he published in London. He came to the United States to campaign for the Black Panthers, ... of my biography, Jean Genet ( ..."
+     "text": "No JSTOR result found today."
     }
    ]
   },
@@ -512,8 +480,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Palestine, Political Theatre & the Performance of Queer ...",
-     "url": "https://themarkaz.org/palestine-political-theatre-the-performance-of-queer-solidarity-in-jean-genets-prisoner-of-love/"
+     "text": "A Heart So White",
+     "url": "https://www.ndbooks.com/book/a-heart-so-white/"
     }
    ]
   },
@@ -521,7 +489,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "themarkaz.org - In an early scene in Prisoner of Love, Genet recounts a post-colonial dance-off between the Jordanian Bedouin army and the Palestinian fedayeen, ..."
+     "text": "ndbooks.com - A Heart So White becomes a sort of anti-detective story of human nature. Intrigue; the sins of the father; the fraudulent and the genuine; marriage and strange ..."
     }
    ]
   },
@@ -538,13 +506,13 @@
   },
   {
    "type": "image",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Shrimp_and_corn_chowder.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Poha.jpg/960px-Poha.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Chowder"
+     "text": "Flattened rice"
     }
    ]
   },
@@ -552,7 +520,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Chowder is a type of thick soup prepared with milk or cream, a roux, and seafood or vegetables. Oyster crackers or saltines may accompany chowders as a side item, and cracker pieces may be dropped atop the dish.\nCommon chowders include seafood chowder, which often consists of fish, clams, and other types of shellfish; lamb or veal chowder made with barley; corn chowder, which uses corn instead of clams; various fish chowders; and potato chowder, which is often made with cheese."
+     "text": "Flattened rice is a preparation of rice made from raw, toasted, or parboiled rice grains pounded into flat flakes. It is traditional to many rice-cultivating cultures in Southeast Asia and South Asia. It is also known as rice flakes, beaten rice, pounded rice, pressed rice or chipped rice.\nIt is toasted, fried, or used as ingredients or toppings for other dishes."
     }
    ]
   },
@@ -560,7 +528,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/Chowder  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/Flattened_rice  (Wikipedia, CC BY-SA)"
     }
    ]
   }
