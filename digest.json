@@ -1,30 +1,11 @@
 {
- "generated": "2026-11-10T09:39:30-05:00",
+ "generated": "2026-11-11T08:54:39-05:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Tuesday, November 10, 2026"
-    }
-   ]
-  },
-  {
-   "type": "divider"
-  },
-  {
-   "type": "heading",
-   "parts": [
-    {
-     "text": "Today's reminders"
-    }
-   ]
-  },
-  {
-   "type": "todo",
-   "parts": [
-    {
-     "text": "Fantasy Football Waivers Day"
+     "text": "Daily digest for Wednesday, November 11, 2026"
     }
    ]
   },
@@ -43,7 +24,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 50F (feels 44F), Partly cloudy"
+     "text": "Now: 46F (feels 40F), Overcast"
     }
    ]
   },
@@ -51,7 +32,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Today: Overcast, high 59F / low 42F, 1% chance of precipitation, wind up to 11 mph"
+     "text": "Today: Overcast, high 59F / low 40F, 33% chance of precipitation, wind up to 12 mph"
     }
    ]
   },
@@ -70,7 +51,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "[NHL] New York Islanders 2 @ San Jose Sharks 3  (Final/SO)"
+     "text": "[NBA] Orlando Magic 107 @ Sacramento Kings 100  (Final)"
     }
    ]
   },
@@ -79,14 +60,6 @@
    "parts": [
     {
      "text": "Coming up"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NBA] Orlando Magic at Sacramento Kings  - Tue Nov 10, 10:00 PM"
     }
    ]
   },
@@ -147,6 +120,14 @@
    ]
   },
   {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NBA] Phoenix Suns at Sacramento Kings  - Wed Nov 18, 10:00 PM"
+    }
+   ]
+  },
+  {
    "type": "divider"
   },
   {
@@ -161,7 +142,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "S&P 500 (SPY): 748.01  ▼ -4.68 (-0.62%)"
+     "text": "S&P 500 (SPY): 749.92  ▼ -2.77 (-0.37%)"
     }
    ]
   },
@@ -169,7 +150,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Nasdaq 100 (QQQ): 672.63  ▼ -6.72 (-0.99%)"
+     "text": "Nasdaq 100 (QQQ): 674.76  ▼ -4.59 (-0.68%)"
     }
    ]
   },
@@ -177,7 +158,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Dow (DIA): 521.69  ▼ -1.64 (-0.31%)"
+     "text": "Dow (DIA): 521.73  ▼ -1.60 (-0.31%)"
     }
    ]
   },
@@ -193,7 +174,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "AAPL: 351.03  ▲ +0.34 (+0.10%)"
+     "text": "AAPL: 348.51  ▼ -2.18 (-0.62%)"
     }
    ]
   },
@@ -201,7 +182,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "VOO: 687.57  ▼ -4.30 (-0.62%)"
+     "text": "VOO: 689.50  ▼ -2.37 (-0.34%)"
     }
    ]
   },
@@ -209,7 +190,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "NVDA: 171.86  ▼ -6.81 (-3.81%)"
+     "text": "NVDA: 168.89  ▼ -9.78 (-5.47%)"
     }
    ]
   },
@@ -244,7 +225,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1898: White supremacists seized power and massacred black Americans during the Wilmington massacre, the only instance of a municipal government being overthrown in United States history."
+     "text": "1918: Józef Piłsudski assumes supreme military power in Poland – symbolic first day of Polish independence."
     }
    ]
   },
@@ -252,7 +233,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1918: The Western Union Cable Office in North Sydney, Nova Scotia, receives a top-secret coded message from Europe (that would be sent to Ottawa and Washington, D.C.) that said on November 11, 1918, all fighting would cease on land, sea and in the air."
+     "text": "1961: Thirteen Italian Air Force servicemen, deployed to the Congo as a part of the UN peacekeeping force, are massacred by a mob in Kindu."
     }
    ]
   },
@@ -260,7 +241,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1997: WorldCom and MCI Communications announce a $37 billion merger (the largest merger in US history at the time)."
+     "text": "1993: A sculpture honoring women who served in the Vietnam War is dedicated at the Vietnam Veterans Memorial in Washington, D.C."
     }
    ]
   },
@@ -287,6 +268,21 @@
     },
     {
      "text": " (Album, out 2026-11-13)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "2026-11-11  "
+    },
+    {
+     "text": "Racing Mount Pleasant - Great Destroyer",
+     "url": "https://musicbrainz.org/release-group/5a3e5505-c94b-44ba-8b87-30cc6a067bbf"
+    },
+    {
+     "text": " (Single)"
     }
    ]
   },
@@ -555,8 +551,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Review by shahdmurshed - A Heart So White",
-     "url": "https://app.thestorygraph.com/reviews/a1ad5fca-e865-4a09-8d28-c27ca5c836a7"
+     "text": "Review by marc129 - A Heart So White",
+     "url": "https://app.thestorygraph.com/reviews/d04f979d-ff7c-4698-917f-4bfeda97dc29"
     }
    ]
   },
@@ -564,7 +560,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "app.thestorygraph.com - The title - A Heart So White - is taken from Shakespeare's Macbeth; My hands are of your color but I shame to wear a heart so white and this book integrates ..."
+     "text": "app.thestorygraph.com - marc129 's review for: A Heart So White by Javier Marías. 3.25. I cannot help it; time and again I am captivated by the work of Javier Marias (1951-2022)."
     }
    ]
   },
@@ -581,13 +577,13 @@
   },
   {
    "type": "image",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Maldivian_gulha33.JPG/960px-Maldivian_gulha33.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/%C5%92uf_en_meurette.jpg/960px-%C5%92uf_en_meurette.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Gulha"
+     "text": "Meurette"
     }
    ]
   },
@@ -595,7 +591,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Gulha (Dhivehi: ގުޅަ; pronounced [guɭa]) is a typical and popular Maldivian snack food.\nGulha are small ball-shaped dumplings that are stuffed with a mixture of tuna, finely chopped onion, grated coconut, and chili. Depending on the cook, turmeric, lime juice ginger and chopped curry leaves are added to the mixture. Once ready, the gulha are deep-fried."
+     "text": "Meurette (French pronunciation: [mœʁɛt]) is:\n\na red wine sauce cooked with bacon, onions, shallots, mushrooms and various spices. This sauce used in oeufs en meurette and many other preparations in French cuisine.\na regional term for the fish stew with the generic name matelote."
     }
    ]
   },
@@ -603,7 +599,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/Gulha  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/Meurette  (Wikipedia, CC BY-SA)"
     }
    ]
   }
