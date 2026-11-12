@@ -1,11 +1,38 @@
 {
- "generated": "2026-11-11T08:54:39-05:00",
+ "generated": "2026-11-12T09:56:08-05:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Wednesday, November 11, 2026"
+     "text": "Daily digest for Thursday, November 12, 2026"
+    }
+   ]
+  },
+  {
+   "type": "divider"
+  },
+  {
+   "type": "heading",
+   "parts": [
+    {
+     "text": "Today's reminders"
+    }
+   ]
+  },
+  {
+   "type": "todo",
+   "parts": [
+    {
+     "text": "Set Fantasy Football Lineup"
+    }
+   ]
+  },
+  {
+   "type": "todo",
+   "parts": [
+    {
+     "text": "Rec League Basketball"
     }
    ]
   },
@@ -24,7 +51,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 46F (feels 40F), Overcast"
+     "text": "Now: 48F (feels 42F), Overcast"
     }
    ]
   },
@@ -32,7 +59,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Today: Overcast, high 59F / low 40F, 33% chance of precipitation, wind up to 12 mph"
+     "text": "Today: Rain, high 49F / low 39F, 83% chance of precipitation, wind up to 16 mph"
     }
    ]
   },
@@ -51,7 +78,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "[NBA] Orlando Magic 107 @ Sacramento Kings 100  (Final)"
+     "text": "[NHL] Pittsburgh Penguins 3 @ San Jose Sharks 2  (Final/SO)"
     }
    ]
   },
@@ -60,14 +87,6 @@
    "parts": [
     {
      "text": "Coming up"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NHL] Pittsburgh Penguins at San Jose Sharks  - Wed Nov 11, 10:00 PM"
     }
    ]
   },
@@ -142,7 +161,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "S&P 500 (SPY): 749.92  ▼ -2.77 (-0.37%)"
+     "text": "S&P 500 (SPY): 758.05  ▼ -1.76 (-0.23%)"
     }
    ]
   },
@@ -150,7 +169,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Nasdaq 100 (QQQ): 674.76  ▼ -4.59 (-0.68%)"
+     "text": "Nasdaq 100 (QQQ): 686.95  ▼ -3.43 (-0.50%)"
     }
    ]
   },
@@ -158,7 +177,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Dow (DIA): 521.73  ▼ -1.60 (-0.31%)"
+     "text": "Dow (DIA): 524.96  ▲ +0.52 (+0.10%)"
     }
    ]
   },
@@ -174,7 +193,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "AAPL: 348.51  ▼ -2.18 (-0.62%)"
+     "text": "AAPL: 358.51  ▲ +2.88 (+0.81%)"
     }
    ]
   },
@@ -182,7 +201,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "VOO: 689.50  ▼ -2.37 (-0.34%)"
+     "text": "VOO: 696.80  ▼ -1.55 (-0.22%)"
     }
    ]
   },
@@ -190,7 +209,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "NVDA: 168.89  ▼ -9.78 (-5.47%)"
+     "text": "NVDA: 161.39  ▼ -12.34 (-7.10%)"
     }
    ]
   },
@@ -225,7 +244,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1918: Józef Piłsudski assumes supreme military power in Poland – symbolic first day of Polish independence."
+     "text": "1614: The treaty of Xanten ends the Jülich-Cleves Succession Crises, which nearly brought Europe to the brink of war, and divides the disputed lands between Brandenburg and Neuburg."
     }
    ]
   },
@@ -233,7 +252,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1961: Thirteen Italian Air Force servicemen, deployed to the Congo as a part of the UN peacekeeping force, are massacred by a mob in Kindu."
+     "text": "1954: Ellis Island ceases operations."
     }
    ]
   },
@@ -241,7 +260,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1993: A sculpture honoring women who served in the Vietnam War is dedicated at the Vietnam Veterans Memorial in Washington, D.C."
+     "text": "2003: Shanghai Transrapid sets a new world speed record of 501 kilometres per hour (311 mph) for commercial railway systems, which remains the fastest for unmodified commercial rail vehicles."
     }
    ]
   },
@@ -377,6 +396,21 @@
    ]
   },
   {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "2026-10-29  "
+    },
+    {
+     "text": "Life Without Buildings - XFM Sessions",
+     "url": "https://musicbrainz.org/release-group/94e78fe1-6785-4d7c-9f59-7b4d08ee1005"
+    },
+    {
+     "text": " (Album)"
+    }
+   ]
+  },
+  {
    "type": "divider"
   },
   {
@@ -394,11 +428,11 @@
      "text": "Pablo Torre Finds Out: "
     },
     {
-     "text": "How to Make Journalism Fun, with Maury Povich",
-     "url": "https://pablo.show"
+     "text": "The Best Possible A.I. Catastrophe, with Josh Tyrangiel",
+     "url": "https://shows.acast.com/pablo-torre-finds-out/episodes/placeholder-josh-t"
     },
     {
-     "text": "  (Tue Nov 10, 49 min)"
+     "text": "  (Thu Nov 12, 52 min)"
     }
    ]
   },
@@ -418,21 +452,6 @@
    ]
   },
   {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "Doomscroll: "
-    },
-    {
-     "text": "[PREVIEW] DS 58.5: Adolph Reed",
-     "url": "https://www.patreon.com/joshuacitarella/posts/ds-58-5-adolph-173570087"
-    },
-    {
-     "text": "  (Mon Nov 09, 14 min)"
-    }
-   ]
-  },
-  {
    "type": "paragraph",
    "parts": [
     {
@@ -444,14 +463,14 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Chapo Trap House: "
+     "text": "TrueAnon: "
     },
     {
-     "text": "1087 - Ten Years in the Zone feat. David J. Roth, Stavros Halkias, and Lex Walton (11/9/26)",
-     "url": "https://www.patreon.com/chapotraphouse/posts/1087-ten-years-j-174882393"
+     "text": "Episode 591: Dark Forces",
+     "url": "https://www.patreon.com/TrueAnonPod/posts/episode-591-dark-175128885"
     },
     {
-     "text": "  (Mon Nov 09, 123 min)"
+     "text": "  (Thu Nov 12, 68 min)"
     }
    ]
   },
@@ -459,14 +478,14 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "TrueAnon: "
+     "text": "Chapo Trap House: "
     },
     {
-     "text": "Episode 590: Democaust: Blue Inferno",
-     "url": "https://www.patreon.com/TrueAnonPod/posts/episode-590-blue-174841758"
+     "text": "MM52 - Cruisin’ USA",
+     "url": "https://www.patreon.com/chapotraphouse/posts/mm52-cruisin-usa-175076952"
     },
     {
-     "text": "  (Mon Nov 09, 132 min)"
+     "text": "  (Wed Nov 11, 159 min)"
     }
    ]
   },
@@ -551,8 +570,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Review by marc129 - A Heart So White",
-     "url": "https://app.thestorygraph.com/reviews/d04f979d-ff7c-4698-917f-4bfeda97dc29"
+     "text": "Review by shahdmurshed - A Heart So White",
+     "url": "https://app.thestorygraph.com/reviews/a1ad5fca-e865-4a09-8d28-c27ca5c836a7"
     }
    ]
   },
@@ -560,7 +579,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "app.thestorygraph.com - marc129 's review for: A Heart So White by Javier Marías. 3.25. I cannot help it; time and again I am captivated by the work of Javier Marias (1951-2022)."
+     "text": "app.thestorygraph.com - The title - A Heart So White - is taken from Shakespeare's Macbeth; My hands are of your color but I shame to wear a heart so white and this book integrates ..."
     }
    ]
   },
@@ -577,13 +596,13 @@
   },
   {
    "type": "image",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/%C5%92uf_en_meurette.jpg/960px-%C5%92uf_en_meurette.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Khauk_swe_thoke.jpg/960px-Khauk_swe_thoke.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Meurette"
+     "text": "Khauk swè thoke"
     }
    ]
   },
@@ -591,7 +610,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Meurette (French pronunciation: [mœʁɛt]) is:\n\na red wine sauce cooked with bacon, onions, shallots, mushrooms and various spices. This sauce used in oeufs en meurette and many other preparations in French cuisine.\na regional term for the fish stew with the generic name matelote."
+     "text": "Khauk swè thoke (Burmese: ခေါက်ဆွဲသုပ်‌; pronounced [kʰaʊʔ sʰwɛ́ θoʊʔ]; lit. 'noodle salad') is an a thoke  salad dish in Burmese cuisine. A wheat noodle salad, it is made with dried shrimp, shredded cabbage, carrots, fish sauce, lime and dressed with fried peanut oil.\nAfter World War II, over 300,000 ethnic Indians in Burma, including Tamils from Tamil Nadu, Telugus from Andhra Pradesh and Marwaris from the Marwar region of India's Rajasthan, immigrated to India. After returning to India, they brought their food culture also along with them."
     }
    ]
   },
@@ -599,7 +618,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/Meurette  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/Khauk_sw%C3%A8_thoke  (Wikipedia, CC BY-SA)"
     }
    ]
   }
