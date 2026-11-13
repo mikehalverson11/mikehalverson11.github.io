@@ -1,38 +1,11 @@
 {
- "generated": "2026-11-12T09:56:08-05:00",
+ "generated": "2026-11-13T09:22:06-05:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Thursday, November 12, 2026"
-    }
-   ]
-  },
-  {
-   "type": "divider"
-  },
-  {
-   "type": "heading",
-   "parts": [
-    {
-     "text": "Today's reminders"
-    }
-   ]
-  },
-  {
-   "type": "todo",
-   "parts": [
-    {
-     "text": "Set Fantasy Football Lineup"
-    }
-   ]
-  },
-  {
-   "type": "todo",
-   "parts": [
-    {
-     "text": "Rec League Basketball"
+     "text": "Daily digest for Friday, November 13, 2026"
     }
    ]
   },
@@ -51,15 +24,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 48F (feels 42F), Overcast"
-    }
-   ]
-  },
-  {
-   "type": "paragraph",
-   "parts": [
-    {
-     "text": "Today: Rain, high 49F / low 39F, 83% chance of precipitation, wind up to 16 mph"
+     "text": "Weather unavailable (HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20))"
     }
    ]
   },
@@ -75,10 +40,10 @@
    ]
   },
   {
-   "type": "bullet",
+   "type": "paragraph",
    "parts": [
     {
-     "text": "[NHL] Pittsburgh Penguins 3 @ San Jose Sharks 2  (Final/SO)"
+     "text": "No games for your teams last night."
     }
    ]
   },
@@ -147,6 +112,14 @@
    ]
   },
   {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NBA] Sacramento Kings at Los Angeles Lakers  - Fri Nov 20, 10:00 PM"
+    }
+   ]
+  },
+  {
    "type": "divider"
   },
   {
@@ -161,7 +134,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "S&P 500 (SPY): 758.05  ▼ -1.76 (-0.23%)"
+     "text": "S&P 500 (SPY): 757.12  ▼ -2.69 (-0.35%)"
     }
    ]
   },
@@ -169,7 +142,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Nasdaq 100 (QQQ): 686.95  ▼ -3.43 (-0.50%)"
+     "text": "Nasdaq 100 (QQQ): 688.17  ▼ -2.21 (-0.32%)"
     }
    ]
   },
@@ -177,7 +150,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Dow (DIA): 524.96  ▲ +0.52 (+0.10%)"
+     "text": "Dow (DIA): 522.47  ▼ -1.97 (-0.38%)"
     }
    ]
   },
@@ -193,7 +166,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "AAPL: 358.51  ▲ +2.88 (+0.81%)"
+     "text": "AAPL: 354.88  ▼ -0.75 (-0.21%)"
     }
    ]
   },
@@ -201,7 +174,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "VOO: 696.80  ▼ -1.55 (-0.22%)"
+     "text": "VOO: 696.00  ▼ -2.35 (-0.34%)"
     }
    ]
   },
@@ -209,7 +182,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "NVDA: 161.39  ▼ -12.34 (-7.10%)"
+     "text": "NVDA: 166.19  ▼ -7.54 (-4.34%)"
     }
    ]
   },
@@ -244,7 +217,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1614: The treaty of Xanten ends the Jülich-Cleves Succession Crises, which nearly brought Europe to the brink of war, and divides the disputed lands between Brandenburg and Neuburg."
+     "text": "1833: Great Meteor Storm of 1833."
     }
    ]
   },
@@ -252,7 +225,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1954: Ellis Island ceases operations."
+     "text": "1970: Bhola cyclone: A 240 km/h (150 mph) tropical cyclone hits the densely populated Ganges Delta region of East Pakistan (now Bangladesh), killing an estimated 500,000 people in one night."
     }
    ]
   },
@@ -260,7 +233,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "2003: Shanghai Transrapid sets a new world speed record of 501 kilometres per hour (311 mph) for commercial railway systems, which remains the fastest for unmodified commercial rail vehicles."
+     "text": "2015: Islamic State operatives carry out a series of coordinated terrorist attacks in Paris, including suicide bombings, mass shootings and a hostage crisis. The terrorists kill 130 people, making it the deadliest attack in France since the Second World War."
     }
    ]
   },
@@ -286,7 +259,22 @@
      "url": "https://musicbrainz.org/release-group/09f9581c-52b0-4d2b-bb1b-d5902830b8c1"
     },
     {
-     "text": " (Album, out 2026-11-13)"
+     "text": " (Album)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "2026-11-12  "
+    },
+    {
+     "text": "Bonobo - Memory Signal / Vakata",
+     "url": "https://musicbrainz.org/release-group/59c4e88e-0fb0-4d87-b4e8-fe22090cd255"
+    },
+    {
+     "text": " (EP)"
     }
    ]
   },
@@ -396,21 +384,6 @@
    ]
   },
   {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "2026-10-29  "
-    },
-    {
-     "text": "Life Without Buildings - XFM Sessions",
-     "url": "https://musicbrainz.org/release-group/94e78fe1-6785-4d7c-9f59-7b4d08ee1005"
-    },
-    {
-     "text": " (Album)"
-    }
-   ]
-  },
-  {
    "type": "divider"
   },
   {
@@ -425,14 +398,29 @@
    "type": "bullet",
    "parts": [
     {
+     "text": "Ones and Tooze: "
+    },
+    {
+     "text": "Nvidia and Economic Espionage",
+     "url": "https://mgln.ai/e/211/traffic.megaphone.fm/FGP4027890770.mp3"
+    },
+    {
+     "text": "  (Fri Nov 13, 56 min)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
      "text": "Pablo Torre Finds Out: "
     },
     {
-     "text": "The Best Possible A.I. Catastrophe, with Josh Tyrangiel",
-     "url": "https://shows.acast.com/pablo-torre-finds-out/episodes/placeholder-josh-t"
+     "text": "Investigating Patient Zero of the NBA Gambling Scandal — and the Mob",
+     "url": "https://shows.acast.com/pablo-torre-finds-out/episodes/placeholder-jontay"
     },
     {
-     "text": "  (Thu Nov 12, 52 min)"
+     "text": "  (Fri Nov 13, 54 min)"
     }
    ]
   },
@@ -443,11 +431,11 @@
      "text": "The Zach Lowe Show: "
     },
     {
-     "text": "Are the Spurs Clear Favorites? Plus, Tatum-Brown Reunion, and Crisis Watch!",
-     "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT7589109568.mp3"
+     "text": "Injuries Pile Up Around the NBA. Plus: Five Interesting Teams",
+     "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT4831240521.mp3"
     },
     {
-     "text": "  (Mon Nov 09, 87 min)"
+     "text": "  (Thu Nov 12, 108 min)"
     }
    ]
   },
@@ -463,6 +451,21 @@
    "type": "bullet",
    "parts": [
     {
+     "text": "Chapo Trap House: "
+    },
+    {
+     "text": "1088 - Regime Change feat. David Weigel (11/12/26)",
+     "url": "https://www.patreon.com/chapotraphouse/posts/1088-regime-feat-175193557"
+    },
+    {
+     "text": "  (Fri Nov 13, 70 min)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
      "text": "TrueAnon: "
     },
     {
@@ -471,21 +474,6 @@
     },
     {
      "text": "  (Thu Nov 12, 68 min)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "Chapo Trap House: "
-    },
-    {
-     "text": "MM52 - Cruisin’ USA",
-     "url": "https://www.patreon.com/chapotraphouse/posts/mm52-cruisin-usa-175076952"
-    },
-    {
-     "text": "  (Wed Nov 11, 159 min)"
     }
    ]
   },
@@ -507,11 +495,11 @@
      "text": "Chasing Sundays: "
     },
     {
-     "text": "Colin Young on HardLore's influence, Twitching Tongues' comeback, \"IG Reels hardcore,\" more",
-     "url": "https://www.elienis.com/colin-young-hardlore-twitching-tongues-hardcore-interview/"
+     "text": "Chasing Fridays: daine, hardcore check-in, Threshold Q&A, more",
+     "url": "https://www.elienis.com/chasing-fridays-daine-hardcore-cradle-threshold-interview/"
     },
     {
-     "text": "  (Tue Nov 10) - \"There’s a specific kind of inauthenticity that sickens me,\" says the podcaster and musician whose taste transformed hardcore."
+     "text": "  (Fri Nov 13) - Plus: Philly-gaze hits a dead-end while Philly bedroom-pop lopes forward."
     }
    ]
   },
@@ -554,7 +542,24 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "No JSTOR result found today."
+     "text": "From JSTOR"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "parts": [
+    {
+     "text": "A Companion to Javier Marías",
+     "url": "https://www.jstor.org/stable/10.7722/j.cttn3408"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "parts": [
+    {
+     "text": "jstor.org - During the course of preparing this book, in addition to the customary reading of professional criticism on the work of Javier Marías, I sought also to stay ..."
     }
    ]
   },
@@ -570,8 +575,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Review by shahdmurshed - A Heart So White",
-     "url": "https://app.thestorygraph.com/reviews/a1ad5fca-e865-4a09-8d28-c27ca5c836a7"
+     "text": "A Heart So White by Javier Marías - 1001 Books Challenge",
+     "url": "https://books1001.livejournal.com/71046.html"
     }
    ]
   },
@@ -579,7 +584,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "app.thestorygraph.com - The title - A Heart So White - is taken from Shakespeare's Macbeth; My hands are of your color but I shame to wear a heart so white and this book integrates ..."
+     "text": "books1001.livejournal.com - Javier Marías is celebrated in his native Spain, but much less known in the United States. A Heart So White (the title is a line from Macbeth) ..."
     }
    ]
   },
@@ -596,13 +601,13 @@
   },
   {
    "type": "image",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Khauk_swe_thoke.jpg/960px-Khauk_swe_thoke.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Cacio_e_pepe.jpg/960px-Cacio_e_pepe.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Khauk swè thoke"
+     "text": "Cacio e pepe"
     }
    ]
   },
@@ -610,7 +615,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Khauk swè thoke (Burmese: ခေါက်ဆွဲသုပ်‌; pronounced [kʰaʊʔ sʰwɛ́ θoʊʔ]; lit. 'noodle salad') is an a thoke  salad dish in Burmese cuisine. A wheat noodle salad, it is made with dried shrimp, shredded cabbage, carrots, fish sauce, lime and dressed with fried peanut oil.\nAfter World War II, over 300,000 ethnic Indians in Burma, including Tamils from Tamil Nadu, Telugus from Andhra Pradesh and Marwaris from the Marwar region of India's Rajasthan, immigrated to India. After returning to India, they brought their food culture also along with them."
+     "text": "Cacio e pepe (Italian: [ˈkaːtʃo e pˈpeːpe]) is a pasta dish typical of Lazio, Italy. It contains grated pecorino romano and black pepper with tonnarelli or spaghetti. Achieving a smooth and creamy texture during preparation requires special attention, as the cheese is prone to becoming lumpy."
     }
    ]
   },
@@ -618,7 +623,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/Khauk_sw%C3%A8_thoke  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/Cacio_e_pepe  (Wikipedia, CC BY-SA)"
     }
    ]
   }
