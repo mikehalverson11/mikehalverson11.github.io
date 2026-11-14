@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-13T09:22:06-05:00",
+ "generated": "2026-11-14T08:16:35-05:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Friday, November 13, 2026"
+     "text": "Daily digest for Saturday, November 14, 2026"
     }
    ]
   },
@@ -24,7 +24,15 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Weather unavailable (HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20))"
+     "text": "Now: 39F (feels 30F), Overcast"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "parts": [
+    {
+     "text": "Today: Light rain, high 41F / low 37F, 34% chance of precipitation, wind up to 14 mph"
     }
    ]
   },
@@ -40,10 +48,10 @@
    ]
   },
   {
-   "type": "paragraph",
+   "type": "bullet",
    "parts": [
     {
-     "text": "No games for your teams last night."
+     "text": "[NBA] Portland Trail Blazers 120 @ Sacramento Kings 107  (Final)"
     }
    ]
   },
@@ -52,14 +60,6 @@
    "parts": [
     {
      "text": "Coming up"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NBA] Portland Trail Blazers at Sacramento Kings  - Fri Nov 13, 10:00 PM"
     }
    ]
   },
@@ -120,6 +120,22 @@
    ]
   },
   {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NBA] Boston Celtics at Sacramento Kings  - Sat Nov 21, 10:00 PM"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NHL] Seattle Kraken at San Jose Sharks  - Sat Nov 21, 10:00 PM"
+    }
+   ]
+  },
+  {
    "type": "divider"
   },
   {
@@ -134,7 +150,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "S&P 500 (SPY): 757.12  ▼ -2.69 (-0.35%)"
+     "text": "S&P 500 (SPY): 754.37  ▼ -2.75 (-0.36%)"
     }
    ]
   },
@@ -142,7 +158,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Nasdaq 100 (QQQ): 688.17  ▼ -2.21 (-0.32%)"
+     "text": "Nasdaq 100 (QQQ): 679.89  ▼ -8.28 (-1.20%)"
     }
    ]
   },
@@ -150,7 +166,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Dow (DIA): 522.47  ▼ -1.97 (-0.38%)"
+     "text": "Dow (DIA): 523.15  ▲ +0.68 (+0.13%)"
     }
    ]
   },
@@ -166,7 +182,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "AAPL: 354.88  ▼ -0.75 (-0.21%)"
+     "text": "AAPL: 356.27  ▲ +1.39 (+0.39%)"
     }
    ]
   },
@@ -174,7 +190,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "VOO: 696.00  ▼ -2.35 (-0.34%)"
+     "text": "VOO: 693.38  ▼ -2.62 (-0.38%)"
     }
    ]
   },
@@ -182,7 +198,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "NVDA: 166.19  ▼ -7.54 (-4.34%)"
+     "text": "NVDA: 162.85  ▼ -3.34 (-2.01%)"
     }
    ]
   },
@@ -217,7 +233,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1833: Great Meteor Storm of 1833."
+     "text": "1889: Pioneering female journalist Nellie Bly (aka Elizabeth Cochrane) begins a successful attempt to travel around the world in less than 80 days. She completes the trip in 72 days."
     }
    ]
   },
@@ -225,7 +241,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1970: Bhola cyclone: A 240 km/h (150 mph) tropical cyclone hits the densely populated Ganges Delta region of East Pakistan (now Bangladesh), killing an estimated 500,000 people in one night."
+     "text": "1965: Vietnam War: The Battle of Ia Drang begins. This is the first major engagement between regular American and North Vietnamese forces."
     }
    ]
   },
@@ -233,7 +249,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "2015: Islamic State operatives carry out a series of coordinated terrorist attacks in Paris, including suicide bombings, mass shootings and a hostage crisis. The terrorists kill 130 people, making it the deadliest attack in France since the Second World War."
+     "text": "1967: The Congress of Colombia, in commemoration of the 150th anniversary of the death of Policarpa Salavarrieta, declares this day as \"Day of the Colombian Woman\"."
     }
    ]
   },
@@ -369,21 +385,6 @@
    ]
   },
   {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "2026-10-30  "
-    },
-    {
-     "text": "Andy Stott - Late Loop",
-     "url": "https://musicbrainz.org/release-group/d09aae91-0550-4ee7-a8d1-96423970a5f9"
-    },
-    {
-     "text": " (Album)"
-    }
-   ]
-  },
-  {
    "type": "divider"
   },
   {
@@ -492,6 +493,21 @@
    "type": "bullet",
    "parts": [
     {
+     "text": "Ettingermentum Newsletter: "
+    },
+    {
+     "text": "What Happens Now?",
+     "url": "https://www.ettingermentum.news/p/what-happens-now-d39"
+    },
+    {
+     "text": "  (Fri Nov 13) - Taking a look at the future of American politics after the 2026 midterms."
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
      "text": "Chasing Sundays: "
     },
     {
@@ -507,7 +523,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "(Loaded, nothing new: the late review: latest Oct 29; Ettingermentum Newsletter: latest Nov 03)"
+     "text": "(Loaded, nothing new: the late review: latest Oct 29)"
     }
    ]
   },
@@ -542,24 +558,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "From JSTOR"
-    }
-   ]
-  },
-  {
-   "type": "paragraph",
-   "parts": [
-    {
-     "text": "A Companion to Javier Marías",
-     "url": "https://www.jstor.org/stable/10.7722/j.cttn3408"
-    }
-   ]
-  },
-  {
-   "type": "paragraph",
-   "parts": [
-    {
-     "text": "jstor.org - During the course of preparing this book, in addition to the customary reading of professional criticism on the work of Javier Marías, I sought also to stay ..."
+     "text": "No JSTOR result found today."
     }
    ]
   },
@@ -575,8 +574,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "A Heart So White by Javier Marías - 1001 Books Challenge",
-     "url": "https://books1001.livejournal.com/71046.html"
+     "text": "A Heart So White Chapter Summary | Javier Marías",
+     "url": "https://www.google.com/goto?url=CAESaQHEIkXX9z30peeGeA7y01nH_upftuj-mpJ72NTlPEqgeS0ZChgztQ7gRrt1tHdNCsh3pCYy6KU5RxrBAG8EpAJKRIeqQEl7B4p94JuncLVZc2RW0gKvPO63t2XJbZpWrtjVUz79U76LUQ"
     }
    ]
   },
@@ -584,7 +583,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "books1001.livejournal.com - Javier Marías is celebrated in his native Spain, but much less known in the United States. A Heart So White (the title is a line from Macbeth) ..."
+     "text": "google.com - In *A Heart So White*, Javier Marías delves into the haunting influence of the past with penetrating insight. As Juan embarks on a new life through marriage ..."
     }
    ]
   },
@@ -601,13 +600,13 @@
   },
   {
    "type": "image",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Cacio_e_pepe.jpg/960px-Cacio_e_pepe.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Soupe_gratin%C3%A9e_au_fromage_de_Laguiole.jpg/960px-Soupe_gratin%C3%A9e_au_fromage_de_Laguiole.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Cacio e pepe"
+     "text": "Soupe au fromage"
     }
    ]
   },
@@ -615,7 +614,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Cacio e pepe (Italian: [ˈkaːtʃo e pˈpeːpe]) is a pasta dish typical of Lazio, Italy. It contains grated pecorino romano and black pepper with tonnarelli or spaghetti. Achieving a smooth and creamy texture during preparation requires special attention, as the cheese is prone to becoming lumpy."
+     "text": "Soupe au fromage is a cheese soup belonging to the peasant tradition in the south of Massif Central, France. Also known as the aftermath feast day soup, it was brought to the bride and groom's room on their wedding night.\nThe cheese used to make it is still a subject of controversy between supporters of the laguiole or of the cantal. Celebrated by Alphonse Daudet in his Contes du lundi, this soup has been part of all the local festive meetings (contest, ball, votive party, etc.) for several decades, and every year, the best is distinguished at a world championship."
     }
    ]
   },
@@ -623,7 +622,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/Cacio_e_pepe  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/Soupe_au_fromage  (Wikipedia, CC BY-SA)"
     }
    ]
   }
