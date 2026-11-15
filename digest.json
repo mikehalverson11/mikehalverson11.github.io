@@ -1,11 +1,30 @@
 {
- "generated": "2026-11-14T08:16:35-05:00",
+ "generated": "2026-11-15T08:45:17-05:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Saturday, November 14, 2026"
+     "text": "Daily digest for Sunday, November 15, 2026"
+    }
+   ]
+  },
+  {
+   "type": "divider"
+  },
+  {
+   "type": "heading",
+   "parts": [
+    {
+     "text": "Today's reminders"
+    }
+   ]
+  },
+  {
+   "type": "todo",
+   "parts": [
+    {
+     "text": "Set Fantasy Football Lineup"
     }
    ]
   },
@@ -24,7 +43,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 39F (feels 30F), Overcast"
+     "text": "Now: 43F (feels 35F), Overcast"
     }
    ]
   },
@@ -32,7 +51,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Today: Light rain, high 41F / low 37F, 34% chance of precipitation, wind up to 14 mph"
+     "text": "Today: Light drizzle, high 44F / low 41F, 13% chance of precipitation, wind up to 13 mph"
     }
    ]
   },
@@ -51,7 +70,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "[NBA] Portland Trail Blazers 120 @ Sacramento Kings 107  (Final)"
+     "text": "[NHL] San Jose Sharks 6 @ Utah Mammoth 5  (Final/SO)"
     }
    ]
   },
@@ -60,14 +79,6 @@
    "parts": [
     {
      "text": "Coming up"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NHL] San Jose Sharks at Utah Mammoth  - Sat Nov 14, 09:00 PM"
     }
    ]
   },
@@ -132,6 +143,14 @@
    "parts": [
     {
      "text": "[NHL] Seattle Kraken at San Jose Sharks  - Sat Nov 21, 10:00 PM"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NFL] Minnesota Vikings at San Francisco 49ers  - Sun Nov 22, 08:20 PM"
     }
    ]
   },
@@ -233,7 +252,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1889: Pioneering female journalist Nellie Bly (aka Elizabeth Cochrane) begins a successful attempt to travel around the world in less than 80 days. She completes the trip in 72 days."
+     "text": "1533: Francisco Pizarro arrives in Cuzco, the capital of the Inca Empire."
     }
    ]
   },
@@ -241,7 +260,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1965: Vietnam War: The Battle of Ia Drang begins. This is the first major engagement between regular American and North Vietnamese forces."
+     "text": "1864: American Civil War: Union General William Tecumseh Sherman begins his March to the Sea through Georgia towards the city of Savannah."
     }
    ]
   },
@@ -249,7 +268,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1967: The Congress of Colombia, in commemoration of the 150th anniversary of the death of Policarpa Salavarrieta, declares this day as \"Day of the Colombian Woman\"."
+     "text": "1971: Intel releases the world's first commercial single-chip microprocessor, the 4004."
     }
    ]
   },
@@ -303,6 +322,21 @@
     {
      "text": "Racing Mount Pleasant - Great Destroyer",
      "url": "https://musicbrainz.org/release-group/5a3e5505-c94b-44ba-8b87-30cc6a067bbf"
+    },
+    {
+     "text": " (Single)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "2026-11-11  "
+    },
+    {
+     "text": "U2 & Dolly Parton - Torn",
+     "url": "https://musicbrainz.org/release-group/a10d366d-a3a5-4696-a29b-096086773c79"
     },
     {
      "text": " (Single)"
@@ -574,8 +608,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "A Heart So White Chapter Summary | Javier Marías",
-     "url": "https://www.google.com/goto?url=CAESaQHEIkXX9z30peeGeA7y01nH_upftuj-mpJ72NTlPEqgeS0ZChgztQ7gRrt1tHdNCsh3pCYy6KU5RxrBAG8EpAJKRIeqQEl7B4p94JuncLVZc2RW0gKvPO63t2XJbZpWrtjVUz79U76LUQ"
+     "text": "World Book Club: Javier Marías - A Heart So White",
+     "url": "https://www.google.com/goto?url=CAEShgEBxCJF1xcRjoIG-IWlfYYSMFxX7xhlsJ7wKVQSTTc5Kzf1ZY9yNoS8PzoP70H7lShQTOR2jdRMzPCwrB6_Skepd-I9-F2dd5HuxRCzLezeR2EVBYC5mH8lYbvB1kVbfeBTM8aCy44KkfeK8WqAnqCsAymxV2RpcmvsWih-8c01eQFtpXXmpg"
     }
    ]
   },
@@ -583,7 +617,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "google.com - In *A Heart So White*, Javier Marías delves into the haunting influence of the past with penetrating insight. As Juan embarks on a new life through marriage ..."
+     "text": "google.com - Marías will discuss his IMPAC prize-winning novel A Heart So White, which asks the profoundest, most disturbing questions about the nature of knowledge, secrets ..."
     }
    ]
   },
@@ -600,13 +634,13 @@
   },
   {
    "type": "image",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Soupe_gratin%C3%A9e_au_fromage_de_Laguiole.jpg/960px-Soupe_gratin%C3%A9e_au_fromage_de_Laguiole.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Oblo%C5%BEen%C3%A9_chleb%C3%AD%C4%8Dky.jpg/960px-Oblo%C5%BEen%C3%A9_chleb%C3%AD%C4%8Dky.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Soupe au fromage"
+     "text": "Chlebíček"
     }
    ]
   },
@@ -614,7 +648,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Soupe au fromage is a cheese soup belonging to the peasant tradition in the south of Massif Central, France. Also known as the aftermath feast day soup, it was brought to the bride and groom's room on their wedding night.\nThe cheese used to make it is still a subject of controversy between supporters of the laguiole or of the cantal. Celebrated by Alphonse Daudet in his Contes du lundi, this soup has been part of all the local festive meetings (contest, ball, votive party, etc.) for several decades, and every year, the best is distinguished at a world championship."
+     "text": "Obložený chlebíček or just chlebíček (lit. 'little bread') is a dish in Czech and Slovak cuisines also common in other former Austro-Hungarian countries. It is a type of open sandwich with various toppings and garnishes. It is often served as an appetizer dish or as a snack."
     }
    ]
   },
@@ -622,7 +656,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/Soupe_au_fromage  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/Chleb%C3%AD%C4%8Dek  (Wikipedia, CC BY-SA)"
     }
    ]
   }
