@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-15T08:45:17-05:00",
+ "generated": "2026-11-16T10:23:17-05:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Sunday, November 15, 2026"
+     "text": "Daily digest for Monday, November 16, 2026"
     }
    ]
   },
@@ -24,7 +24,7 @@
    "type": "todo",
    "parts": [
     {
-     "text": "Set Fantasy Football Lineup"
+     "text": "Set Fantasy Basketball Lineup"
     }
    ]
   },
@@ -43,7 +43,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 43F (feels 35F), Overcast"
+     "text": "Now: 42F (feels 37F), Overcast"
     }
    ]
   },
@@ -51,7 +51,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Today: Light drizzle, high 44F / low 41F, 13% chance of precipitation, wind up to 13 mph"
+     "text": "Today: Overcast, high 45F / low 36F, 1% chance of precipitation, wind up to 7 mph"
     }
    ]
   },
@@ -70,7 +70,23 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "[NHL] San Jose Sharks 6 @ Utah Mammoth 5  (Final/SO)"
+     "text": "[NBA] Oklahoma City Thunder 125 @ Sacramento Kings 103  (Final)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NFL] San Francisco 49ers 46 @ Dallas Cowboys 40  (Final)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NHL] Nashville Predators 2 @ San Jose Sharks 4  (Final)"
     }
    ]
   },
@@ -79,30 +95,6 @@
    "parts": [
     {
      "text": "Coming up"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NFL] San Francisco 49ers at Dallas Cowboys  - Sun Nov 15, 04:25 PM"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NBA] Oklahoma City Thunder at Sacramento Kings  - Sun Nov 15, 09:00 PM"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NHL] Nashville Predators at San Jose Sharks  - Sun Nov 15, 09:00 PM"
     }
    ]
   },
@@ -155,6 +147,22 @@
    ]
   },
   {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NBA] San Antonio Spurs at Sacramento Kings  - Mon Nov 23, 10:00 PM"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NHL] Minnesota Wild at San Jose Sharks  - Mon Nov 23, 10:00 PM"
+    }
+   ]
+  },
+  {
    "type": "divider"
   },
   {
@@ -169,7 +177,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "S&P 500 (SPY): 754.37  ▼ -2.75 (-0.36%)"
+     "text": "S&P 500 (SPY): 744.39  ▼ -9.98 (-1.32%)"
     }
    ]
   },
@@ -177,7 +185,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Nasdaq 100 (QQQ): 679.89  ▼ -8.28 (-1.20%)"
+     "text": "Nasdaq 100 (QQQ): 664.71  ▼ -15.18 (-2.23%)"
     }
    ]
   },
@@ -185,7 +193,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Dow (DIA): 523.15  ▲ +0.68 (+0.13%)"
+     "text": "Dow (DIA): 519.77  ▼ -3.38 (-0.65%)"
     }
    ]
   },
@@ -201,7 +209,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "AAPL: 356.27  ▲ +1.39 (+0.39%)"
+     "text": "AAPL: 354.06  ▼ -2.21 (-0.62%)"
     }
    ]
   },
@@ -209,7 +217,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "VOO: 693.38  ▼ -2.62 (-0.38%)"
+     "text": "VOO: 684.26  ▼ -9.12 (-1.32%)"
     }
    ]
   },
@@ -217,7 +225,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "NVDA: 162.85  ▼ -3.34 (-2.01%)"
+     "text": "NVDA: 159.89  ▼ -2.96 (-1.82%)"
     }
    ]
   },
@@ -252,7 +260,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1533: Francisco Pizarro arrives in Cuzco, the capital of the Inca Empire."
+     "text": "1793: French Revolution: Ninety dissident Roman Catholic priests are executed by drowning at Nantes."
     }
    ]
   },
@@ -260,7 +268,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1864: American Civil War: Union General William Tecumseh Sherman begins his March to the Sea through Georgia towards the city of Savannah."
+     "text": "1940: New York City's \"Mad Bomber\" George Metesky places his first bomb at a Manhattan office building used by Consolidated Edison."
     }
    ]
   },
@@ -268,7 +276,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1971: Intel releases the world's first commercial single-chip microprocessor, the 4004."
+     "text": "1940: World War II: In response to the leveling of Coventry by the German Luftwaffe two days before, the Royal Air Force bombs Hamburg."
     }
    ]
   },
@@ -433,82 +441,14 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Ones and Tooze: "
+     "text": "Doomscroll: "
     },
     {
-     "text": "Nvidia and Economic Espionage",
-     "url": "https://mgln.ai/e/211/traffic.megaphone.fm/FGP4027890770.mp3"
+     "text": "DS 59: Catherine Liu",
+     "url": "https://www.patreon.com/joshuacitarella/posts/ds-59-catherine-174776639"
     },
     {
-     "text": "  (Fri Nov 13, 56 min)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "Pablo Torre Finds Out: "
-    },
-    {
-     "text": "Investigating Patient Zero of the NBA Gambling Scandal — and the Mob",
-     "url": "https://shows.acast.com/pablo-torre-finds-out/episodes/placeholder-jontay"
-    },
-    {
-     "text": "  (Fri Nov 13, 54 min)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "The Zach Lowe Show: "
-    },
-    {
-     "text": "Injuries Pile Up Around the NBA. Plus: Five Interesting Teams",
-     "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT4831240521.mp3"
-    },
-    {
-     "text": "  (Thu Nov 12, 108 min)"
-    }
-   ]
-  },
-  {
-   "type": "paragraph",
-   "parts": [
-    {
-     "text": "Members-only (Patreon / private feeds)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "Chapo Trap House: "
-    },
-    {
-     "text": "1088 - Regime Change feat. David Weigel (11/12/26)",
-     "url": "https://www.patreon.com/chapotraphouse/posts/1088-regime-feat-175193557"
-    },
-    {
-     "text": "  (Fri Nov 13, 70 min)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "TrueAnon: "
-    },
-    {
-     "text": "Episode 591: Dark Forces",
-     "url": "https://www.patreon.com/TrueAnonPod/posts/episode-591-dark-175128885"
-    },
-    {
-     "text": "  (Thu Nov 12, 68 min)"
+     "text": "  (Mon Nov 16, 61 min)"
     }
    ]
   },
@@ -539,25 +479,10 @@
    ]
   },
   {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "Chasing Sundays: "
-    },
-    {
-     "text": "Chasing Fridays: daine, hardcore check-in, Threshold Q&A, more",
-     "url": "https://www.elienis.com/chasing-fridays-daine-hardcore-cradle-threshold-interview/"
-    },
-    {
-     "text": "  (Fri Nov 13) - Plus: Philly-gaze hits a dead-end while Philly bedroom-pop lopes forward."
-    }
-   ]
-  },
-  {
    "type": "paragraph",
    "parts": [
     {
-     "text": "(Loaded, nothing new: the late review: latest Oct 29)"
+     "text": "(Loaded, nothing new: the late review: latest Oct 29; Chasing Sundays: latest Nov 13)"
     }
    ]
   },
@@ -608,8 +533,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "World Book Club: Javier Marías - A Heart So White",
-     "url": "https://www.google.com/goto?url=CAEShgEBxCJF1xcRjoIG-IWlfYYSMFxX7xhlsJ7wKVQSTTc5Kzf1ZY9yNoS8PzoP70H7lShQTOR2jdRMzPCwrB6_Skepd-I9-F2dd5HuxRCzLezeR2EVBYC5mH8lYbvB1kVbfeBTM8aCy44KkfeK8WqAnqCsAymxV2RpcmvsWih-8c01eQFtpXXmpg"
+     "text": "Analysis of \"Corazón tan blanco\" Themes | PDF",
+     "url": "https://www.scribd.com/document/958937601/Heart-So-White"
     }
    ]
   },
@@ -617,7 +542,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "google.com - Marías will discuss his IMPAC prize-winning novel A Heart So White, which asks the profoundest, most disturbing questions about the nature of knowledge, secrets ..."
+     "text": "scribd.com - The document is a student analysis of Javier Marías' novel 'Corazón tan blanco,' focusing on the character Juan, of love, solitude, and the complexities of ..."
     }
    ]
   },
@@ -634,13 +559,13 @@
   },
   {
    "type": "image",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Oblo%C5%BEen%C3%A9_chleb%C3%AD%C4%8Dky.jpg/960px-Oblo%C5%BEen%C3%A9_chleb%C3%AD%C4%8Dky.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Porotos_con_rienda%2C.JPG/960px-Porotos_con_rienda%2C.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Chlebíček"
+     "text": "Porotos con riendas"
     }
    ]
   },
@@ -648,7 +573,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Obložený chlebíček or just chlebíček (lit. 'little bread') is a dish in Czech and Slovak cuisines also common in other former Austro-Hungarian countries. It is a type of open sandwich with various toppings and garnishes. It is often served as an appetizer dish or as a snack."
+     "text": "Porotos con rienda (English: beans with reins) is a typical Chilean dish made of boiled beans with spaghetti, chorizo, diced pumpkin, chili, and onions. It is considered a traditional winter meal."
     }
    ]
   },
@@ -656,7 +581,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/Chleb%C3%AD%C4%8Dek  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/Porotos_con_riendas  (Wikipedia, CC BY-SA)"
     }
    ]
   }
