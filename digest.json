@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-16T10:23:17-05:00",
+ "generated": "2026-11-17T10:46:14-05:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Monday, November 16, 2026"
+     "text": "Daily digest for Tuesday, November 17, 2026"
     }
    ]
   },
@@ -24,7 +24,7 @@
    "type": "todo",
    "parts": [
     {
-     "text": "Set Fantasy Basketball Lineup"
+     "text": "Fantasy Football Waivers Day"
     }
    ]
   },
@@ -43,7 +43,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 42F (feels 37F), Overcast"
+     "text": "Now: 43F (feels 37F), Clear"
     }
    ]
   },
@@ -51,7 +51,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Today: Overcast, high 45F / low 36F, 1% chance of precipitation, wind up to 7 mph"
+     "text": "Today: Mostly clear, high 52F / low 32F, 0% chance of precipitation, wind up to 8 mph"
     }
    ]
   },
@@ -67,26 +67,10 @@
    ]
   },
   {
-   "type": "bullet",
+   "type": "paragraph",
    "parts": [
     {
-     "text": "[NBA] Oklahoma City Thunder 125 @ Sacramento Kings 103  (Final)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NFL] San Francisco 49ers 46 @ Dallas Cowboys 40  (Final)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NHL] Nashville Predators 2 @ San Jose Sharks 4  (Final)"
+     "text": "No games for your teams last night."
     }
    ]
   },
@@ -177,7 +161,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "S&P 500 (SPY): 744.39  ▼ -9.98 (-1.32%)"
+     "text": "S&P 500 (SPY): 730.96  ▼ -8.99 (-1.21%)"
     }
    ]
   },
@@ -185,7 +169,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Nasdaq 100 (QQQ): 664.71  ▼ -15.18 (-2.23%)"
+     "text": "Nasdaq 100 (QQQ): 651.61  ▼ -10.14 (-1.53%)"
     }
    ]
   },
@@ -193,7 +177,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Dow (DIA): 519.77  ▼ -3.38 (-0.65%)"
+     "text": "Dow (DIA): 508.81  ▼ -6.87 (-1.33%)"
     }
    ]
   },
@@ -209,7 +193,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "AAPL: 354.06  ▼ -2.21 (-0.62%)"
+     "text": "AAPL: 351.88  ▼ -0.90 (-0.26%)"
     }
    ]
   },
@@ -217,7 +201,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "VOO: 684.26  ▼ -9.12 (-1.32%)"
+     "text": "VOO: 671.90  ▼ -8.36 (-1.23%)"
     }
    ]
   },
@@ -225,7 +209,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "NVDA: 159.89  ▼ -2.96 (-1.82%)"
+     "text": "NVDA: 151.32  ▼ -4.82 (-3.09%)"
     }
    ]
   },
@@ -260,7 +244,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1793: French Revolution: Ninety dissident Roman Catholic priests are executed by drowning at Nantes."
+     "text": "1405: Sharif ul-Hāshim establishes the Sultanate of Sulu."
     }
    ]
   },
@@ -268,7 +252,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1940: New York City's \"Mad Bomber\" George Metesky places his first bomb at a Manhattan office building used by Consolidated Edison."
+     "text": "1869: In Egypt, the Suez Canal, linking the Mediterranean Sea with the Red Sea, is inaugurated."
     }
    ]
   },
@@ -276,7 +260,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1940: World War II: In response to the leveling of Coventry by the German Luftwaffe two days before, the Royal Air Force bombs Hamburg."
+     "text": "1968: British European Airways introduces the BAC One-Eleven into commercial service."
     }
    ]
   },
@@ -298,7 +282,7 @@
      "text": "2026-11-13  "
     },
     {
-     "text": "U2 - Carnaval de luz",
+     "text": "U2 - Carnaval de Luz",
      "url": "https://musicbrainz.org/release-group/09f9581c-52b0-4d2b-bb1b-d5902830b8c1"
     },
     {
@@ -345,6 +329,21 @@
     {
      "text": "U2 & Dolly Parton - Torn",
      "url": "https://musicbrainz.org/release-group/a10d366d-a3a5-4696-a29b-096086773c79"
+    },
+    {
+     "text": " (Single)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "2026-11-09  "
+    },
+    {
+     "text": "Scott Reef, King Gizzard & The Lizard Wizard, Jimmy Barnes, Fred Leone, Dobby, Urthboy, Ruby Rodgers, Mahalia Barnes + The Soul Mates, John Butler, Drifting Clouds, Nidala, Ngaiire, Montaigne, Leah Senior, The Moving Stills, Alex Lahey, Brinkley Davies, Birdland, Lipstick Palms & Tim Shiel - If Not Now",
+     "url": "https://musicbrainz.org/release-group/f3db5cf4-e290-4f34-980d-fc1ce73bef2d"
     },
     {
      "text": " (Single)"
@@ -412,21 +411,6 @@
    ]
   },
   {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "2026-11-02  "
-    },
-    {
-     "text": "oso oso - the facts",
-     "url": "https://musicbrainz.org/release-group/384caa7a-432e-4bbe-b61d-d1f1615e6e15"
-    },
-    {
-     "text": " (Single)"
-    }
-   ]
-  },
-  {
    "type": "divider"
   },
   {
@@ -434,6 +418,36 @@
    "parts": [
     {
      "text": "New podcast episodes"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "Pablo Torre Finds Out: "
+    },
+    {
+     "text": "Share & Confession & Tell with Brace Belden",
+     "url": "https://shows.acast.com/pablo-torre-finds-out/episodes/placeholder-brace"
+    },
+    {
+     "text": "  (Tue Nov 17, 51 min)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "The Zach Lowe Show: "
+    },
+    {
+     "text": "Are the Lakers Serious Contenders? Plus, Dejounte Murray Trades, and Trends!",
+     "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT7144014475.mp3"
+    },
+    {
+     "text": "  (Mon Nov 16, 90 min)"
     }
    ]
   },
@@ -453,6 +467,29 @@
    ]
   },
   {
+   "type": "paragraph",
+   "parts": [
+    {
+     "text": "Members-only (Patreon / private feeds)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "Chapo Trap House: "
+    },
+    {
+     "text": "1089 - Airport ‘26 feat. Alex Nichols (11/16/26)",
+     "url": "https://www.patreon.com/chapotraphouse/posts/1089-airport-26-175568820"
+    },
+    {
+     "text": "  (Tue Nov 17, 101 min)"
+    }
+   ]
+  },
+  {
    "type": "divider"
   },
   {
@@ -467,14 +504,14 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Ettingermentum Newsletter: "
+     "text": "Chasing Sundays: "
     },
     {
-     "text": "What Happens Now?",
-     "url": "https://www.ettingermentum.news/p/what-happens-now-d39"
+     "text": "Debating The Strokes and revisiting the \"new rock revival\" with Steven Hyden",
+     "url": "https://www.elienis.com/debating-the-strokes-and-revisiting-the-new-rock-revival-with-steven-hyden/"
     },
     {
-     "text": "  (Fri Nov 13) - Taking a look at the future of American politics after the 2026 midterms."
+     "text": "  (Tue Nov 17) - Including digressions on The Hives, The White Stripes, the speed of trends, the value of novelty in music, the rise of Geese, and more."
     }
    ]
   },
@@ -482,7 +519,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "(Loaded, nothing new: the late review: latest Oct 29; Chasing Sundays: latest Nov 13)"
+     "text": "(Loaded, nothing new: the late review: latest Oct 29; Ettingermentum Newsletter: latest Nov 13)"
     }
    ]
   },
@@ -533,8 +570,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Analysis of \"Corazón tan blanco\" Themes | PDF",
-     "url": "https://www.scribd.com/document/958937601/Heart-So-White"
+     "text": "A Heart So White by Javier Marías (tr. Margaret Jull Costa)",
+     "url": "https://jacquiwine.wordpress.com/2015/03/03/a-heart-so-white-by-javier-marias/"
     }
    ]
   },
@@ -542,7 +579,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "scribd.com - The document is a student analysis of Javier Marías' novel 'Corazón tan blanco,' focusing on the character Juan, of love, solitude, and the complexities of ..."
+     "text": "jacquiwine.wordpress.com - It's usually something like The Great Gatsby or Ethan Frome, but this year I chose A Heart So White by Javier Marías (first published in Spanish ..."
     }
    ]
   },
@@ -559,13 +596,13 @@
   },
   {
    "type": "image",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Porotos_con_rienda%2C.JPG/960px-Porotos_con_rienda%2C.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Street_food_in_Hanoi.jpg/960px-Street_food_in_Hanoi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Porotos con riendas"
+     "text": "Bún ốc"
     }
    ]
   },
@@ -573,7 +610,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Porotos con rienda (English: beans with reins) is a typical Chilean dish made of boiled beans with spaghetti, chorizo, diced pumpkin, chili, and onions. It is considered a traditional winter meal."
+     "text": "Bún ốc (\"snail vermicelli soup\") is a Vietnamese dish originating from Hanoi, Vietnam. Roasted or boiled snails (ốc luộc) may be eaten first as an appetizer. Snail congee is called cháo ốc, and canh ốc chuối đậu is a thin snail soup with green banana, fried tofu and tía tô."
     }
    ]
   },
@@ -581,7 +618,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/Porotos_con_riendas  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/B%C3%BAn_%E1%BB%91c  (Wikipedia, CC BY-SA)"
     }
    ]
   }
