@@ -1,30 +1,11 @@
 {
- "generated": "2026-11-17T10:46:14-05:00",
+ "generated": "2026-11-18T10:26:28-05:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Tuesday, November 17, 2026"
-    }
-   ]
-  },
-  {
-   "type": "divider"
-  },
-  {
-   "type": "heading",
-   "parts": [
-    {
-     "text": "Today's reminders"
-    }
-   ]
-  },
-  {
-   "type": "todo",
-   "parts": [
-    {
-     "text": "Fantasy Football Waivers Day"
+     "text": "Daily digest for Wednesday, November 18, 2026"
     }
    ]
   },
@@ -43,7 +24,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 43F (feels 37F), Clear"
+     "text": "Now: 44F (feels 35F), Clear"
     }
    ]
   },
@@ -51,7 +32,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Today: Mostly clear, high 52F / low 32F, 0% chance of precipitation, wind up to 8 mph"
+     "text": "Today: Overcast, high 57F / low 35F, 0% chance of precipitation, wind up to 11 mph"
     }
    ]
   },
@@ -67,10 +48,10 @@
    ]
   },
   {
-   "type": "paragraph",
+   "type": "bullet",
    "parts": [
     {
-     "text": "No games for your teams last night."
+     "text": "[NHL] Calgary Flames 5 @ San Jose Sharks 2  (Final)"
     }
    ]
   },
@@ -79,14 +60,6 @@
    "parts": [
     {
      "text": "Coming up"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NHL] Calgary Flames at San Jose Sharks  - Tue Nov 17, 10:00 PM"
     }
    ]
   },
@@ -147,6 +120,22 @@
    ]
   },
   {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NBA] Sacramento Kings at Golden State Warriors  - Wed Nov 25, 10:00 PM"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NHL] San Jose Sharks at Anaheim Ducks  - Wed Nov 25, 10:00 PM"
+    }
+   ]
+  },
+  {
    "type": "divider"
   },
   {
@@ -161,7 +150,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "S&P 500 (SPY): 730.96  ▼ -8.99 (-1.21%)"
+     "text": "S&P 500 (SPY): 731.72  ▼ -0.72 (-0.10%)"
     }
    ]
   },
@@ -169,7 +158,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Nasdaq 100 (QQQ): 651.61  ▼ -10.14 (-1.53%)"
+     "text": "Nasdaq 100 (QQQ): 659.40  ▲ +2.45 (+0.37%)"
     }
    ]
   },
@@ -177,7 +166,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Dow (DIA): 508.81  ▼ -6.87 (-1.33%)"
+     "text": "Dow (DIA): 502.83  ▼ -4.48 (-0.88%)"
     }
    ]
   },
@@ -193,7 +182,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "AAPL: 351.88  ▼ -0.90 (-0.26%)"
+     "text": "AAPL: 353.56  ▲ +1.65 (+0.47%)"
     }
    ]
   },
@@ -201,7 +190,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "VOO: 671.90  ▼ -8.36 (-1.23%)"
+     "text": "VOO: 672.62  ▼ -0.57 (-0.08%)"
     }
    ]
   },
@@ -209,23 +198,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "NVDA: 151.32  ▼ -4.82 (-3.09%)"
-    }
-   ]
-  },
-  {
-   "type": "paragraph",
-   "parts": [
-    {
-     "text": "Upcoming earnings"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "NVDA reports 2026-11-17"
+     "text": "NVDA: 153.11  ▼ -2.35 (-1.51%)"
     }
    ]
   },
@@ -244,7 +217,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1405: Sharif ul-Hāshim establishes the Sultanate of Sulu."
+     "text": "1812: Napoleonic Wars: The Battle of Krasnoi ends in French defeat, but Marshal of France Michel Ney's leadership leads to him becoming known as \"the bravest of the brave\"."
     }
    ]
   },
@@ -252,7 +225,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1869: In Egypt, the Suez Canal, linking the Mediterranean Sea with the Red Sea, is inaugurated."
+     "text": "1905: Prince Carl of Denmark becomes King Haakon VII of Norway."
     }
    ]
   },
@@ -260,7 +233,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1968: British European Airways introduces the BAC One-Eleven into commercial service."
+     "text": "1991: Shiite Muslim kidnappers in Lebanon release Anglican Church envoys Terry Waite and Thomas Sutherland."
     }
    ]
   },
@@ -272,6 +245,36 @@
    "parts": [
     {
      "text": "New music from your artists"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "2026-11-18  "
+    },
+    {
+     "text": "Truth Club - Seelie/Hard to Change",
+     "url": "https://musicbrainz.org/release-group/e3e9ca6b-b88e-449a-931b-e965cb0ed574"
+    },
+    {
+     "text": " (Single)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "2026-11-17  "
+    },
+    {
+     "text": "Julien Baker - Hound",
+     "url": "https://musicbrainz.org/release-group/d1c28313-ba99-41b9-92bb-31f5dfee3301"
+    },
+    {
+     "text": " (Single)"
     }
    ]
   },
@@ -478,6 +481,21 @@
    "type": "bullet",
    "parts": [
     {
+     "text": "TrueAnon: "
+    },
+    {
+     "text": "Call the Hate Line",
+     "url": "https://www.patreon.com/TrueAnonPod/posts/call-hate-line-175647419"
+    },
+    {
+     "text": "  (Tue Nov 17, 7 min)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
      "text": "Chapo Trap House: "
     },
     {
@@ -570,8 +588,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "A Heart So White by Javier Marías (tr. Margaret Jull Costa)",
-     "url": "https://jacquiwine.wordpress.com/2015/03/03/a-heart-so-white-by-javier-marias/"
+     "text": "Analysis of \"Corazón tan blanco\" Themes | PDF",
+     "url": "https://www.scribd.com/document/958937601/Heart-So-White"
     }
    ]
   },
@@ -579,7 +597,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "jacquiwine.wordpress.com - It's usually something like The Great Gatsby or Ethan Frome, but this year I chose A Heart So White by Javier Marías (first published in Spanish ..."
+     "text": "scribd.com - The document is a student analysis of Javier Marías' novel 'Corazón tan blanco,' focusing on the character Juan, a translator who reflects on the mysteries ..."
     }
    ]
   },
@@ -596,13 +614,13 @@
   },
   {
    "type": "image",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Street_food_in_Hanoi.jpg/960px-Street_food_in_Hanoi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Palava_sauce_w-_cocoyam_leaf_%285612472154%29.jpg/960px-Palava_sauce_w-_cocoyam_leaf_%285612472154%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Bún ốc"
+     "text": "Palaver sauce"
     }
    ]
   },
@@ -610,7 +628,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Bún ốc (\"snail vermicelli soup\") is a Vietnamese dish originating from Hanoi, Vietnam. Roasted or boiled snails (ốc luộc) may be eaten first as an appetizer. Snail congee is called cháo ốc, and canh ốc chuối đậu is a thin snail soup with green banana, fried tofu and tía tô."
+     "text": "Palaver sauce or palava sauce (or plasas) is a type of stew widely eaten in West Africa, including Ghana, Liberia, Sierra Leone. The word palaver, meaning a talk, lengthy debate or quarrel, derives from the Portuguese language; palavra in general use means \"speech\" or \"word\", with its origins ultimately from the Late Latin noun parabola, meaning \"speech\" or \"parable\". It is unclear how this led to the name of the stew. One theory is that the spices used in the stew mingle together like raised voices in an argument."
     }
    ]
   },
@@ -618,7 +636,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/B%C3%BAn_%E1%BB%91c  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/Palaver_sauce  (Wikipedia, CC BY-SA)"
     }
    ]
   }
