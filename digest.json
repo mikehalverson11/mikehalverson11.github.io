@@ -1,11 +1,38 @@
 {
- "generated": "2026-11-18T10:26:28-05:00",
+ "generated": "2026-11-19T10:32:06-05:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Wednesday, November 18, 2026"
+     "text": "Daily digest for Thursday, November 19, 2026"
+    }
+   ]
+  },
+  {
+   "type": "divider"
+  },
+  {
+   "type": "heading",
+   "parts": [
+    {
+     "text": "Today's reminders"
+    }
+   ]
+  },
+  {
+   "type": "todo",
+   "parts": [
+    {
+     "text": "Set Fantasy Football Lineup"
+    }
+   ]
+  },
+  {
+   "type": "todo",
+   "parts": [
+    {
+     "text": "Rec League Basketball"
     }
    ]
   },
@@ -24,7 +51,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 44F (feels 35F), Clear"
+     "text": "Now: 52F (feels 43F), Partly cloudy"
     }
    ]
   },
@@ -32,7 +59,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Today: Overcast, high 57F / low 35F, 0% chance of precipitation, wind up to 11 mph"
+     "text": "Today: Overcast, high 62F / low 41F, 0% chance of precipitation, wind up to 12 mph"
     }
    ]
   },
@@ -51,7 +78,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "[NHL] Calgary Flames 5 @ San Jose Sharks 2  (Final)"
+     "text": "[NBA] Phoenix Suns 128 @ Sacramento Kings 107  (Final)"
     }
    ]
   },
@@ -60,14 +87,6 @@
    "parts": [
     {
      "text": "Coming up"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NBA] Phoenix Suns at Sacramento Kings  - Wed Nov 18, 10:00 PM"
     }
    ]
   },
@@ -150,7 +169,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "S&P 500 (SPY): 731.72  ▼ -0.72 (-0.10%)"
+     "text": "S&P 500 (SPY): 730.05  ▼ -0.15 (-0.02%)"
     }
    ]
   },
@@ -158,7 +177,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Nasdaq 100 (QQQ): 659.40  ▲ +2.45 (+0.37%)"
+     "text": "Nasdaq 100 (QQQ): 662.20  ▲ +2.69 (+0.41%)"
     }
    ]
   },
@@ -166,7 +185,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Dow (DIA): 502.83  ▼ -4.48 (-0.88%)"
+     "text": "Dow (DIA): 498.62  ▼ -3.11 (-0.62%)"
     }
    ]
   },
@@ -182,7 +201,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "AAPL: 353.56  ▲ +1.65 (+0.47%)"
+     "text": "AAPL: 348.95  ▼ -3.50 (-0.99%)"
     }
    ]
   },
@@ -190,7 +209,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "VOO: 672.62  ▼ -0.57 (-0.08%)"
+     "text": "VOO: 671.07  ▼ -0.24 (-0.04%)"
     }
    ]
   },
@@ -198,7 +217,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "NVDA: 153.11  ▼ -2.35 (-1.51%)"
+     "text": "NVDA: 153.07  ▲ +2.11 (+1.40%)"
     }
    ]
   },
@@ -217,7 +236,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1812: Napoleonic Wars: The Battle of Krasnoi ends in French defeat, but Marshal of France Michel Ney's leadership leads to him becoming known as \"the bravest of the brave\"."
+     "text": "1794: The United States and the Kingdom of Great Britain sign Jay's Treaty, which attempts to resolve some of the lingering problems left over from the American Revolutionary War."
     }
    ]
   },
@@ -225,7 +244,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1905: Prince Carl of Denmark becomes King Haakon VII of Norway."
+     "text": "1802: The Garinagu arrive at British Honduras (present-day Belize)."
     }
    ]
   },
@@ -233,7 +252,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1991: Shiite Muslim kidnappers in Lebanon release Anglican Church envoys Terry Waite and Thomas Sutherland."
+     "text": "1808: Finnish War: The Convention of Olkijoki in Raahe ends hostilities in Finland."
     }
    ]
   },
@@ -255,7 +274,7 @@
      "text": "2026-11-18  "
     },
     {
-     "text": "Truth Club - Seelie/Hard to Change",
+     "text": "Truth Club - Seeli/Hard to Change",
      "url": "https://musicbrainz.org/release-group/e3e9ca6b-b88e-449a-931b-e965cb0ed574"
     },
     {
@@ -272,6 +291,21 @@
     {
      "text": "Julien Baker - Hound",
      "url": "https://musicbrainz.org/release-group/d1c28313-ba99-41b9-92bb-31f5dfee3301"
+    },
+    {
+     "text": " (Single)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "2026-11-13  "
+    },
+    {
+     "text": "Four Tet - Moma",
+     "url": "https://musicbrainz.org/release-group/f615a637-4f3b-472e-9443-9f91a623b6b8"
     },
     {
      "text": " (Single)"
@@ -399,21 +433,6 @@
    ]
   },
   {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "2026-11-04  "
-    },
-    {
-     "text": "The Durutti Column, Four Tet - Your Shadow at Morning (Four Tet Rework)",
-     "url": "https://musicbrainz.org/release-group/c8930101-7234-4e12-8437-4fab407f5e62"
-    },
-    {
-     "text": " (Single)"
-    }
-   ]
-  },
-  {
    "type": "divider"
   },
   {
@@ -431,11 +450,11 @@
      "text": "Pablo Torre Finds Out: "
     },
     {
-     "text": "Share & Confession & Tell with Brace Belden",
-     "url": "https://shows.acast.com/pablo-torre-finds-out/episodes/placeholder-brace"
+     "text": "Perhaps the Last Conversation on Earth, with Adam McKay",
+     "url": "https://pablo.show"
     },
     {
-     "text": "  (Tue Nov 17, 51 min)"
+     "text": "  (Thu Nov 19, 38 min)"
     }
    ]
   },
@@ -455,21 +474,6 @@
    ]
   },
   {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "Doomscroll: "
-    },
-    {
-     "text": "DS 59: Catherine Liu",
-     "url": "https://www.patreon.com/joshuacitarella/posts/ds-59-catherine-174776639"
-    },
-    {
-     "text": "  (Mon Nov 16, 61 min)"
-    }
-   ]
-  },
-  {
    "type": "paragraph",
    "parts": [
     {
@@ -481,14 +485,14 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "TrueAnon: "
+     "text": "Chapo Trap House: "
     },
     {
-     "text": "Call the Hate Line",
-     "url": "https://www.patreon.com/TrueAnonPod/posts/call-hate-line-175647419"
+     "text": "MM53 - The Wachowski’s Hyperreality",
+     "url": "https://www.patreon.com/chapotraphouse/posts/mm53-wachowskis-175762924"
     },
     {
-     "text": "  (Tue Nov 17, 7 min)"
+     "text": "  (Wed Nov 18, 128 min)"
     }
    ]
   },
@@ -496,14 +500,14 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Chapo Trap House: "
+     "text": "TrueAnon: "
     },
     {
-     "text": "1089 - Airport ‘26 feat. Alex Nichols (11/16/26)",
-     "url": "https://www.patreon.com/chapotraphouse/posts/1089-airport-26-175568820"
+     "text": "Episode 592: Squatters and Donkeys [fixed]",
+     "url": "https://www.patreon.com/TrueAnonPod/posts/episode-592-and-175716133"
     },
     {
-     "text": "  (Tue Nov 17, 101 min)"
+     "text": "  (Wed Nov 18, 111 min)"
     }
    ]
   },
@@ -588,8 +592,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Analysis of \"Corazón tan blanco\" Themes | PDF",
-     "url": "https://www.scribd.com/document/958937601/Heart-So-White"
+     "text": "A Heart So White",
+     "url": "https://www.google.com/goto?url=CAESawHEIkXXdABrr_dR8-tmDBB4Xv7xG1nbmRsh-aZjIzCH-Got1uEjHZW1LBmmCfES-PoE-5-H_Cu6QQ6fBUxmKpfDahvckAEdlK02wqTMq9rGjfdovKctGpaAcWOXedkW_8-rDd3d7ojRqfyp"
     }
    ]
   },
@@ -597,7 +601,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "scribd.com - The document is a student analysis of Javier Marías' novel 'Corazón tan blanco,' focusing on the character Juan, a translator who reflects on the mysteries ..."
+     "text": "google.com - A Heart So White becomes a sort of anti-detective story of human nature. Intrigue; the sins of the father; the fraudulent and the genuine; marriage and strange ..."
     }
    ]
   },
@@ -614,13 +618,13 @@
   },
   {
    "type": "image",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Palava_sauce_w-_cocoyam_leaf_%285612472154%29.jpg/960px-Palava_sauce_w-_cocoyam_leaf_%285612472154%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Goulash_from_usa_salvaged.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
   },
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Palaver sauce"
+     "text": "American goulash"
     }
    ]
   },
@@ -628,7 +632,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Palaver sauce or palava sauce (or plasas) is a type of stew widely eaten in West Africa, including Ghana, Liberia, Sierra Leone. The word palaver, meaning a talk, lengthy debate or quarrel, derives from the Portuguese language; palavra in general use means \"speech\" or \"word\", with its origins ultimately from the Late Latin noun parabola, meaning \"speech\" or \"parable\". It is unclear how this led to the name of the stew. One theory is that the spices used in the stew mingle together like raised voices in an argument."
+     "text": "American goulash, sometimes called slumgullion or Minnesota goulash, is an American dish, similar to American chop suey. American goulash is usually referred to in the Midwestern and Southern United States as simply \"goulash\", and is commonly regarded as comfort food. It is a descendant or variant of Hungarian goulash."
     }
    ]
   },
@@ -636,7 +640,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/Palaver_sauce  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/American_goulash  (Wikipedia, CC BY-SA)"
     }
    ]
   }
