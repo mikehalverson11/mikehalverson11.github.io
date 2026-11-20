@@ -1,38 +1,11 @@
 {
- "generated": "2026-11-19T10:32:06-05:00",
+ "generated": "2026-11-20T10:10:50-05:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Thursday, November 19, 2026"
-    }
-   ]
-  },
-  {
-   "type": "divider"
-  },
-  {
-   "type": "heading",
-   "parts": [
-    {
-     "text": "Today's reminders"
-    }
-   ]
-  },
-  {
-   "type": "todo",
-   "parts": [
-    {
-     "text": "Set Fantasy Football Lineup"
-    }
-   ]
-  },
-  {
-   "type": "todo",
-   "parts": [
-    {
-     "text": "Rec League Basketball"
+     "text": "Daily digest for Friday, November 20, 2026"
     }
    ]
   },
@@ -51,7 +24,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 52F (feels 43F), Partly cloudy"
+     "text": "Now: 57F (feels 52F), Clear"
     }
    ]
   },
@@ -59,7 +32,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Today: Overcast, high 62F / low 41F, 0% chance of precipitation, wind up to 12 mph"
+     "text": "Today: Clear, high 63F / low 47F, 0% chance of precipitation, wind up to 9 mph"
     }
    ]
   },
@@ -75,10 +48,10 @@
    ]
   },
   {
-   "type": "bullet",
+   "type": "paragraph",
    "parts": [
     {
-     "text": "[NBA] Phoenix Suns 128 @ Sacramento Kings 107  (Final)"
+     "text": "No games for your teams last night."
     }
    ]
   },
@@ -155,6 +128,14 @@
    ]
   },
   {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NHL] Vegas Golden Knights at San Jose Sharks  - Fri Nov 27, 04:00 PM"
+    }
+   ]
+  },
+  {
    "type": "divider"
   },
   {
@@ -169,7 +150,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "S&P 500 (SPY): 730.05  ▼ -0.15 (-0.02%)"
+     "text": "S&P 500 (SPY): 715.41  ▼ -0.46 (-0.06%)"
     }
    ]
   },
@@ -177,7 +158,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Nasdaq 100 (QQQ): 662.20  ▲ +2.69 (+0.41%)"
+     "text": "Nasdaq 100 (QQQ): 638.89  ▼ -6.15 (-0.95%)"
     }
    ]
   },
@@ -185,7 +166,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Dow (DIA): 498.62  ▼ -3.11 (-0.62%)"
+     "text": "Dow (DIA): 494.63  ▲ +3.84 (+0.78%)"
     }
    ]
   },
@@ -201,7 +182,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "AAPL: 348.95  ▼ -3.50 (-0.99%)"
+     "text": "AAPL: 349.79  ▲ +0.58 (+0.17%)"
     }
    ]
   },
@@ -209,7 +190,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "VOO: 671.07  ▼ -0.24 (-0.04%)"
+     "text": "VOO: 657.62  ▼ -0.39 (-0.06%)"
     }
    ]
   },
@@ -217,7 +198,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "NVDA: 153.07  ▲ +2.11 (+1.40%)"
+     "text": "NVDA: 140.96  ▼ -5.02 (-3.44%)"
     }
    ]
   },
@@ -236,7 +217,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1794: The United States and the Kingdom of Great Britain sign Jay's Treaty, which attempts to resolve some of the lingering problems left over from the American Revolutionary War."
+     "text": "1759: The British fleet under Edward Hawke defeats a French fleet under Hubert de Brienne in the battle of Quiberon Bay, thus diminishing the chances for a French invasion of Britain."
     }
    ]
   },
@@ -244,7 +225,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1802: The Garinagu arrive at British Honduras (present-day Belize)."
+     "text": "1805: Beethoven's only opera, Fidelio, premieres in Vienna."
     }
    ]
   },
@@ -252,7 +233,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1808: Finnish War: The Convention of Olkijoki in Raahe ends hostilities in Finland."
+     "text": "1946: Indonesian National Revolution: 96 Indonesian including I Gusti Ngurah Rai were killed during the Battle of Margarana with Dutch forces."
     }
    ]
   },
@@ -264,6 +245,36 @@
    "parts": [
     {
      "text": "New music from your artists"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "2026-12-04  "
+    },
+    {
+     "text": "yeule - a+e",
+     "url": "https://musicbrainz.org/release-group/b05ddd22-a10f-44b7-bfb5-b70e53bf2d5e"
+    },
+    {
+     "text": " (EP, out 2026-12-04)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "2026-11-19  "
+    },
+    {
+     "text": "Phoebe Bridgers - Anything",
+     "url": "https://musicbrainz.org/release-group/21ad1751-4684-4f2f-b22b-24487e1a21a3"
+    },
+    {
+     "text": " (Single)"
     }
    ]
   },
@@ -338,7 +349,7 @@
      "url": "https://musicbrainz.org/release-group/59c4e88e-0fb0-4d87-b4e8-fe22090cd255"
     },
     {
-     "text": " (EP)"
+     "text": " (Single)"
     }
    ]
   },
@@ -433,6 +444,21 @@
    ]
   },
   {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "2026-11-06  "
+    },
+    {
+     "text": "Boys Noize - 7LLVSION",
+     "url": "https://musicbrainz.org/release-group/3b888964-1db5-448c-a39e-330a9ab1c954"
+    },
+    {
+     "text": " (Album)"
+    }
+   ]
+  },
+  {
    "type": "divider"
   },
   {
@@ -447,14 +473,29 @@
    "type": "bullet",
    "parts": [
     {
+     "text": "Ones and Tooze: "
+    },
+    {
+     "text": "The Bipartisan American Affordability and Jobs Act",
+     "url": "https://mgln.ai/e/211/traffic.megaphone.fm/FGP7384358843.mp3"
+    },
+    {
+     "text": "  (Fri Nov 20, 55 min)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
      "text": "Pablo Torre Finds Out: "
     },
     {
-     "text": "Perhaps the Last Conversation on Earth, with Adam McKay",
-     "url": "https://pablo.show"
+     "text": "We Investigate Life Surge HQ: Tim Tebow, Multilevel Marketing and the DOJ",
+     "url": "https://shows.acast.com/pablo-torre-finds-out/episodes/placeholder-ls3-vice-city"
     },
     {
-     "text": "  (Thu Nov 19, 38 min)"
+     "text": "  (Fri Nov 20, 57 min)"
     }
    ]
   },
@@ -465,11 +506,11 @@
      "text": "The Zach Lowe Show: "
     },
     {
-     "text": "Are the Lakers Serious Contenders? Plus, Dejounte Murray Trades, and Trends!",
-     "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT7144014475.mp3"
+     "text": "Eastern Conference Trust Index and State of the Nuggets!",
+     "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT3421451404.mp3"
     },
     {
-     "text": "  (Mon Nov 16, 90 min)"
+     "text": "  (Thu Nov 19, 99 min)"
     }
    ]
   },
@@ -485,14 +526,14 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Chapo Trap House: "
+     "text": "TrueAnon: "
     },
     {
-     "text": "MM53 - The Wachowski’s Hyperreality",
-     "url": "https://www.patreon.com/chapotraphouse/posts/mm53-wachowskis-175762924"
+     "text": "Episode 593: Chekov's Penis",
+     "url": "https://www.patreon.com/TrueAnonPod/posts/episode-593-175886511"
     },
     {
-     "text": "  (Wed Nov 18, 128 min)"
+     "text": "  (Fri Nov 20, 130 min)"
     }
    ]
   },
@@ -500,14 +541,14 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "TrueAnon: "
+     "text": "Chapo Trap House: "
     },
     {
-     "text": "Episode 592: Squatters and Donkeys [fixed]",
-     "url": "https://www.patreon.com/TrueAnonPod/posts/episode-592-and-175716133"
+     "text": "1090 - Run It Back feat. Katherine Krueger (11/19/26)",
+     "url": "https://www.patreon.com/chapotraphouse/posts/1090-run-it-back-175855046"
     },
     {
-     "text": "  (Wed Nov 18, 111 min)"
+     "text": "  (Thu Nov 19, 67 min)"
     }
    ]
   },
@@ -529,11 +570,11 @@
      "text": "Chasing Sundays: "
     },
     {
-     "text": "Debating The Strokes and revisiting the \"new rock revival\" with Steven Hyden",
-     "url": "https://www.elienis.com/debating-the-strokes-and-revisiting-the-new-rock-revival-with-steven-hyden/"
+     "text": "Chasing Fridays: Laptop twee supergroup, Sombr live, the sound chalk makes Q&A, more",
+     "url": "https://www.elienis.com/chasing-fridays-paper-town-sombr-sound-chalk-makes-interview/"
     },
     {
-     "text": "  (Tue Nov 17) - Including digressions on The Hives, The White Stripes, the speed of trends, the value of novelty in music, the rise of Geese, and more."
+     "text": "  (Fri Nov 20) - Visiting Paper town and collapsing to Purelink."
     }
    ]
   },
@@ -576,7 +617,24 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "No JSTOR result found today."
+     "text": "From JSTOR"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "parts": [
+    {
+     "text": "Contingency Against Ethics in Javier Marías's \"Los ...",
+     "url": "https://www.jstor.org/stable/24463401"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "parts": [
+    {
+     "text": "jstor.org - \"Una historia familiar: mujer y muerte en la narrativa de Javier Marias. ... \"Macbeth.\" The Complete Works. Ed. Arthur Henry. New York: Metro, 1994. 858 ..."
     }
    ]
   },
@@ -593,7 +651,7 @@
    "parts": [
     {
      "text": "A Heart So White",
-     "url": "https://www.google.com/goto?url=CAESawHEIkXXdABrr_dR8-tmDBB4Xv7xG1nbmRsh-aZjIzCH-Got1uEjHZW1LBmmCfES-PoE-5-H_Cu6QQ6fBUxmKpfDahvckAEdlK02wqTMq9rGjfdovKctGpaAcWOXedkW_8-rDd3d7ojRqfyp"
+     "url": "https://www.ndbooks.com/book/a-heart-so-white/"
     }
    ]
   },
@@ -601,7 +659,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "google.com - A Heart So White becomes a sort of anti-detective story of human nature. Intrigue; the sins of the father; the fraudulent and the genuine; marriage and strange ..."
+     "text": "ndbooks.com - A Heart So White becomes a sort of anti-detective story of human nature. Intrigue; the sins of the father; the fraudulent and the genuine; marriage and strange ..."
     }
    ]
   },
@@ -618,13 +676,13 @@
   },
   {
    "type": "image",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Goulash_from_usa_salvaged.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/2015_0720_Germkn%C3%B6del_Vanilleso%C3%9Fe_S%C3%B6lden.jpg/960px-2015_0720_Germkn%C3%B6del_Vanilleso%C3%9Fe_S%C3%B6lden.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "American goulash"
+     "text": "Germknödel"
     }
    ]
   },
@@ -632,7 +690,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "American goulash, sometimes called slumgullion or Minnesota goulash, is an American dish, similar to American chop suey. American goulash is usually referred to in the Midwestern and Southern United States as simply \"goulash\", and is commonly regarded as comfort food. It is a descendant or variant of Hungarian goulash."
+     "text": "Germknödel (Austrian German pronunciation: [ˈɡɛɐ̯mˌknøːdl̩]) is a sweet, fluffy, yeast dough dumpling (Knödel), filled with spiced plum jam, topped with a mix of poppy seeds and sugar, and served with melted butter. It is occasionally, even though less traditional, served with vanilla cream sauce instead. It is a culinary specialty of Austria and Bavaria. The dish is served both as a dessert and as a main course."
     }
    ]
   },
@@ -640,7 +698,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/American_goulash  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/Germkn%C3%B6del  (Wikipedia, CC BY-SA)"
     }
    ]
   }
