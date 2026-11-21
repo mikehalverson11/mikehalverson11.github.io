@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-20T10:10:50-05:00",
+ "generated": "2026-11-21T09:28:23-05:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Friday, November 20, 2026"
+     "text": "Daily digest for Saturday, November 21, 2026"
     }
    ]
   },
@@ -24,15 +24,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 57F (feels 52F), Clear"
-    }
-   ]
-  },
-  {
-   "type": "paragraph",
-   "parts": [
-    {
-     "text": "Today: Clear, high 63F / low 47F, 0% chance of precipitation, wind up to 9 mph"
+     "text": "Weather unavailable (HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20))"
     }
    ]
   },
@@ -48,10 +40,10 @@
    ]
   },
   {
-   "type": "paragraph",
+   "type": "bullet",
    "parts": [
     {
-     "text": "No games for your teams last night."
+     "text": "[NBA] Sacramento Kings 104 @ Los Angeles Lakers 106  (Final)"
     }
    ]
   },
@@ -60,14 +52,6 @@
    "parts": [
     {
      "text": "Coming up"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NBA] Sacramento Kings at Los Angeles Lakers  - Fri Nov 20, 10:00 PM"
     }
    ]
   },
@@ -136,6 +120,14 @@
    ]
   },
   {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NHL] San Jose Sharks at Colorado Avalanche  - Sat Nov 28, 09:00 PM"
+    }
+   ]
+  },
+  {
    "type": "divider"
   },
   {
@@ -150,7 +142,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "S&P 500 (SPY): 715.41  ▼ -0.46 (-0.06%)"
+     "text": "S&P 500 (SPY): 689.81  ▼ -26.06 (-3.64%)"
     }
    ]
   },
@@ -158,7 +150,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Nasdaq 100 (QQQ): 638.89  ▼ -6.15 (-0.95%)"
+     "text": "Nasdaq 100 (QQQ): 608.45  ▼ -36.59 (-5.67%)"
     }
    ]
   },
@@ -166,7 +158,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Dow (DIA): 494.63  ▲ +3.84 (+0.78%)"
+     "text": "Dow (DIA): 481.08  ▼ -9.71 (-1.98%)"
     }
    ]
   },
@@ -182,7 +174,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "AAPL: 349.79  ▲ +0.58 (+0.17%)"
+     "text": "AAPL: 342.56  ▼ -6.65 (-1.90%)"
     }
    ]
   },
@@ -190,7 +182,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "VOO: 657.62  ▼ -0.39 (-0.06%)"
+     "text": "VOO: 635.54  ▼ -22.47 (-3.41%)"
     }
    ]
   },
@@ -198,7 +190,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "NVDA: 140.96  ▼ -5.02 (-3.44%)"
+     "text": "NVDA: 125.53  ▼ -20.45 (-14.01%)"
     }
    ]
   },
@@ -217,7 +209,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1759: The British fleet under Edward Hawke defeats a French fleet under Hubert de Brienne in the battle of Quiberon Bay, thus diminishing the chances for a French invasion of Britain."
+     "text": "1861: American Civil War: Confederate President Jefferson Davis appoints Judah Benjamin Secretary of War."
     }
    ]
   },
@@ -225,7 +217,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1805: Beethoven's only opera, Fidelio, premieres in Vienna."
+     "text": "1974: The Birmingham pub bombings kill 21 people. The Birmingham Six are sentenced to life in prison for the crime but are later exonerated."
     }
    ]
   },
@@ -233,7 +225,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1946: Indonesian National Revolution: 96 Indonesian including I Gusti Ngurah Rai were killed during the Battle of Margarana with Dutch forces."
+     "text": "2017: Robert Mugabe formally resigns as President of Zimbabwe, after thirty-seven years in office."
     }
    ]
   },
@@ -260,6 +252,21 @@
     },
     {
      "text": " (EP, out 2026-12-04)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "2026-11-19  "
+    },
+    {
+     "text": "Phoebe Bridgers - Anything",
+     "url": "https://musicbrainz.org/release-group/080be6fd-ac07-4c68-97c6-4f6f6dc54b2a"
+    },
+    {
+     "text": " (EP)"
     }
    ]
   },
@@ -395,66 +402,6 @@
     },
     {
      "text": " (Single)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "2026-11-06  "
-    },
-    {
-     "text": "oso oso - an exchange of information",
-     "url": "https://musicbrainz.org/release-group/fd83d15a-cd3a-45fa-bbcd-3af1e6d1b2b8"
-    },
-    {
-     "text": " (Album)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "2026-11-06  "
-    },
-    {
-     "text": "Robert Fripp & Brian Eno - Wind On Water (edit): Robert Fripp @ 80, Vol. 26",
-     "url": "https://musicbrainz.org/release-group/dcce8e1c-6f55-4280-a8d7-33abaf625da7"
-    },
-    {
-     "text": " (Single)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "2026-11-06  "
-    },
-    {
-     "text": "Chastity Belt - All My Friends",
-     "url": "https://musicbrainz.org/release-group/66caf394-dceb-4b3e-bc8a-827909a93a72"
-    },
-    {
-     "text": " (Album)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "2026-11-06  "
-    },
-    {
-     "text": "Boys Noize - 7LLVSION",
-     "url": "https://musicbrainz.org/release-group/3b888964-1db5-448c-a39e-330a9ab1c954"
-    },
-    {
-     "text": " (Album)"
     }
    ]
   },
@@ -650,8 +597,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "A Heart So White",
-     "url": "https://www.ndbooks.com/book/a-heart-so-white/"
+     "text": "A Heart So White by Javier Marías (tr. Margaret Jull Costa)",
+     "url": "https://jacquiwine.wordpress.com/2015/03/03/a-heart-so-white-by-javier-marias/"
     }
    ]
   },
@@ -659,7 +606,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "ndbooks.com - A Heart So White becomes a sort of anti-detective story of human nature. Intrigue; the sins of the father; the fraudulent and the genuine; marriage and strange ..."
+     "text": "jacquiwine.wordpress.com - It's usually something like The Great Gatsby or Ethan Frome, but this year I chose A Heart So White by Javier Marías (first published in Spanish ..."
     }
    ]
   },
@@ -676,13 +623,13 @@
   },
   {
    "type": "image",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/2015_0720_Germkn%C3%B6del_Vanilleso%C3%9Fe_S%C3%B6lden.jpg/960px-2015_0720_Germkn%C3%B6del_Vanilleso%C3%9Fe_S%C3%B6lden.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/2013_Tam_Lao.jpg/960px-2013_Tam_Lao.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Germknödel"
+     "text": "Green papaya salad"
     }
    ]
   },
@@ -690,7 +637,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Germknödel (Austrian German pronunciation: [ˈɡɛɐ̯mˌknøːdl̩]) is a sweet, fluffy, yeast dough dumpling (Knödel), filled with spiced plum jam, topped with a mix of poppy seeds and sugar, and served with melted butter. It is occasionally, even though less traditional, served with vanilla cream sauce instead. It is a culinary specialty of Austria and Bavaria. The dish is served both as a dessert and as a main course."
+     "text": "Green papaya salad is a spicy salad made from shredded unripe papaya. It is believed to have been created by Lao people and is considered one of the national dishes of Laos.\nThe dish is also popular in neighboring Thailand, particularly in the Isan region, where the population is predominantly ethnic Lao. From Isan, green papaya salad spread throughout Thailand and became a staple of Thai cuisine."
     }
    ]
   },
@@ -698,7 +645,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/Germkn%C3%B6del  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/Green_papaya_salad  (Wikipedia, CC BY-SA)"
     }
    ]
   }
