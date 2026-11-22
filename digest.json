@@ -1,11 +1,30 @@
 {
- "generated": "2026-11-21T09:28:23-05:00",
+ "generated": "2026-11-22T09:23:37-05:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Saturday, November 21, 2026"
+     "text": "Daily digest for Sunday, November 22, 2026"
+    }
+   ]
+  },
+  {
+   "type": "divider"
+  },
+  {
+   "type": "heading",
+   "parts": [
+    {
+     "text": "Today's reminders"
+    }
+   ]
+  },
+  {
+   "type": "todo",
+   "parts": [
+    {
+     "text": "Set Fantasy Football Lineup"
     }
    ]
   },
@@ -24,7 +43,15 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Weather unavailable (HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20))"
+     "text": "Now: 54F (feels 45F), Clear"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "parts": [
+    {
+     "text": "Today: Overcast, high 67F / low 49F, 23% chance of precipitation, wind up to 15 mph"
     }
    ]
   },
@@ -43,7 +70,15 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "[NBA] Sacramento Kings 104 @ Los Angeles Lakers 106  (Final)"
+     "text": "[NBA] Boston Celtics 96 @ Sacramento Kings 97  (Final)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NHL] Seattle Kraken 3 @ San Jose Sharks 4  (Final)"
     }
    ]
   },
@@ -52,22 +87,6 @@
    "parts": [
     {
      "text": "Coming up"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NBA] Boston Celtics at Sacramento Kings  - Sat Nov 21, 10:00 PM"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NHL] Seattle Kraken at San Jose Sharks  - Sat Nov 21, 10:00 PM"
     }
    ]
   },
@@ -124,6 +143,22 @@
    "parts": [
     {
      "text": "[NHL] San Jose Sharks at Colorado Avalanche  - Sat Nov 28, 09:00 PM"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NFL] Seattle Seahawks at San Francisco 49ers  - Sun Nov 29, 04:25 PM"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NBA] Minnesota Timberwolves at Sacramento Kings  - Sun Nov 29, 09:00 PM"
     }
    ]
   },
@@ -209,7 +244,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1861: American Civil War: Confederate President Jefferson Davis appoints Judah Benjamin Secretary of War."
+     "text": "1837: Canadian journalist and politician William Lyon Mackenzie calls for a rebellion against the United Kingdom in his essay \"To the People of Upper Canada\", published in his newspaper The Constitution."
     }
    ]
   },
@@ -217,7 +252,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1974: The Birmingham pub bombings kill 21 people. The Birmingham Six are sentenced to life in prison for the crime but are later exonerated."
+     "text": "1942: World War II: Battle of Stalingrad: General Friedrich Paulus sends Adolf Hitler a telegram saying that the German 6th Army is surrounded."
     }
    ]
   },
@@ -225,7 +260,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "2017: Robert Mugabe formally resigns as President of Zimbabwe, after thirty-seven years in office."
+     "text": "2003: Baghdad DHL attempted shootdown incident: Shortly after takeoff, a DHL Express cargo plane is struck on the left wing by a surface-to-air missile and forced to land."
     }
    ]
   },
@@ -572,8 +607,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Contingency Against Ethics in Javier Marías's \"Los ...",
-     "url": "https://www.jstor.org/stable/24463401"
+     "text": "A Companion to Javier Marías",
+     "url": "https://www.jstor.org/stable/10.7722/j.cttn3408"
     }
    ]
   },
@@ -581,7 +616,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "jstor.org - \"Una historia familiar: mujer y muerte en la narrativa de Javier Marias. ... \"Macbeth.\" The Complete Works. Ed. Arthur Henry. New York: Metro, 1994. 858 ..."
+     "text": "jstor.org - During the course of preparing this book, in addition to the customary reading of professional criticism on the work of Javier Marías, I sought also to stay ..."
     }
    ]
   },
@@ -597,8 +632,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "A Heart So White by Javier Marías (tr. Margaret Jull Costa)",
-     "url": "https://jacquiwine.wordpress.com/2015/03/03/a-heart-so-white-by-javier-marias/"
+     "text": "A Heart So White by Javier Marías",
+     "url": "https://www.google.com/goto?url=CAESfQHEIkXX2IKkKMRCW7cgI6zugqEw4lf_dkgb968fEE4SAVU9h_5P6SSVbqmR6WY8Gv5UpRu0E66-npjOT45R-x_scVzObqrbd0k-tnxjrnhIFzM_yefE-79eu6pfMJxOevQzJYF_4wvnWQrzkf1QBfM34S5gzHGAX_SjeNNy"
     }
    ]
   },
@@ -606,7 +641,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "jacquiwine.wordpress.com - It's usually something like The Great Gatsby or Ethan Frome, but this year I chose A Heart So White by Javier Marías (first published in Spanish ..."
+     "text": "google.com - The narrator Juan is a newlywed at the outset of A Heart So White, and is struggling to adapt to life his wife (named, of course, Luisa). But ..."
     }
    ]
   },
@@ -622,14 +657,10 @@
    ]
   },
   {
-   "type": "image",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/2013_Tam_Lao.jpg/960px-2013_Tam_Lao.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-  },
-  {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Green papaya salad"
+     "text": "Pasta 'ncasciata"
     }
    ]
   },
@@ -637,7 +668,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Green papaya salad is a spicy salad made from shredded unripe papaya. It is believed to have been created by Lao people and is considered one of the national dishes of Laos.\nThe dish is also popular in neighboring Thailand, particularly in the Isan region, where the population is predominantly ethnic Lao. From Isan, green papaya salad spread throughout Thailand and became a staple of Thai cuisine."
+     "text": "Pasta 'ncasciata is a celebratory baked pasta dish originating in the Sicilian comune (municipality) of Messina; however, today there are numerous versions from every province of Sicily and Calabria. Ingredients vary according to the region as well as personal preferences. For example, while the dish usually uses two types of cheese, béchamel sauce may be used in lieu of one of the cheeses. It was traditionally baked in a dish placed over, as well as covered by, hot coals."
     }
    ]
   },
@@ -645,7 +676,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/Green_papaya_salad  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/Pasta_%27ncasciata  (Wikipedia, CC BY-SA)"
     }
    ]
   }
