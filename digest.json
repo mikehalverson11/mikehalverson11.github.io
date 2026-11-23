@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-22T09:23:37-05:00",
+ "generated": "2026-11-23T12:48:12-05:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Sunday, November 22, 2026"
+     "text": "Daily digest for Monday, November 23, 2026"
     }
    ]
   },
@@ -24,7 +24,7 @@
    "type": "todo",
    "parts": [
     {
-     "text": "Set Fantasy Football Lineup"
+     "text": "Set Fantasy Basketball Lineup"
     }
    ]
   },
@@ -43,7 +43,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 54F (feels 45F), Clear"
+     "text": "Now: 43F (feels 33F), Partly cloudy"
     }
    ]
   },
@@ -51,7 +51,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Today: Overcast, high 67F / low 49F, 23% chance of precipitation, wind up to 15 mph"
+     "text": "Today: Drizzle, high 54F / low 37F, 56% chance of precipitation, wind up to 14 mph"
     }
    ]
   },
@@ -70,15 +70,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "[NBA] Boston Celtics 96 @ Sacramento Kings 97  (Final)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NHL] Seattle Kraken 3 @ San Jose Sharks 4  (Final)"
+     "text": "[NFL] Minnesota Vikings 10 @ San Francisco 49ers 35  (Final)"
     }
    ]
   },
@@ -87,14 +79,6 @@
    "parts": [
     {
      "text": "Coming up"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NFL] Minnesota Vikings at San Francisco 49ers  - Sun Nov 22, 08:20 PM"
     }
    ]
   },
@@ -163,6 +147,14 @@
    ]
   },
   {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NBA] New Orleans Pelicans at Sacramento Kings  - Mon Nov 30, 10:00 PM"
+    }
+   ]
+  },
+  {
    "type": "divider"
   },
   {
@@ -177,7 +169,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "S&P 500 (SPY): 689.81  ▼ -26.06 (-3.64%)"
+     "text": "S&P 500 (SPY): 720.19  ▲ +30.38 (+4.40%)"
     }
    ]
   },
@@ -185,7 +177,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Nasdaq 100 (QQQ): 608.45  ▼ -36.59 (-5.67%)"
+     "text": "Nasdaq 100 (QQQ): 648.54  ▲ +40.09 (+6.59%)"
     }
    ]
   },
@@ -193,7 +185,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Dow (DIA): 481.08  ▼ -9.71 (-1.98%)"
+     "text": "Dow (DIA): 494.43  ▲ +13.35 (+2.77%)"
     }
    ]
   },
@@ -209,7 +201,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "AAPL: 342.56  ▼ -6.65 (-1.90%)"
+     "text": "AAPL: 348.16  ▲ +5.60 (+1.63%)"
     }
    ]
   },
@@ -217,7 +209,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "VOO: 635.54  ▼ -22.47 (-3.41%)"
+     "text": "VOO: 662.07  ▲ +26.53 (+4.17%)"
     }
    ]
   },
@@ -225,7 +217,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "NVDA: 125.53  ▼ -20.45 (-14.01%)"
+     "text": "NVDA: 163.70  ▲ +38.17 (+30.41%)"
     }
    ]
   },
@@ -244,7 +236,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1837: Canadian journalist and politician William Lyon Mackenzie calls for a rebellion against the United Kingdom in his essay \"To the People of Upper Canada\", published in his newspaper The Constitution."
+     "text": "1943: World War II: The Deutsche Opernhaus on Bismarckstraße in the Berlin neighborhood of Charlottenburg is destroyed. It will eventually be rebuilt in 1961 and be called the Deutsche Oper Berlin."
     }
    ]
   },
@@ -252,7 +244,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1942: World War II: Battle of Stalingrad: General Friedrich Paulus sends Adolf Hitler a telegram saying that the German 6th Army is surrounded."
+     "text": "2010: Bombardment of Yeonpyeong: North Korean artillery attack kills two civilians and two marines on Yeonpyeong Island, South Korea."
     }
    ]
   },
@@ -260,7 +252,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "2003: Baghdad DHL attempted shootdown incident: Shortly after takeoff, a DHL Express cargo plane is struck on the left wing by a surface-to-air missile and forced to land."
+     "text": "2019: The last Sumatran rhinoceros in Malaysia, Imam, dies, making the species officially extinct in the country."
     }
    ]
   },
@@ -287,6 +279,21 @@
     },
     {
      "text": " (EP, out 2026-12-04)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "2026-11-23  "
+    },
+    {
+     "text": "Power Trip - Mutual Death Warrant",
+     "url": "https://musicbrainz.org/release-group/5eefe407-6a04-48c7-b7f6-6c57d690734f"
+    },
+    {
+     "text": " (Single)"
     }
    ]
   },
@@ -455,44 +462,29 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Ones and Tooze: "
-    },
-    {
-     "text": "The Bipartisan American Affordability and Jobs Act",
-     "url": "https://mgln.ai/e/211/traffic.megaphone.fm/FGP7384358843.mp3"
-    },
-    {
-     "text": "  (Fri Nov 20, 55 min)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "Pablo Torre Finds Out: "
-    },
-    {
-     "text": "We Investigate Life Surge HQ: Tim Tebow, Multilevel Marketing and the DOJ",
-     "url": "https://shows.acast.com/pablo-torre-finds-out/episodes/placeholder-ls3-vice-city"
-    },
-    {
-     "text": "  (Fri Nov 20, 57 min)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
      "text": "The Zach Lowe Show: "
     },
     {
-     "text": "Eastern Conference Trust Index and State of the Nuggets!",
-     "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT3421451404.mp3"
+     "text": "Weekend Headlines, Early All-Stars, and Relegation Teams Bright Spots!",
+     "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT8117002896.mp3"
     },
     {
-     "text": "  (Thu Nov 19, 99 min)"
+     "text": "  (Mon Nov 23, 117 min)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "Doomscroll: "
+    },
+    {
+     "text": "[PREVIEW] DS 59.5: Catherine Liu",
+     "url": "https://www.patreon.com/joshuacitarella/posts/ds-59-5-liu-174786359"
+    },
+    {
+     "text": "  (Mon Nov 23, 19 min)"
     }
    ]
   },
@@ -511,26 +503,11 @@
      "text": "TrueAnon: "
     },
     {
-     "text": "Episode 593: Chekov's Penis",
-     "url": "https://www.patreon.com/TrueAnonPod/posts/episode-593-175886511"
+     "text": "Episode 594: Hate Line: Friends & Family",
+     "url": "https://www.patreon.com/TrueAnonPod/posts/episode-594-hate-176156444"
     },
     {
-     "text": "  (Fri Nov 20, 130 min)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "Chapo Trap House: "
-    },
-    {
-     "text": "1090 - Run It Back feat. Katherine Krueger (11/19/26)",
-     "url": "https://www.patreon.com/chapotraphouse/posts/1090-run-it-back-175855046"
-    },
-    {
-     "text": "  (Thu Nov 19, 67 min)"
+     "text": "  (Mon Nov 23, 127 min)"
     }
    ]
   },
@@ -546,17 +523,10 @@
    ]
   },
   {
-   "type": "bullet",
+   "type": "paragraph",
    "parts": [
     {
-     "text": "Chasing Sundays: "
-    },
-    {
-     "text": "Chasing Fridays: Laptop twee supergroup, Sombr live, the sound chalk makes Q&A, more",
-     "url": "https://www.elienis.com/chasing-fridays-paper-town-sombr-sound-chalk-makes-interview/"
-    },
-    {
-     "text": "  (Fri Nov 20) - Visiting Paper town and collapsing to Purelink."
+     "text": "No new posts in the last 3 days."
     }
    ]
   },
@@ -564,7 +534,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "(Loaded, nothing new: the late review: latest Oct 29; Ettingermentum Newsletter: latest Nov 13)"
+     "text": "(Loaded, nothing new: the late review: latest Oct 29; Ettingermentum Newsletter: latest Nov 13; Chasing Sundays: latest Nov 20)"
     }
    ]
   },
@@ -607,8 +577,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "A Companion to Javier Marías",
-     "url": "https://www.jstor.org/stable/10.7722/j.cttn3408"
+     "text": "un cuadro en una novela: - las claves del rembrandt en",
+     "url": "https://www.jstor.org/stable/44071823"
     }
    ]
   },
@@ -616,7 +586,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "jstor.org - During the course of preparing this book, in addition to the customary reading of professional criticism on the work of Javier Marías, I sought also to stay ..."
+     "text": "jstor.org - desde la frase de Lady Macbeth en boca de la adalid británica. (\"The ... Javier Marías\". Letras Peninsulares 9.2-3 (1996): 355-69. Navajas, Gonzalo ..."
     }
    ]
   },
@@ -632,8 +602,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "A Heart So White by Javier Marías",
-     "url": "https://www.google.com/goto?url=CAESfQHEIkXX2IKkKMRCW7cgI6zugqEw4lf_dkgb968fEE4SAVU9h_5P6SSVbqmR6WY8Gv5UpRu0E66-npjOT45R-x_scVzObqrbd0k-tnxjrnhIFzM_yefE-79eu6pfMJxOevQzJYF_4wvnWQrzkf1QBfM34S5gzHGAX_SjeNNy"
+     "text": "A Heart So White by Javier Marías (tr. Margaret Jull Costa)",
+     "url": "https://jacquiwine.wordpress.com/2015/03/03/a-heart-so-white-by-javier-marias/"
     }
    ]
   },
@@ -641,7 +611,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "google.com - The narrator Juan is a newlywed at the outset of A Heart So White, and is struggling to adapt to life his wife (named, of course, Luisa). But ..."
+     "text": "jacquiwine.wordpress.com - It's usually something like The Great Gatsby or Ethan Frome, but this year I chose A Heart So White by Javier Marías (first published in Spanish ..."
     }
    ]
   },
@@ -657,10 +627,14 @@
    ]
   },
   {
+   "type": "image",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Pyzy2.jpg/960px-Pyzy2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Pasta 'ncasciata"
+     "text": "Pyzy (dish)"
     }
    ]
   },
@@ -668,7 +642,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Pasta 'ncasciata is a celebratory baked pasta dish originating in the Sicilian comune (municipality) of Messina; however, today there are numerous versions from every province of Sicily and Calabria. Ingredients vary according to the region as well as personal preferences. For example, while the dish usually uses two types of cheese, béchamel sauce may be used in lieu of one of the cheeses. It was traditionally baked in a dish placed over, as well as covered by, hot coals."
+     "text": "Pyzy (Polish pronunciation: [ˈpɨzɨ]  singular: pyza) are a type of large ball or oval-shaped dumpling (kluski), characteristic to Polish cuisine. The dish is usually referred to in its plural form pyzy, and it is most commonly served as a main course."
     }
    ]
   },
@@ -676,7 +650,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/Pasta_%27ncasciata  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/Pyzy_(dish)  (Wikipedia, CC BY-SA)"
     }
    ]
   }
