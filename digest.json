@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-23T12:48:12-05:00",
+ "generated": "2026-11-24T12:20:21-05:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Monday, November 23, 2026"
+     "text": "Daily digest for Tuesday, November 24, 2026"
     }
    ]
   },
@@ -24,7 +24,7 @@
    "type": "todo",
    "parts": [
     {
-     "text": "Set Fantasy Basketball Lineup"
+     "text": "Fantasy Football Waivers Day"
     }
    ]
   },
@@ -43,7 +43,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 43F (feels 33F), Partly cloudy"
+     "text": "Now: 39F (feels 31F), Partly cloudy"
     }
    ]
   },
@@ -51,7 +51,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Today: Drizzle, high 54F / low 37F, 56% chance of precipitation, wind up to 14 mph"
+     "text": "Today: Overcast, high 40F / low 32F, 4% chance of precipitation, wind up to 14 mph"
     }
    ]
   },
@@ -70,7 +70,15 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "[NFL] Minnesota Vikings 10 @ San Francisco 49ers 35  (Final)"
+     "text": "[NBA] San Antonio Spurs 123 @ Sacramento Kings 107  (Final)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NHL] Minnesota Wild 5 @ San Jose Sharks 2  (Final)"
     }
    ]
   },
@@ -79,22 +87,6 @@
    "parts": [
     {
      "text": "Coming up"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NBA] San Antonio Spurs at Sacramento Kings  - Mon Nov 23, 10:00 PM"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NHL] Minnesota Wild at San Jose Sharks  - Mon Nov 23, 10:00 PM"
     }
    ]
   },
@@ -155,6 +147,14 @@
    ]
   },
   {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NHL] San Jose Sharks at New Jersey Devils  - Tue Dec 01, 07:30 PM"
+    }
+   ]
+  },
+  {
    "type": "divider"
   },
   {
@@ -169,7 +169,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "S&P 500 (SPY): 720.19  ▲ +30.38 (+4.40%)"
+     "text": "S&P 500 (SPY): 717.63  ▼ -4.66 (-0.65%)"
     }
    ]
   },
@@ -177,7 +177,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Nasdaq 100 (QQQ): 648.54  ▲ +40.09 (+6.59%)"
+     "text": "Nasdaq 100 (QQQ): 637.09  ▼ -13.94 (-2.14%)"
     }
    ]
   },
@@ -185,7 +185,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Dow (DIA): 494.43  ▲ +13.35 (+2.77%)"
+     "text": "Dow (DIA): 498.79  ▲ +2.99 (+0.60%)"
     }
    ]
   },
@@ -201,7 +201,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "AAPL: 348.16  ▲ +5.60 (+1.63%)"
+     "text": "AAPL: 352.28  ▲ +3.20 (+0.92%)"
     }
    ]
   },
@@ -209,7 +209,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "VOO: 662.07  ▲ +26.53 (+4.17%)"
+     "text": "VOO: 659.75  ▼ -4.16 (-0.63%)"
     }
    ]
   },
@@ -217,7 +217,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "NVDA: 163.70  ▲ +38.17 (+30.41%)"
+     "text": "NVDA: 152.98  ▼ -12.07 (-7.31%)"
     }
    ]
   },
@@ -236,7 +236,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1943: World War II: The Deutsche Opernhaus on Bismarckstraße in the Berlin neighborhood of Charlottenburg is destroyed. It will eventually be rebuilt in 1961 and be called the Deutsche Oper Berlin."
+     "text": "1221: Genghis Khan defeats the renegade Khwarazmian prince Jalal al-Din at the Battle of the Indus, completing the Mongol conquest of Central Asia."
     }
    ]
   },
@@ -244,7 +244,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "2010: Bombardment of Yeonpyeong: North Korean artillery attack kills two civilians and two marines on Yeonpyeong Island, South Korea."
+     "text": "1227: Gąsawa massacre: At an assembly of Piast dukes at Gąsawa, Polish Prince Leszek the White,  Duke Henry the Bearded and others are attacked by assassins while bathing."
     }
    ]
   },
@@ -252,7 +252,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "2019: The last Sumatran rhinoceros in Malaysia, Imam, dies, making the species officially extinct in the country."
+     "text": "1922: Nine Irish Republican Army members are executed by an Irish Free State firing squad. Among them is author Erskine Childers, who had been arrested for illegally carrying a revolver."
     }
    ]
   },
@@ -424,23 +424,8 @@
      "text": "2026-11-11  "
     },
     {
-     "text": "U2 & Dolly Parton - Torn",
+     "text": "U2 feat. Dolly Parton - Torn",
      "url": "https://musicbrainz.org/release-group/a10d366d-a3a5-4696-a29b-096086773c79"
-    },
-    {
-     "text": " (Single)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "2026-11-09  "
-    },
-    {
-     "text": "Scott Reef, King Gizzard & The Lizard Wizard, Jimmy Barnes, Fred Leone, Dobby, Urthboy, Ruby Rodgers, Mahalia Barnes + The Soul Mates, John Butler, Drifting Clouds, Nidala, Ngaiire, Montaigne, Leah Senior, The Moving Stills, Alex Lahey, Brinkley Davies, Birdland, Lipstick Palms & Tim Shiel - If Not Now",
-     "url": "https://musicbrainz.org/release-group/f3db5cf4-e290-4f34-980d-fc1ce73bef2d"
     },
     {
      "text": " (Single)"
@@ -455,6 +440,21 @@
    "parts": [
     {
      "text": "New podcast episodes"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "Pablo Torre Finds Out: "
+    },
+    {
+     "text": "NFL Kitchen Confidential: We Solved the Mystery of Andy Reid's Viral Mac-and-Cheese Recipe",
+     "url": "https://shows.acast.com/pablo-torre-finds-out/episodes/placeholder-mac"
+    },
+    {
+     "text": "  (Tue Nov 24, 53 min)"
     }
    ]
   },
@@ -500,6 +500,21 @@
    "type": "bullet",
    "parts": [
     {
+     "text": "Chapo Trap House: "
+    },
+    {
+     "text": "1091 - Number of the Huckabeast feat. Jasper Nathaniel (11/23/26)",
+     "url": "https://www.patreon.com/chapotraphouse/posts/1091-number-of-176208394"
+    },
+    {
+     "text": "  (Mon Nov 23, 80 min)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
      "text": "TrueAnon: "
     },
     {
@@ -523,10 +538,17 @@
    ]
   },
   {
-   "type": "paragraph",
+   "type": "bullet",
    "parts": [
     {
-     "text": "No new posts in the last 3 days."
+     "text": "Chasing Sundays: "
+    },
+    {
+     "text": "\"All true art is voyeurism:\" the painfully honest career of Teen Suicide's Sam Ray",
+     "url": "https://www.elienis.com/teen-suicide-sam-ray-ricky-eat-acid-interview/"
+    },
+    {
+     "text": "  (Tue Nov 24) - \"I was a fucking little asshole,\" says the reformed bedroom-pop auteur behind Ricky Eat Acid, Julia Brown, and Starry Cat."
     }
    ]
   },
@@ -534,7 +556,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "(Loaded, nothing new: the late review: latest Oct 29; Ettingermentum Newsletter: latest Nov 13; Chasing Sundays: latest Nov 20)"
+     "text": "(Loaded, nothing new: the late review: latest Oct 29; Ettingermentum Newsletter: latest Nov 13)"
     }
    ]
   },
@@ -602,8 +624,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "A Heart So White by Javier Marías (tr. Margaret Jull Costa)",
-     "url": "https://jacquiwine.wordpress.com/2015/03/03/a-heart-so-white-by-javier-marias/"
+     "text": "Just finished A Heart so White : r/RSbookclub",
+     "url": "https://www.reddit.com/r/RSbookclub/comments/1dapfbl/just_finished_a_heart_so_white/"
     }
    ]
   },
@@ -611,7 +633,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "jacquiwine.wordpress.com - It's usually something like The Great Gatsby or Ethan Frome, but this year I chose A Heart So White by Javier Marías (first published in Spanish ..."
+     "text": "reddit.com - 5 for January · grade 9 analysis for “My hands are of your colour; but I shame / To wear a heart so white.”? · A Heart So White by Javier Marias."
     }
    ]
   },
@@ -627,14 +649,10 @@
    ]
   },
   {
-   "type": "image",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Pyzy2.jpg/960px-Pyzy2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-  },
-  {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Pyzy (dish)"
+     "text": "Num banhchok"
     }
    ]
   },
@@ -642,7 +660,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Pyzy (Polish pronunciation: [ˈpɨzɨ]  singular: pyza) are a type of large ball or oval-shaped dumpling (kluski), characteristic to Polish cuisine. The dish is usually referred to in its plural form pyzy, and it is most commonly served as a main course."
+     "text": "Num banhchok (Khmer: នំបញ្ចុក, Nom bǎnh-chŏk Khmer pronunciation: [nom ɓaɲcok]) are lightly fermented Cambodian rice noodles and a breakfast noodle dish.\nbanhchok \"បញ្ចុក\" translates to \"to feed\" in Khmer language."
     }
    ]
   },
@@ -650,7 +668,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/Pyzy_(dish)  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/Num_banhchok  (Wikipedia, CC BY-SA)"
     }
    ]
   }
