@@ -1,30 +1,11 @@
 {
- "generated": "2026-11-24T12:20:21-05:00",
+ "generated": "2026-11-25T11:59:52-05:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Tuesday, November 24, 2026"
-    }
-   ]
-  },
-  {
-   "type": "divider"
-  },
-  {
-   "type": "heading",
-   "parts": [
-    {
-     "text": "Today's reminders"
-    }
-   ]
-  },
-  {
-   "type": "todo",
-   "parts": [
-    {
-     "text": "Fantasy Football Waivers Day"
+     "text": "Daily digest for Wednesday, November 25, 2026"
     }
    ]
   },
@@ -43,7 +24,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 39F (feels 31F), Partly cloudy"
+     "text": "Now: 41F (feels 31F), Clear"
     }
    ]
   },
@@ -51,7 +32,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Today: Overcast, high 40F / low 32F, 4% chance of precipitation, wind up to 14 mph"
+     "text": "Today: Fog, high 46F / low 30F, 0% chance of precipitation, wind up to 21 mph"
     }
    ]
   },
@@ -67,18 +48,10 @@
    ]
   },
   {
-   "type": "bullet",
+   "type": "paragraph",
    "parts": [
     {
-     "text": "[NBA] San Antonio Spurs 123 @ Sacramento Kings 107  (Final)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NHL] Minnesota Wild 5 @ San Jose Sharks 2  (Final)"
+     "text": "No games for your teams last night."
     }
    ]
   },
@@ -155,6 +128,14 @@
    ]
   },
   {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NBA] Sacramento Kings at Phoenix Suns  - Wed Dec 02, 09:00 PM"
+    }
+   ]
+  },
+  {
    "type": "divider"
   },
   {
@@ -169,7 +150,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "S&P 500 (SPY): 717.63  ▼ -4.66 (-0.65%)"
+     "text": "S&P 500 (SPY): 701.41  ▼ -17.37 (-2.42%)"
     }
    ]
   },
@@ -177,7 +158,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Nasdaq 100 (QQQ): 637.09  ▼ -13.94 (-2.14%)"
+     "text": "Nasdaq 100 (QQQ): 613.67  ▼ -24.43 (-3.83%)"
     }
    ]
   },
@@ -185,7 +166,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Dow (DIA): 498.79  ▲ +2.99 (+0.60%)"
+     "text": "Dow (DIA): 494.05  ▼ -5.69 (-1.14%)"
     }
    ]
   },
@@ -201,7 +182,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "AAPL: 352.28  ▲ +3.20 (+0.92%)"
+     "text": "AAPL: 349.02  ▼ -5.05 (-1.43%)"
     }
    ]
   },
@@ -209,7 +190,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "VOO: 659.75  ▼ -4.16 (-0.63%)"
+     "text": "VOO: 644.73  ▼ -15.98 (-2.42%)"
     }
    ]
   },
@@ -217,7 +198,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "NVDA: 152.98  ▼ -12.07 (-7.31%)"
+     "text": "NVDA: 142.11  ▼ -13.27 (-8.54%)"
     }
    ]
   },
@@ -236,7 +217,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1221: Genghis Khan defeats the renegade Khwarazmian prince Jalal al-Din at the Battle of the Indus, completing the Mongol conquest of Central Asia."
+     "text": "1758: French and Indian War: British forces capture Fort Duquesne from French control. Later, Fort Pitt will be built nearby and grow into modern Pittsburgh."
     }
    ]
   },
@@ -244,7 +225,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1227: Gąsawa massacre: At an assembly of Piast dukes at Gąsawa, Polish Prince Leszek the White,  Duke Henry the Bearded and others are attacked by assassins while bathing."
+     "text": "1826: The Greek frigate Hellas arrives in Nafplion to become the first flagship of the Hellenic Navy."
     }
    ]
   },
@@ -252,7 +233,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1922: Nine Irish Republican Army members are executed by an Irish Free State firing squad. Among them is author Erskine Childers, who had been arrested for illegally carrying a revolver."
+     "text": "1863: American Civil War: Battle of Missionary Ridge: Union forces led by General Ulysses S. Grant break the Siege of Chattanooga by routing Confederate troops under General Braxton Bragg at Missionary Ridge in Tennessee."
     }
    ]
   },
@@ -503,11 +484,11 @@
      "text": "Chapo Trap House: "
     },
     {
-     "text": "1091 - Number of the Huckabeast feat. Jasper Nathaniel (11/23/26)",
-     "url": "https://www.patreon.com/chapotraphouse/posts/1091-number-of-176208394"
+     "text": "BONUS - WTO/99 feat. Ian Bell & Alex Megaro",
+     "url": "https://www.patreon.com/chapotraphouse/posts/bonus-wto-99-ian-176289989"
     },
     {
-     "text": "  (Mon Nov 23, 80 min)"
+     "text": "  (Tue Nov 24, 56 min)"
     }
    ]
   },
@@ -541,6 +522,21 @@
    "type": "bullet",
    "parts": [
     {
+     "text": "Ettingermentum Newsletter: "
+    },
+    {
+     "text": "The Official Republican 2028 Presidential Power Rankings: Post-Midterms Edition",
+     "url": "https://www.ettingermentum.news/p/the-official-republican-2028-presidential-ce1"
+    },
+    {
+     "text": "  (Tue Nov 24) - Looking over the top contenders of a suddenly wide-open 2028 Republican nomination fight"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
      "text": "Chasing Sundays: "
     },
     {
@@ -556,7 +552,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "(Loaded, nothing new: the late review: latest Oct 29; Ettingermentum Newsletter: latest Nov 13)"
+     "text": "(Loaded, nothing new: the late review: latest Oct 29)"
     }
    ]
   },
@@ -599,8 +595,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "un cuadro en una novela: - las claves del rembrandt en",
-     "url": "https://www.jstor.org/stable/44071823"
+     "text": "Matices de la extrañeza en la narrativa de Javier Marías",
+     "url": "https://www.jstor.org/stable/40516121"
     }
    ]
   },
@@ -608,7 +604,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "jstor.org - desde la frase de Lady Macbeth en boca de la adalid británica. (\"The ... Javier Marías\". Letras Peninsulares 9.2-3 (1996): 355-69. Navajas, Gonzalo ..."
+     "text": "jstor.org - Un caso tenaz de este trastorno es el que practica Javier Marías. En efecto: una seve- ra extrañeza habita en sus novelas, un contagio movilizado por el ..."
     }
    ]
   },
@@ -624,8 +620,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Just finished A Heart so White : r/RSbookclub",
-     "url": "https://www.reddit.com/r/RSbookclub/comments/1dapfbl/just_finished_a_heart_so_white/"
+     "text": "Review by marko68 - A Heart So White",
+     "url": "https://app.thestorygraph.com/reviews/46e40c1c-e7ae-4ba3-810b-3378b218e9e1"
     }
    ]
   },
@@ -633,7 +629,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "reddit.com - 5 for January · grade 9 analysis for “My hands are of your colour; but I shame / To wear a heart so white.”? · A Heart So White by Javier Marias."
+     "text": "app.thestorygraph.com - A Heart so White is my first foray into the work of Spanish writer, Javier Marías, and wow, I am quite blown away by it. It's challenging to describe this ..."
     }
    ]
   },
@@ -649,10 +645,14 @@
    ]
   },
   {
+   "type": "image",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/M%C3%AC_Qu%E1%BA%A3ng%2C_Da_Nang%2C_Vietnam.jpg/960px-M%C3%AC_Qu%E1%BA%A3ng%2C_Da_Nang%2C_Vietnam.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Num banhchok"
+     "text": "Mì Quảng"
     }
    ]
   },
@@ -660,7 +660,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Num banhchok (Khmer: នំបញ្ចុក, Nom bǎnh-chŏk Khmer pronunciation: [nom ɓaɲcok]) are lightly fermented Cambodian rice noodles and a breakfast noodle dish.\nbanhchok \"បញ្ចុក\" translates to \"to feed\" in Khmer language."
+     "text": "Mì Quảng (also written mỳ Quảng, Vietnamese: [mi˨˩ xʷaŋ˧˩˧]), literally \"Quảng noodles\", is a Vietnamese noodle dish that originated in Quảng Nam Province in central Vietnam. It is one of the region's most popular and well recognized food items, and is served on various occasions, like at family parties, death anniversaries, and Tết. It originated in the Ðà Nẵng and Quảng Nam area and has become available throughout the country, and is eaten at any time of the day.\nThe main ingredients alongside the rice noodle can include shrimp, fish, eel, pork, chicken, frog, and jellyfish."
     }
    ]
   },
@@ -668,7 +668,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/Num_banhchok  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/M%C3%AC_Qu%E1%BA%A3ng  (Wikipedia, CC BY-SA)"
     }
    ]
   }
