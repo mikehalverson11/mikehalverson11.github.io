@@ -1,11 +1,38 @@
 {
- "generated": "2026-11-25T11:59:52-05:00",
+ "generated": "2026-11-26T11:40:39-05:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Wednesday, November 25, 2026"
+     "text": "Daily digest for Thursday, November 26, 2026"
+    }
+   ]
+  },
+  {
+   "type": "divider"
+  },
+  {
+   "type": "heading",
+   "parts": [
+    {
+     "text": "Today's reminders"
+    }
+   ]
+  },
+  {
+   "type": "todo",
+   "parts": [
+    {
+     "text": "Set Fantasy Football Lineup"
+    }
+   ]
+  },
+  {
+   "type": "todo",
+   "parts": [
+    {
+     "text": "Rec League Basketball"
     }
    ]
   },
@@ -24,15 +51,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 41F (feels 31F), Clear"
-    }
-   ]
-  },
-  {
-   "type": "paragraph",
-   "parts": [
-    {
-     "text": "Today: Fog, high 46F / low 30F, 0% chance of precipitation, wind up to 21 mph"
+     "text": "Weather unavailable (HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20))"
     }
    ]
   },
@@ -48,10 +67,18 @@
    ]
   },
   {
-   "type": "paragraph",
+   "type": "bullet",
    "parts": [
     {
-     "text": "No games for your teams last night."
+     "text": "[NBA] Sacramento Kings 110 @ Golden State Warriors 129  (Final)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NHL] San Jose Sharks 0 @ Anaheim Ducks 7  (Final)"
     }
    ]
   },
@@ -60,22 +87,6 @@
    "parts": [
     {
      "text": "Coming up"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NBA] Sacramento Kings at Golden State Warriors  - Wed Nov 25, 10:00 PM"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NHL] San Jose Sharks at Anaheim Ducks  - Wed Nov 25, 10:00 PM"
     }
    ]
   },
@@ -136,6 +147,14 @@
    ]
   },
   {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NHL] San Jose Sharks at New York Rangers  - Thu Dec 03, 07:00 PM"
+    }
+   ]
+  },
+  {
    "type": "divider"
   },
   {
@@ -150,7 +169,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "S&P 500 (SPY): 701.41  ▼ -17.37 (-2.42%)"
+     "text": "S&P 500 (SPY): 716.74  ▼ -2.04 (-0.28%)"
     }
    ]
   },
@@ -158,7 +177,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Nasdaq 100 (QQQ): 613.67  ▼ -24.43 (-3.83%)"
+     "text": "Nasdaq 100 (QQQ): 633.97  ▼ -4.13 (-0.65%)"
     }
    ]
   },
@@ -166,7 +185,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Dow (DIA): 494.05  ▼ -5.69 (-1.14%)"
+     "text": "Dow (DIA): 501.31  ▲ +1.57 (+0.31%)"
     }
    ]
   },
@@ -182,7 +201,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "AAPL: 349.02  ▼ -5.05 (-1.43%)"
+     "text": "AAPL: 355.62  ▲ +1.55 (+0.44%)"
     }
    ]
   },
@@ -190,7 +209,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "VOO: 644.73  ▼ -15.98 (-2.42%)"
+     "text": "VOO: 658.91  ▼ -1.80 (-0.27%)"
     }
    ]
   },
@@ -198,7 +217,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "NVDA: 142.11  ▼ -13.27 (-8.54%)"
+     "text": "NVDA: 149.33  ▼ -6.05 (-3.89%)"
     }
    ]
   },
@@ -217,7 +236,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1758: French and Indian War: British forces capture Fort Duquesne from French control. Later, Fort Pitt will be built nearby and grow into modern Pittsburgh."
+     "text": "1914: HMS Bulwark is destroyed by a large internal explosion with the loss of 741 men while at anchor near Sheerness."
     }
    ]
   },
@@ -225,7 +244,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1826: The Greek frigate Hellas arrives in Nafplion to become the first flagship of the Hellenic Navy."
+     "text": "1950: Korean War: Communist Chinese troops launch a massive counterattack (Battle of the Ch'ongch'on River and Battle of Chosin Reservoir) against United Nations and South Korean forces."
     }
    ]
   },
@@ -233,7 +252,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1863: American Civil War: Battle of Missionary Ridge: Union forces led by General Ulysses S. Grant break the Siege of Chattanooga by routing Confederate troops under General Braxton Bragg at Missionary Ridge in Tennessee."
+     "text": "1977: An unidentified hijacker named Vrillon, claiming to be the representative of the \"Ashtar Galactic Command\", takes over Britain's Southern Television for six minutes, starting at 5:12 pm."
     }
    ]
   },
@@ -357,21 +376,6 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "2026-11-13  "
-    },
-    {
-     "text": "U2 - Carnaval de Luz",
-     "url": "https://musicbrainz.org/release-group/09f9581c-52b0-4d2b-bb1b-d5902830b8c1"
-    },
-    {
-     "text": " (Album)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
      "text": "2026-11-12  "
     },
     {
@@ -387,29 +391,14 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "2026-11-11  "
+     "text": "2026-11-12  "
     },
     {
-     "text": "Racing Mount Pleasant - Great Destroyer",
-     "url": "https://musicbrainz.org/release-group/5a3e5505-c94b-44ba-8b87-30cc6a067bbf"
+     "text": "U2 - Carnaval de Luz",
+     "url": "https://musicbrainz.org/release-group/09f9581c-52b0-4d2b-bb1b-d5902830b8c1"
     },
     {
-     "text": " (Single)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "2026-11-11  "
-    },
-    {
-     "text": "U2 feat. Dolly Parton - Torn",
-     "url": "https://musicbrainz.org/release-group/a10d366d-a3a5-4696-a29b-096086773c79"
-    },
-    {
-     "text": " (Single)"
+     "text": " (Album)"
     }
    ]
   },
@@ -431,11 +420,11 @@
      "text": "Pablo Torre Finds Out: "
     },
     {
-     "text": "NFL Kitchen Confidential: We Solved the Mystery of Andy Reid's Viral Mac-and-Cheese Recipe",
-     "url": "https://shows.acast.com/pablo-torre-finds-out/episodes/placeholder-mac"
+     "text": "The Harambe Tapes, Revealed (PTFO Vault)",
+     "url": "https://shows.acast.com/pablo-torre-finds-out/episodes/the-harambe-tapes-revealed-ptfo-vault"
     },
     {
-     "text": "  (Tue Nov 24, 53 min)"
+     "text": "  (Thu Nov 26, 59 min)"
     }
    ]
   },
@@ -446,11 +435,11 @@
      "text": "The Zach Lowe Show: "
     },
     {
-     "text": "Weekend Headlines, Early All-Stars, and Relegation Teams Bright Spots!",
-     "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT8117002896.mp3"
+     "text": "Early Rookie Superlatives, State of the Timberwolves, and More!",
+     "url": "https://pdst.fm/e/traffic.megaphone.fm/GLT6830654907.mp3"
     },
     {
-     "text": "  (Mon Nov 23, 117 min)"
+     "text": "  (Wed Nov 25, 104 min)"
     }
    ]
   },
@@ -458,14 +447,14 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Doomscroll: "
+     "text": "Ones and Tooze: "
     },
     {
-     "text": "[PREVIEW] DS 59.5: Catherine Liu",
-     "url": "https://www.patreon.com/joshuacitarella/posts/ds-59-5-liu-174786359"
+     "text": "Nvidia and Cornucopia",
+     "url": "https://mgln.ai/e/211/traffic.megaphone.fm/FGP4812018425.mp3"
     },
     {
-     "text": "  (Mon Nov 23, 19 min)"
+     "text": "  (Wed Nov 25, 50 min)"
     }
    ]
   },
@@ -489,21 +478,6 @@
     },
     {
      "text": "  (Tue Nov 24, 56 min)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "TrueAnon: "
-    },
-    {
-     "text": "Episode 594: Hate Line: Friends & Family",
-     "url": "https://www.patreon.com/TrueAnonPod/posts/episode-594-hate-176156444"
-    },
-    {
-     "text": "  (Mon Nov 23, 127 min)"
     }
    ]
   },
@@ -595,8 +569,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Matices de la extrañeza en la narrativa de Javier Marías",
-     "url": "https://www.jstor.org/stable/40516121"
+     "text": "Contingency Against Ethics in Javier Marías's \"Los ...",
+     "url": "https://www.jstor.org/stable/24463401"
     }
    ]
   },
@@ -604,7 +578,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "jstor.org - Un caso tenaz de este trastorno es el que practica Javier Marías. En efecto: una seve- ra extrañeza habita en sus novelas, un contagio movilizado por el ..."
+     "text": "jstor.org - \"Una historia familiar: mujer y muerte en la narrativa de Javier Marias. ... \"Macbeth.\" The Complete Works. Ed. Arthur Henry. New York: Metro, 1994. 858 ..."
     }
    ]
   },
@@ -620,8 +594,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Review by marko68 - A Heart So White",
-     "url": "https://app.thestorygraph.com/reviews/46e40c1c-e7ae-4ba3-810b-3378b218e9e1"
+     "text": "Javier Marías's A Heart So White",
+     "url": "https://bombmagazine.org/articles/1998/01/01/javier-mar%C3%ADass-a-heart-so-white/"
     }
    ]
   },
@@ -629,7 +603,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "app.thestorygraph.com - A Heart so White is my first foray into the work of Spanish writer, Javier Marías, and wow, I am quite blown away by it. It's challenging to describe this ..."
+     "text": "bombmagazine.org"
     }
    ]
   },
@@ -646,13 +620,13 @@
   },
   {
    "type": "image",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/M%C3%AC_Qu%E1%BA%A3ng%2C_Da_Nang%2C_Vietnam.jpg/960px-M%C3%AC_Qu%E1%BA%A3ng%2C_Da_Nang%2C_Vietnam.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Irish_Coddle.jpg/960px-Irish_Coddle.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Mì Quảng"
+     "text": "Coddle"
     }
    ]
   },
@@ -660,7 +634,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Mì Quảng (also written mỳ Quảng, Vietnamese: [mi˨˩ xʷaŋ˧˩˧]), literally \"Quảng noodles\", is a Vietnamese noodle dish that originated in Quảng Nam Province in central Vietnam. It is one of the region's most popular and well recognized food items, and is served on various occasions, like at family parties, death anniversaries, and Tết. It originated in the Ðà Nẵng and Quảng Nam area and has become available throughout the country, and is eaten at any time of the day.\nThe main ingredients alongside the rice noodle can include shrimp, fish, eel, pork, chicken, frog, and jellyfish."
+     "text": "Coddle (sometimes Dublin coddle; Irish: cadal) is an Irish dish which is often made to use up leftovers. It most commonly consists of layers of roughly sliced pork sausages and rashers (thinly sliced, somewhat-fatty back bacon) with chunky potatoes, sliced onion, salt, pepper, and herbs. Traditionally, it can also include barley.\nCoddle is particularly associated with Dublin, the capital of Ireland."
     }
    ]
   },
@@ -668,7 +642,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/M%C3%AC_Qu%E1%BA%A3ng  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/Coddle  (Wikipedia, CC BY-SA)"
     }
    ]
   }
