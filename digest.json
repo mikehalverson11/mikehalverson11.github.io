@@ -1,38 +1,11 @@
 {
- "generated": "2026-11-26T11:40:39-05:00",
+ "generated": "2026-11-27T11:26:42-05:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Thursday, November 26, 2026"
-    }
-   ]
-  },
-  {
-   "type": "divider"
-  },
-  {
-   "type": "heading",
-   "parts": [
-    {
-     "text": "Today's reminders"
-    }
-   ]
-  },
-  {
-   "type": "todo",
-   "parts": [
-    {
-     "text": "Set Fantasy Football Lineup"
-    }
-   ]
-  },
-  {
-   "type": "todo",
-   "parts": [
-    {
-     "text": "Rec League Basketball"
+     "text": "Daily digest for Friday, November 27, 2026"
     }
    ]
   },
@@ -51,7 +24,15 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Weather unavailable (HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=20))"
+     "text": "Now: 36F (feels 28F), Light drizzle"
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "parts": [
+    {
+     "text": "Today: Light snow, high 40F / low 36F, 96% chance of precipitation, wind up to 13 mph"
     }
    ]
   },
@@ -67,18 +48,10 @@
    ]
   },
   {
-   "type": "bullet",
+   "type": "paragraph",
    "parts": [
     {
-     "text": "[NBA] Sacramento Kings 110 @ Golden State Warriors 129  (Final)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NHL] San Jose Sharks 0 @ Anaheim Ducks 7  (Final)"
+     "text": "No games for your teams last night."
     }
    ]
   },
@@ -155,6 +128,14 @@
    ]
   },
   {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "[NHL] San Jose Sharks at New York Islanders  - Fri Dec 04, 07:00 PM"
+    }
+   ]
+  },
+  {
    "type": "divider"
   },
   {
@@ -169,7 +150,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "S&P 500 (SPY): 716.74  ▼ -2.04 (-0.28%)"
+     "text": "S&P 500 (SPY): 725.39  ▲ +8.69 (+1.21%)"
     }
    ]
   },
@@ -177,7 +158,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Nasdaq 100 (QQQ): 633.97  ▼ -4.13 (-0.65%)"
+     "text": "Nasdaq 100 (QQQ): 645.43  ▲ +11.50 (+1.81%)"
     }
    ]
   },
@@ -185,7 +166,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Dow (DIA): 501.31  ▲ +1.57 (+0.31%)"
+     "text": "Dow (DIA): 506.33  ▲ +5.06 (+1.01%)"
     }
    ]
   },
@@ -201,7 +182,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "AAPL: 355.62  ▲ +1.55 (+0.44%)"
+     "text": "AAPL: 357.39  ▲ +1.81 (+0.51%)"
     }
    ]
   },
@@ -209,7 +190,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "VOO: 658.91  ▼ -1.80 (-0.27%)"
+     "text": "VOO: 666.81  ▲ +7.94 (+1.21%)"
     }
    ]
   },
@@ -217,7 +198,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "NVDA: 149.33  ▼ -6.05 (-3.89%)"
+     "text": "NVDA: 148.82  ▼ -0.48 (-0.32%)"
     }
    ]
   },
@@ -236,7 +217,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1914: HMS Bulwark is destroyed by a large internal explosion with the loss of 741 men while at anchor near Sheerness."
+     "text": "176: Emperor Marcus Aurelius grants his son Commodus the rank of \"Imperator\" and makes him Supreme Commander of the Roman legions."
     }
    ]
   },
@@ -244,7 +225,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1950: Korean War: Communist Chinese troops launch a massive counterattack (Battle of the Ch'ongch'on River and Battle of Chosin Reservoir) against United Nations and South Korean forces."
+     "text": "1999: The centre-left Labour Party takes control of the New Zealand government with leader Helen Clark becoming the first elected female prime minister in New Zealand's history."
     }
    ]
   },
@@ -252,7 +233,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1977: An unidentified hijacker named Vrillon, claiming to be the representative of the \"Ashtar Galactic Command\", takes over Britain's Southern Television for six minutes, starting at 5:12 pm."
+     "text": "2004: Blackwater 61 crash: A CASA C-212 Aviocar crashes into the Koh-i-Baba mountain range in Afghanistan, killing six."
     }
    ]
   },
@@ -264,6 +245,21 @@
    "parts": [
     {
      "text": "New music from your artists"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "2026-12-11  "
+    },
+    {
+     "text": "Daniel Avery - He Walked Until He Couldn’t / Isolation",
+     "url": "https://musicbrainz.org/release-group/7ef5e8ea-990c-44c2-8f84-74edc224ab6f"
+    },
+    {
+     "text": " (Single, out 2026-12-11)"
     }
    ]
   },
@@ -306,6 +302,21 @@
     {
      "text": "Phoebe Bridgers - Anything",
      "url": "https://musicbrainz.org/release-group/080be6fd-ac07-4c68-97c6-4f6f6dc54b2a"
+    },
+    {
+     "text": " (EP)"
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
+     "text": "2026-11-19  "
+    },
+    {
+     "text": "Phoebe Bridgers - Anything",
+     "url": "https://musicbrainz.org/release-group/9732617e-3362-4454-8391-537be2b12e2e"
     },
     {
      "text": " (EP)"
@@ -373,32 +384,10 @@
    ]
   },
   {
-   "type": "bullet",
+   "type": "paragraph",
    "parts": [
     {
-     "text": "2026-11-12  "
-    },
-    {
-     "text": "Bonobo - Memory Signal / Vakata",
-     "url": "https://musicbrainz.org/release-group/59c4e88e-0fb0-4d87-b4e8-fe22090cd255"
-    },
-    {
-     "text": " (Single)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "2026-11-12  "
-    },
-    {
-     "text": "U2 - Carnaval de Luz",
-     "url": "https://musicbrainz.org/release-group/09f9581c-52b0-4d2b-bb1b-d5902830b8c1"
-    },
-    {
-     "text": " (Album)"
+     "text": "(MusicBrainz was unavailable for 1 of 16 checks, so some artists were not covered today.)"
     }
    ]
   },
@@ -420,11 +409,11 @@
      "text": "Pablo Torre Finds Out: "
     },
     {
-     "text": "The Harambe Tapes, Revealed (PTFO Vault)",
-     "url": "https://shows.acast.com/pablo-torre-finds-out/episodes/the-harambe-tapes-revealed-ptfo-vault"
+     "text": "Share & GTA & Tell with Desus Nice and Jason Schreier",
+     "url": "https://shows.acast.com/pablo-torre-finds-out/episodes/6b075162fa47a6b2e4897da2"
     },
     {
-     "text": "  (Thu Nov 26, 59 min)"
+     "text": "  (Fri Nov 27, 46 min)"
     }
    ]
   },
@@ -473,11 +462,11 @@
      "text": "Chapo Trap House: "
     },
     {
-     "text": "BONUS - WTO/99 feat. Ian Bell & Alex Megaro",
-     "url": "https://www.patreon.com/chapotraphouse/posts/bonus-wto-99-ian-176289989"
+     "text": "1092 - Oh, That’s Goren of my Comfort Character feat. Katherine Krueger (11/26/26)",
+     "url": "https://www.patreon.com/chapotraphouse/posts/1092-oh-thats-of-176300449"
     },
     {
-     "text": "  (Tue Nov 24, 56 min)"
+     "text": "  (Thu Nov 26, 110 min)"
     }
    ]
   },
@@ -496,6 +485,21 @@
    "type": "bullet",
    "parts": [
     {
+     "text": "Chasing Sundays: "
+    },
+    {
+     "text": "Chasing Fridays: Narrow Head, Catherine Elicson, Evan Wednesday Q&A, more",
+     "url": "https://www.elienis.com/chasing-fridays-narrow-head-catherine-elicson-evan-wednesday-interview-more/"
+    },
+    {
+     "text": "  (Fri Nov 27) - Plus: Three new shoegaze(ish) projects ranging from mid to mighty."
+    }
+   ]
+  },
+  {
+   "type": "bullet",
+   "parts": [
+    {
      "text": "Ettingermentum Newsletter: "
     },
     {
@@ -504,21 +508,6 @@
     },
     {
      "text": "  (Tue Nov 24) - Looking over the top contenders of a suddenly wide-open 2028 Republican nomination fight"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "Chasing Sundays: "
-    },
-    {
-     "text": "\"All true art is voyeurism:\" the painfully honest career of Teen Suicide's Sam Ray",
-     "url": "https://www.elienis.com/teen-suicide-sam-ray-ricky-eat-acid-interview/"
-    },
-    {
-     "text": "  (Tue Nov 24) - \"I was a fucking little asshole,\" says the reformed bedroom-pop auteur behind Ricky Eat Acid, Julia Brown, and Starry Cat."
     }
    ]
   },
@@ -569,8 +558,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Contingency Against Ethics in Javier Marías's \"Los ...",
-     "url": "https://www.jstor.org/stable/24463401"
+     "text": "JAVIER MARÍAS'S \"TODAS LAS ALMAS\" AND \"NEGRA ...",
+     "url": "https://www.jstor.org/stable/24431797"
     }
    ]
   },
@@ -578,7 +567,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "jstor.org - \"Una historia familiar: mujer y muerte en la narrativa de Javier Marias. ... \"Macbeth.\" The Complete Works. Ed. Arthur Henry. New York: Metro, 1994. 858 ..."
+     "text": "jstor.org - \"Las vueltas autobiográficas de Javier Marías.\" Cuadernos de Narrativa: Javier Marías. Ed. Irene Andrés. Suárez and Ana Casas. Madrid: Arco/Libros, 2005. 49 ..."
     }
    ]
   },
@@ -594,8 +583,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Javier Marías's A Heart So White",
-     "url": "https://bombmagazine.org/articles/1998/01/01/javier-mar%C3%ADass-a-heart-so-white/"
+     "text": "Reviews - A Heart so White",
+     "url": "https://beta.thestorygraph.com/book_reviews/14a0d5dd-0d54-4466-a5a9-840e39da4ba8?sort=most_liked"
     }
    ]
   },
@@ -603,7 +592,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "bombmagazine.org"
+     "text": "beta.thestorygraph.com - A Heart so White by Javier Marías. 412 reviews for: A Heart so White · Javier Marías. Loading... 3.95. AVERAGE. 3% Did Not Finish · A Heart so White by Javier ..."
     }
    ]
   },
@@ -620,13 +609,13 @@
   },
   {
    "type": "image",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Irish_Coddle.jpg/960px-Irish_Coddle.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Uitsmijter2.JPG/960px-Uitsmijter2.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Coddle"
+     "text": "Uitsmijter"
     }
    ]
   },
@@ -634,7 +623,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Coddle (sometimes Dublin coddle; Irish: cadal) is an Irish dish which is often made to use up leftovers. It most commonly consists of layers of roughly sliced pork sausages and rashers (thinly sliced, somewhat-fatty back bacon) with chunky potatoes, sliced onion, salt, pepper, and herbs. Traditionally, it can also include barley.\nCoddle is particularly associated with Dublin, the capital of Ireland."
+     "text": "The uitsmijter pronounced [ˈœytsmɛitər], is a classic Dutch and Belgian lunch dish consisting of at least two fried eggs served on slices of white bread, typically topped with ham and Gouda cheese."
     }
    ]
   },
@@ -642,7 +631,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/Coddle  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/Uitsmijter  (Wikipedia, CC BY-SA)"
     }
    ]
   }
