@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-27T11:26:42-05:00",
+ "generated": "2026-11-28T10:19:01-05:00",
  "blocks": [
   {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Daily digest for Friday, November 27, 2026"
+     "text": "Daily digest for Saturday, November 28, 2026"
     }
    ]
   },
@@ -24,7 +24,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Now: 36F (feels 28F), Light drizzle"
+     "text": "Now: 39F (feels 30F), Overcast"
     }
    ]
   },
@@ -32,7 +32,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Today: Light snow, high 40F / low 36F, 96% chance of precipitation, wind up to 13 mph"
+     "text": "Today: Light drizzle, high 44F / low 35F, 46% chance of precipitation, wind up to 15 mph"
     }
    ]
   },
@@ -48,10 +48,10 @@
    ]
   },
   {
-   "type": "paragraph",
+   "type": "bullet",
    "parts": [
     {
-     "text": "No games for your teams last night."
+     "text": "[NHL] Vegas Golden Knights 1 @ San Jose Sharks 4  (Final)"
     }
    ]
   },
@@ -60,14 +60,6 @@
    "parts": [
     {
      "text": "Coming up"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "[NHL] Vegas Golden Knights at San Jose Sharks  - Fri Nov 27, 04:00 PM"
     }
    ]
   },
@@ -150,7 +142,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "S&P 500 (SPY): 725.39  ▲ +8.69 (+1.21%)"
+     "text": "S&P 500 (SPY): 728.32  ▲ +11.62 (+1.62%)"
     }
    ]
   },
@@ -158,7 +150,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Nasdaq 100 (QQQ): 645.43  ▲ +11.50 (+1.81%)"
+     "text": "Nasdaq 100 (QQQ): 650.99  ▲ +17.06 (+2.69%)"
     }
    ]
   },
@@ -166,7 +158,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "Dow (DIA): 506.33  ▲ +5.06 (+1.01%)"
+     "text": "Dow (DIA): 507.60  ▲ +6.33 (+1.26%)"
     }
    ]
   },
@@ -182,7 +174,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "AAPL: 357.39  ▲ +1.81 (+0.51%)"
+     "text": "AAPL: 358.54  ▲ +2.96 (+0.83%)"
     }
    ]
   },
@@ -190,7 +182,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "VOO: 666.81  ▲ +7.94 (+1.21%)"
+     "text": "VOO: 669.79  ▲ +10.92 (+1.66%)"
     }
    ]
   },
@@ -198,7 +190,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "NVDA: 148.82  ▼ -0.48 (-0.32%)"
+     "text": "NVDA: 150.49  ▲ +1.19 (+0.80%)"
     }
    ]
   },
@@ -217,7 +209,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "176: Emperor Marcus Aurelius grants his son Commodus the rank of \"Imperator\" and makes him Supreme Commander of the Roman legions."
+     "text": "1443: Skanderbeg and his forces liberate Kruja in central Albania and raise the Albanian flag."
     }
    ]
   },
@@ -225,7 +217,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "1999: The centre-left Labour Party takes control of the New Zealand government with leader Helen Clark becoming the first elected female prime minister in New Zealand's history."
+     "text": "1895: The first American automobile race takes place over the 54 miles from Chicago's Jackson Park to Evanston, Illinois. Frank Duryea wins in approximately 10 hours."
     }
    ]
   },
@@ -233,7 +225,7 @@
    "type": "bullet",
    "parts": [
     {
-     "text": "2004: Blackwater 61 crash: A CASA C-212 Aviocar crashes into the Koh-i-Baba mountain range in Afghanistan, killing six."
+     "text": "1958: First successful flight of SM-65 Atlas; the first operational intercontinental ballistic missile (ICBM), developed by the United States and the first member of the Atlas rocket family."
     }
    ]
   },
@@ -301,21 +293,6 @@
     },
     {
      "text": "Phoebe Bridgers - Anything",
-     "url": "https://musicbrainz.org/release-group/080be6fd-ac07-4c68-97c6-4f6f6dc54b2a"
-    },
-    {
-     "text": " (EP)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "2026-11-19  "
-    },
-    {
-     "text": "Phoebe Bridgers - Anything",
      "url": "https://musicbrainz.org/release-group/9732617e-3362-4454-8391-537be2b12e2e"
     },
     {
@@ -365,29 +342,6 @@
     },
     {
      "text": " (Single)"
-    }
-   ]
-  },
-  {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "2026-11-13  "
-    },
-    {
-     "text": "Four Tet - Moma",
-     "url": "https://musicbrainz.org/release-group/f615a637-4f3b-472e-9443-9f91a623b6b8"
-    },
-    {
-     "text": " (Single)"
-    }
-   ]
-  },
-  {
-   "type": "paragraph",
-   "parts": [
-    {
-     "text": "(MusicBrainz was unavailable for 1 of 16 checks, so some artists were not covered today.)"
     }
    ]
   },
@@ -497,25 +451,10 @@
    ]
   },
   {
-   "type": "bullet",
-   "parts": [
-    {
-     "text": "Ettingermentum Newsletter: "
-    },
-    {
-     "text": "The Official Republican 2028 Presidential Power Rankings: Post-Midterms Edition",
-     "url": "https://www.ettingermentum.news/p/the-official-republican-2028-presidential-ce1"
-    },
-    {
-     "text": "  (Tue Nov 24) - Looking over the top contenders of a suddenly wide-open 2028 Republican nomination fight"
-    }
-   ]
-  },
-  {
    "type": "paragraph",
    "parts": [
     {
-     "text": "(Loaded, nothing new: the late review: latest Oct 29)"
+     "text": "(Loaded, nothing new: the late review: latest Oct 29; Ettingermentum Newsletter: latest Nov 24)"
     }
    ]
   },
@@ -558,8 +497,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "JAVIER MARÍAS'S \"TODAS LAS ALMAS\" AND \"NEGRA ...",
-     "url": "https://www.jstor.org/stable/24431797"
+     "text": "Matices de la extrañeza en la narrativa de Javier Marías",
+     "url": "https://www.jstor.org/stable/40516121"
     }
    ]
   },
@@ -567,7 +506,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "jstor.org - \"Las vueltas autobiográficas de Javier Marías.\" Cuadernos de Narrativa: Javier Marías. Ed. Irene Andrés. Suárez and Ana Casas. Madrid: Arco/Libros, 2005. 49 ..."
+     "text": "jstor.org - Un caso tenaz de este trastorno es el que practica Javier Marías. En efecto: una seve- ra extrañeza habita en sus novelas, un contagio movilizado por el ..."
     }
    ]
   },
@@ -583,8 +522,8 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "Reviews - A Heart so White",
-     "url": "https://beta.thestorygraph.com/book_reviews/14a0d5dd-0d54-4466-a5a9-840e39da4ba8?sort=most_liked"
+     "text": "A Heart So White",
+     "url": "https://www.ndbooks.com/book/a-heart-so-white/"
     }
    ]
   },
@@ -592,7 +531,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "beta.thestorygraph.com - A Heart so White by Javier Marías. 412 reviews for: A Heart so White · Javier Marías. Loading... 3.95. AVERAGE. 3% Did Not Finish · A Heart so White by Javier ..."
+     "text": "ndbooks.com - A Heart So White becomes a sort of anti-detective story of human nature. Intrigue; the sins of the father; the fraudulent and the genuine; marriage and strange ..."
     }
    ]
   },
@@ -608,14 +547,10 @@
    ]
   },
   {
-   "type": "image",
-   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Uitsmijter2.JPG/960px-Uitsmijter2.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-  },
-  {
    "type": "paragraph",
    "parts": [
     {
-     "text": "Uitsmijter"
+     "text": "Pasta ca nunnata"
     }
    ]
   },
@@ -623,7 +558,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "The uitsmijter pronounced [ˈœytsmɛitər], is a classic Dutch and Belgian lunch dish consisting of at least two fried eggs served on slices of white bread, typically topped with ham and Gouda cheese."
+     "text": "Pasta ca nunnata is a pasta dish originating in the Sicily region of Italy prepared with newborn fish, which may be anchovies, sardines, red mullet or bream, as well as spaghetti, olive oil, garlic, parsley, white wine and black pepper. Sardines are most common and preferred, especially in the Palermo area. Where bream is used, the most common species is common pandora, known as luvari, uvari or luari in Sicilian. Tomatoes are sometimes added, but this is less common."
     }
    ]
   },
@@ -631,7 +566,7 @@
    "type": "paragraph",
    "parts": [
     {
-     "text": "https://en.wikipedia.org/wiki/Uitsmijter  (Wikipedia, CC BY-SA)"
+     "text": "https://en.wikipedia.org/wiki/Pasta_ca_nunnata  (Wikipedia, CC BY-SA)"
     }
    ]
   }
